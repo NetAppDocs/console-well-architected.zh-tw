@@ -110,4 +110,4 @@ NetApp 建議在快取 Volume 上啟用 Volume 自動調整規模和清理功能
 
 
 .接下來
-link:cvo/improve-configurations-cvo.html["實作架構良好的 Cloud Volumes ONTAP 系統組態"]
+link:improve-configurations-cvo.html["實作架構良好的 Cloud Volumes ONTAP 系統組態"]

@@ -183,4 +183,4 @@ SSD 容量分層利用率不足會造成不必要的成本。Workload Factory �
 
 
 .接下來
-link:fsx/improve-configurations-fsx.html["為 ONTAP 檔案系統組態實作架構良好的 FSx"]
+link:improve-configurations-fsx.html["為 ONTAP 檔案系統組態實作架構良好的 FSx"]

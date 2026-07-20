@@ -125,7 +125,6 @@
   <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">啟用冷資料分層，將冷資料從 SSD 儲存層遷移到成本更低的儲存設備。Azure Blob Storage 可作為非作用中資料的容量層。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">接下來</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">實作架構良好的 Cloud Volumes ONTAP 系統組態</block>
-  <block id="70c25ce13f84b6cf616c5c5393012e5d" category="paragraph"><block ref="70c25ce13f84b6cf616c5c5393012e5d" category="inline-link-macro-rx"></block></block>
   <block id="17971bad5bbff77e668b69daffb7a446" category="summary">Workload factory 掃描 Cloud Volumes ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">利用組態分析洞察和建議，運用 NetApp 為執行在 Microsoft Azure 儲存設備上的 Cloud Volumes ONTAP 系統實作最佳實務做法。您可以輕鬆審查架構良好的狀態、了解組態中存在的問題，並獲得改進建議，以改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">了解組態分析和架構良好狀態。</block>
@@ -199,7 +198,6 @@
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*非使用中的 NAS Volume*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">組態分析會識別未主動使用的 NAS Volume ，並建議刪除或歸檔 Volume 以降低成本。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">為 ONTAP 檔案系統組態實作架構良好的 FSx</block>
-  <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">授予 _operations and remediation_ 權限</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">您必須在 AWS 帳戶中<block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block>。</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">使用連結連線至 FSx for ONTAP 檔案系統</block>
@@ -573,4 +571,6 @@
   <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">從架構良好的儀表板中，*已忽略的組態*。</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">透過 NetApp Console 中架構完善的儀表板了解最新功能。</block>
   <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">NetApp Console 中架構完善的儀表板有哪些新特性？</block>
+  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
+  <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
 </blocks>
