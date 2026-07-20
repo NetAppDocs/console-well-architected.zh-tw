@@ -1,0 +1,168 @@
+---
+sidebar: sidebar 
+permalink: fsx/configuration-analysis-fsx.html 
+keywords: configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
+summary: NetApp Console 會定期分析儲存系統組態，以判斷是否存在任何組態問題。 
+---
+= Amazon FSx for NetApp ONTAP 組態分析
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Console 會定期分析儲存系統組態，以確定是否存在任何組態問題。如果發現問題，NetApp Console 會顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到最佳效能、成本效率並符合最佳實務的法規遵循要求。
+
+主要功能包括：
+
+* 每日配置分析
+* 對 NetApp ONTAP 儲存系統和合作夥伴儲存設備提供者進行自動最佳實務做法驗證
+* 主動可觀測性
+* 洞察化為行動
+
+
+
+
+[[analysis-requirements]]
+== 分析要求
+
+要進行完整的檔案系統分析，必須執行以下操作：
+
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console 代理程式"^] 或 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["關聯連結"^]。Console 代理程式和連結連線可讓 NetApp Console 分析所有檔案系統組態，例如資料保護和效能。
+* 在您的 AWS 帳戶中授予 _view、planning 和 analysis_ 權限。
++
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["了解如何授予 AWS 帳戶權限"^]
+
+
+
+
+
+[[best-practices-and-recommendations-for-storage-workloads]]
+== 儲存工作負載的最佳實務做法和建議
+
+Workload Factory 會根據 ONTAP 最佳實務和 AWS Well-Architected Framework 評估儲存設備組態。評估也會提出改進和修復建議。
+
+精心設計的分析將組態分類為架構的下列要素：_可靠性_、_安全性_、_卓越營運_、_成本最佳化_和_效能效率_。
+
+
+
+[[reliability]]
+=== 可靠性
+
+可靠性確保工作負載即使在出現中斷的情況下也能正確、持續地執行其預期功能。
+
+* *排程磁碟區備份*
++
+備份磁碟區有助於滿足資料保留和合規性需求。使用磁碟區備份來設定資料的自動備份和保留。
+
+* *排程本機快照*
++
+安排本機快照以實現高效備份和快速還原。快照是磁碟區的即時時間點映像。
+
+* * 跨區域複寫 *
++
+跨區域複製可確保您的資料複製到另一個 AWS 區域，從而增強資料的持久性和可用性。Workload Factory 建議設定跨區域複製，以協助災難復原和合規性檢查。
+
+* *設定資料複寫*
++
+為了提高資料可靠性，可以將資料複製到同一區域或其他區域的 Amazon FSx for NetApp ONTAP 檔案系統。設定資料複製以支援跨檔案系統的遷移、災難復原和長期資料保留。
+
+* *提高 SSD 容量閾值*
++
+SSD 儲存層的容量使用率不得超過 80%。否則可能會影響容量資源池儲存層的資料讀寫，進而影響檔案系統的處理量。容量不足會導致資料 Volume 變成唯讀。嘗試寫入新資料的服務也會失敗。
+
+* *比對標籤以確保資料可靠性*
++
+來源磁碟區的快照原則標籤和複寫原則標籤必須相符，以確保資料可靠性。
+
+* *提高檔案容量閾值*
++
+應提高檔案容量臨界值，以避免達到 Volume 容量限制。檔案容量（inodes）過低會阻止向 Volume 寫入更多資料。Workload Factory 建議將檔案容量使用率保持在 80% 以下。在 Volume 中建立新檔案需要足夠的可用檔案容量。
+
+
+
+
+
+[[security]]
+=== 安全性
+
+安全重點在於透過風險評估和緩解策略來保護資料、系統和資產。
+
+* *啟用 ARP/AI*
++
+NetApp 具備人工智慧的自主勒索軟體防護（ARP/AI）可協助您保護磁碟區免受勒索軟體威脅。Workload Factory 建議為所有磁碟區啟用 ARP/AI。
+
+* *未經授權存取磁碟區*
++
+使用 iSCSI 儲存應用程式資料的 Volume 不應同時允許 NAS 存取。Workload Factory 建議限制 iSCSI Volume 使用任何其他通訊協定。
+
+
+
+
+
+[[operational-excellence]]
+=== 卓越營運
+
+卓越營運的重點在於提供最佳架構和業務價值。
+
+* * 啟用自動容量管理 *
++
+應啟用自動容量管理，以定期確保 SSD 層不超過閾值。
+
+* *Volume 容量使用率閾值*
++
+Workload Factory 建議磁碟區容量使用率不要持續超過 80%。這可能會影響應用程式的資料讀寫操作。磁碟區容量的增加可以手動進行，也可以使用磁碟區自動增長功能自動進行。
+
+* *磁碟區使用率接近滿載*
++
+當磁碟區接近滿載時、NetApp Workload Factory 建議採取措施增加磁碟區容量、以避免潛在的應用程式中斷。
+
+* *快取關係寫入模式*
++
+為了獲得最佳效能， Workload Factory 會根據您的工作負載推薦最合適的快取關係寫入模式。對於讀取密集型、檔案較小的工作負載，環繞寫入模式可提供更佳的效能；而對於寫入密集型、檔案較大的工作負載，回寫模式可提供更佳的效能。
+
+* *最佳化快取磁碟區大小*
++
+Workload Factory 建議啟用快取磁碟區的磁碟區自動調整大小和清理功能，以保持最佳大小並將快取集中用於熱資料，從而達到最高效率。
+
+* *Storage VM 邏輯報告*
++
+Workload Factory 建議將儲存 VM 的預設報告設定設為邏輯報告，以便更了解磁碟區層級的儲存使用情況。
+
+
+
+
+
+[[cost-optimization]]
+=== 成本最佳化
+
+成本優化可協助您在保持低成本的同時，為企業創造最大價值。
+
+* *透過對冷資料進行分層來優化 TCO*
++
+啟用冷資料分層可降低 SSD 儲存層的使用率。Workload Factory 建議對每個 Volume 套用分層原則。FSx for ONTAP 會持續掃描資料以偵測冷資料，並將其無縫移至容量儲存資源池分層。
+
+* *啟用儲存效率*
++
+啟用儲存設備效率提升（資料精簡、壓縮和重複資料刪除），以最佳化儲存使用率並降低 SSD 分層成本。
+
+* *不必要的快照和備份刪除*
++
+應刪除不再需要的快照和備份以降低成本。
+
+* *非作用中區塊裝置*
++
+如果區塊設備連續七天未使用、Workload Factory 建議歸檔區塊設備資料或刪除未使用的區塊設備以降低成本。
+
+* *未充分利用的 SSD 容量*
++
+SSD 容量分層利用率不足會造成不必要的成本。Workload Factory 建議降低 SSD 分層容量，同時保持比目前已使用容量高出 20% 的可用空間緩衝區。容量縮減操作可能需要數小時到數天時間，在此期間系統將不支援其他檔案系統操作。
+
+* *非使用中的 NAS Volume*
++
+組態分析會識別未主動使用的 NAS Volume ，並建議刪除或歸檔 Volume 以降低成本。
+
+
+
+.接下來
+link:fsx/improve-configurations-fsx.html["為 ONTAP 檔案系統組態實作架構良好的 FSx"]

@@ -1,0 +1,113 @@
+---
+sidebar: sidebar 
+permalink: cvo/configuration-analysis-cvo.html 
+keywords: Cloud Volumes ONTAP, configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
+summary: NetApp Console 每天分析儲存系統組態，以判斷是否存在任何組態問題。 
+---
+= Cloud Volumes ONTAP 組態分析
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NetApp Console 會定期分析儲存系統組態，以確定是否存在任何組態問題。如果發現問題，Console 會顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到尖峰效率、成本效益，並符合最佳實務做法。
+
+主要功能包括：
+
+* 每日配置分析
+* 對 NetApp ONTAP 儲存系統和合作夥伴儲存設備提供者進行自動最佳實務做法驗證
+* 主動可觀測性
+* 洞察化為行動
+
+
+
+
+[[analysis-requirements]]
+== 分析要求
+
+要進行完整的 Cloud Volumes ONTAP 系統分析，您必須link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console 代理程式"^]。Console 代理程式連線能力可讓 Console 分析所有 Cloud Volumes ONTAP 系統組態，例如資料保護和效能。
+
+
+
+[[best-practices-and-recommendations-for-cloud-volumes-ontap-systems]]
+== Cloud Volumes ONTAP 系統的最佳實務做法與建議
+
+NetApp 評估儲存設備組態，深入檢視 ONTAP 組態最佳實務做法，並確保其符合 Azure Well-Architected Framework。評估也會提出改進和修復建議。
+
+精心設計的分析將組態分類為架構的下列要素：_可靠性_、_安全性_、_卓越營運_、_成本最佳化_和_效能效率_。
+
+
+
+[[reliability]]
+=== 可靠性
+
+可靠性確保工作負載即使在出現中斷的情況下也能正確、持續地執行其預期功能。
+
+* *排程本機快照*
++
+安排本機快照以實現高效備份和快速還原。快照是磁碟區的即時時間點映像。
+
+* *SSD 容量臨界值*
++
+SSD 儲存層的容量使用率不應持續超過 80%。超過此臨界值會降低處理量，並導致資料 Volume 變為唯讀，進而導致寫入作業失敗。
+
+
+
+
+
+[[security]]
+=== 安全性
+
+安全重點在於透過風險評估和緩解策略來保護資料、系統和資產。
+
+* *搭載 AI 的自主勒索軟體防護 (ARP/AI)*
++
+NetApp 具備人工智慧的自主勒索軟體防護 (ARP/AI) 有助於增強網路彈性，保護您的 Volume 免受勒索軟體威脅。我們建議為所有 Volume 啟用 ARP/AI。
+
+
+
+
+
+[[operational-excellence]]
+=== 卓越營運
+
+卓越營運績效的重點在於提供最佳的架構和商業價值。
+
+* *Volume 容量使用率閾值*
++
+NetApp 建議 Volume 容量使用率不要持續超過 80%。這可能會影響應用程式的資料讀寫。Volume 容量的增加可以手動執行，也可以使用 Volume 自動擴充功能自動增加。
+
+* *快取關係寫入模式*
++
+為了獲得最佳效能，NetApp 建議選擇最適合您工作負載的快取關係寫入模式。環繞寫入模式對於讀取密集型、處理小檔案的工作負載可提供更好的效能，而回寫模式對於寫入密集型、處理大檔案的工作負載可提供更好的效能。
+
+* *ONTAP 快取 Volume 大小*
++
+NetApp 建議在快取 Volume 上啟用 Volume 自動調整規模和清理功能，以維持最佳大小，並將快取集中用於頻繁存取（熱）資料，以達到尖峰效率。
+
+* *ONTAP 版本法規遵循*
++
+升級至最新 ONTAP 版本，以獲得完整的相容性、支援及新功能的存取。
+
+
+
+
+
+[[cost-optimization]]
+=== 成本最佳化
+
+成本優化可協助您在保持低成本的同時，為企業創造最大價值。
+
+* *辨識未充分利用的固態硬碟容量*
++
+未充分利用的 SSD 容量分層可能會造成不必要的成本。NetApp 建議降低 SSD 分層容量，同時在目前已使用容量之上保持 20% 的可用空間緩衝區。容量縮減操作可能需要數小時到數天時間，在此期間系統將不支援其他檔案系統操作。
+
+* *資料分層原則*
++
+啟用冷資料分層，將冷資料從 SSD 儲存層遷移到成本更低的儲存設備。Azure Blob Storage 可作為非作用中資料的容量層。
+
+
+
+.接下來
+link:cvo/improve-configurations-cvo.html["實作架構良好的 Cloud Volumes ONTAP 系統組態"]
