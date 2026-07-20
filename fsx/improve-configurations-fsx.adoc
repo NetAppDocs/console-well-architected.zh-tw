@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: fsx/improve-configurations-fsx.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Amazon FSx for NetApp ONTAP, FSx for ONTAP 
-summary: Workload factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供深入分析與建議，協助您實現卓越營運績效。 
+summary: Workload Factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。 
 ---
 = 為 ONTAP 檔案系統組態實作架構良好的 FSx
 :allow-uri-read: 
@@ -11,7 +11,24 @@ summary: Workload factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供深�
 
 
 [role="lead"]
-<stdin> 中未解析的指令 - include::https://raw.githubusercontent.com/NetAppDocs/workload-fsx-ontap/main/_include/improve-configurations-fsx.adoc[]
+利用組態分析洞察和建議，運用 Workload Factory 為您的 FSx for ONTAP 檔案系統實作最佳實踐。您可以輕鬆審查架構良好的狀態，了解組態中的問題，並採取行動改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。
+
+您也可以忽略不適用於您儲存環境的特定儲存設備組態分析，以避免不必要的警示及不準確的最佳化結果。
+
+link:configuration-analysis.html["了解 Workload Factory 的組態分析和架構完善狀態。"]
+
+
+
+[[about-this-task]]
+== 關於此任務
+
+Workload Factory 每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組態。每日分析提供架構完善的狀態資訊、深入見解和建議，並提供自動修復組態問題的選項，確保您的檔案系統符合最佳實務。
+
+透過連結或 Console 代理程式連線，Workload Factory 可對您的檔案系統進行全面掃描，以找出效能、資料保護和組態方面的問題。
+
+您可以選擇審查檔案系統組態問題的建議，並從 Workload Factory 主控台的儲存設備中修正這些問題。
+
+由於儲存組態的要求各不相同，您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。忽略特定組態的分析後，此組態將不計入總最佳化分數。
 
 
 
@@ -19,7 +36,7 @@ summary: Workload factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供深�
 == 開始之前
 
 * 您必須在 AWS 帳戶中link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["授予 _operations and remediation_ 權限"^]。
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用連結連線至 FSx for ONTAP 檔案系統"]以對您的檔案系統資源進行最全面的分析。
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["安裝 Console 代理程式"^] 或 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用連結連線至 FSx for ONTAP 檔案系統"]，以對您的檔案系統資源進行最全面的分析。
 
 
 
@@ -32,12 +49,11 @@ summary: Workload factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供深�
 修復過程可能會導致執行個體停機或服務中斷。在修復組態問題之前，請仔細審查每個建議。
 
 .步驟
-. 使用以下任一方式登入link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["主控台體驗"^]。
-. 選擇選單 image:workloads-menu-icon.png["漢堡選單圖示用於導覽至儲存、EDA、AI、資料庫、VMware 和管理等工作負載。"]，然後選擇 *Storage*。
-. 從 Storage 選單中，選擇 *Well-architected* 。
-. 針對任何組態選取 *View issues* 。請務必仔細檢閱建議。
+. 登入 link:https://console.netapp.com/home["NetApp Console"^]。
+. 從 NetApp Console 選單中，選取 *工作負載*，然後選取 *架構良好*。
+. 從「架構完善的儀表板」中，選取任何組態的 *檢視*。
 +
-此建議說明最佳實務，以及未最佳化組態的潛在問題。
+請務必仔細檢閱建議。此建議說明最佳實務，以及未最佳化組態的潛在問題。
 
 . 選擇以*修復*。
 +
@@ -62,13 +78,8 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 .駁回檔案系統的組態分析
 --
 .步驟
-. 使用以下任一方式登入link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["主控台體驗"^]。
-. 選擇選單 image:workloads-menu-icon.png["漢堡選單圖示用於導覽至儲存、EDA、AI、資料庫、VMware 和管理等工作負載。"]，然後選擇 *Storage*。
-. 從 Storage 選單中，選擇 *Well-architected* 。
-. 針對任何組態選取 *View issues* 。請務必仔細檢閱建議。
-+
-此建議說明最佳實務，以及未最佳化組態的潛在問題。
-
+. 登入 link:https://console.netapp.com/home["NetApp Console"^]。
+. 從 NetApp Console 選單中，選取 *工作負載*，然後選取 *架構良好*。
 . 在「配置」下，找出不適用於您環境的配置，然後選取 *Dismiss* 。
 . 在「關閉組態」對話方塊中，選取 *Dismiss* 以停止組態分析。
 
@@ -77,9 +88,8 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 .關閉 Volume 的組態分析
 --
 .步驟
-. 使用以下任一方式登入link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["主控台體驗"^]。
-. 選擇選單 image:workloads-menu-icon.png["漢堡選單圖示用於導覽至儲存、EDA、AI、資料庫、VMware 和管理等工作負載。"]，然後選擇 *Storage*。
-. 從 Storage 選單中，選擇 *Well-architected* 。
+. 登入 link:https://console.netapp.com/home["NetApp Console"^]。
+. 從 NetApp Console 選單中，選取 *工作負載*，然後選取 *架構良好*。
 . 在「配置」下，識別要為所選磁碟區取消的配置，然後選取 *View and fix* 。
 . 確定要從組態分析中剔除的 Volume。
 +
@@ -110,10 +120,9 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 .重新啟動檔案系統的組態分析
 --
 .步驟
-. 使用以下任一方式登入link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["主控台體驗"^]。
-. 選擇選單 image:workloads-menu-icon.png["漢堡選單圖示用於導覽至儲存、EDA、AI、資料庫、VMware 和管理等工作負載。"]，然後選擇 *Storage*。
-. 從 Storage 選單中，選擇 *Well-architected* 。
-. 選擇 *Dismissed configurations* 。
+. 登入 link:https://console.netapp.com/home["NetApp Console"^]。
+. 從 NetApp Console 選單中，選取 *工作負載*，然後選取 *架構良好*。
+. 從架構良好的儀表板中，*已忽略的組態*。
 . 確定要重新啟動的組態，然後選取 *Reactivate*。
 
 

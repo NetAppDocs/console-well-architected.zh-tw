@@ -6,9 +6,7 @@
   <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">深入瞭解 <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>。</block>
   <block id="77411708fcf4ba6bf72f1bc14c6e4893" category="paragraph">Console 中架構完善的儀表板適用於以下儲存系統：</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="inline-link-macro">Amazon FSx for NetApp ONTAP</block>
-  <block id="d99d7f946ceac15eeacc4a0c7735874d" category="list-text"><block ref="d99d7f946ceac15eeacc4a0c7735874d" category="inline-link-macro-rx"></block></block>
   <block id="d9f28f14f6e934bc2dca96849f86ad2f" category="inline-link-macro">Microsoft Azure 中的 Cloud Volumes ONTAP</block>
-  <block id="e4ef65f45fd48bfa39ea36cadb3df4ce" category="list-text"><block ref="e4ef65f45fd48bfa39ea36cadb3df4ce" category="inline-link-macro-rx"></block></block>
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">建立您自己的自訂規則</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">深入瞭解自訂規則</block>
@@ -202,20 +200,15 @@
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">組態分析會識別未主動使用的 NAS Volume ，並建議刪除或歸檔 Volume 以降低成本。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">為 ONTAP 檔案系統組態實作架構良好的 FSx</block>
   <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
-  <block id="b8bfbf72dc92e989a0b91cd409144076" category="summary">Workload factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供深入分析與建議，協助您實現卓越營運績效。</block>
-  <block id="72df52ed3a20abfa3d207dfbc53e2ae4" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::https://raw.githubusercontent.com/NetAppDocs/workload-fsx-ontap/main/_include/improve-configurations-fsx.adoc[]</block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">授予 _operations and remediation_ 權限</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">您必須在 AWS 帳戶中<block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block>。</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">使用連結連線至 FSx for ONTAP 檔案系統</block>
-  <block id="bdcff0916b9de421b3f836810688eb67" category="list-text"><block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>以對您的檔案系統資源進行最全面的分析。</block>
   <block id="74bdd3d51d7fef35f3c1e1829b2c63fe" category="section-title">修復組態問題</block>
   <block id="4d39d4688820662a72b89ef0ab12f050" category="paragraph">您可以修正 FSx for ONTAP 檔案系統或檔案系統中選定 Volume 的組態問題。您可以選擇一個或多個組態進行修正。</block>
   <block id="cd375ffa56c1139e1dfd8d14cf3947db" category="paragraph">修復過程可能會導致執行個體停機或服務中斷。在修復組態問題之前，請仔細審查每個建議。</block>
   <block id="342a19841e494c61bf9c06a5879eaffa" category="inline-image-macro">漢堡選單圖示用於導覽至儲存、EDA、AI、資料庫、VMware 和管理等工作負載。</block>
   <block id="757a7ffb20a279d7239febb013141ad5" category="list-text">選擇選單 <block ref="d1917ed039a7bd34b3d1373e5ffc5ece" category="inline-image-macro-rx" type="image"></block>，然後選擇 *Storage*。</block>
   <block id="8c8656579a32ab7e80c68b10832337bb" category="list-text">從 Storage 選單中，選擇 *Well-architected* 。</block>
-  <block id="4f5fc99db78476b3b87fbb795ab55b26" category="list-text">針對任何組態選取 *View issues* 。請務必仔細檢閱建議。</block>
-  <block id="c9e425055996f71ecfc858708d926276" category="paragraph">此建議說明最佳實務，以及未最佳化組態的潛在問題。</block>
   <block id="8e369a2580b67427ac856eea6e4e3eb6" category="list-text">選擇以*修復*。</block>
   <block id="fe5f70c74405942514095d724e090b64" category="paragraph">如果「檢視並修復」是一個選項，請選擇受影響的 Volume 進行修復。</block>
   <block id="44642e2ce79e19a13d96c2540f6a27e3" category="list-text">請審查對話方塊中顯示的摘要和行動項目，以了解修正問題後會發生什麼情況。某些操作可能會導致執行個體停機或服務中斷。</block>
@@ -540,7 +533,6 @@
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登入憑證令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中還有一個「更新憑證」選項。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項將提示您重新登入。請注意，這些帳戶的 token 將在 90 天後過期。屆時將發布通知提醒您。</block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="doc">2026年7月20日</block>
-  <block id="55cd06443095efee4eabc129ca3081e4" category="paragraph">永久連結：whats-new.html 關鍵字：新增功能、特性、新、版本說明、增強功能、修復、新功能、架構完善、架構完善的儀表板、適用於 NetApp ONTAP 的 Amazon FSx、適用於 ONTAP 的 FSx、Cloud Volumes ONTAP 摘要：「了解 NetApp Console 中架構完善儀表板的新增功能。」--- = NetApp Console 中架構完善儀表板的新增功能 :icons: font :imagesdir: ./media/</block>
   <block id="b718f3585030c0abec042a5bbf6d2e9f" category="paragraph">了解 Workload Factory 中架構完善的元件有哪些新功能。</block>
   <block id="ada3d9e6c32ad89515ed748b05fc1156" category="paragraph">了解 NetApp Console 中「架構完善」儀表板的新增功能。</block>
   <block id="c7c52ad889fc325f79c9eb4c7bf5f790" category="sidebar">NetApp Console 可協助您維護可靠、安全的、高效且具成本效益的儲存設備配置，使其遵守您儲存設備類型的完善架構。完善架構儀表板提供跨帳戶和區域的統一檢視，協助團隊識別風險並確定其優先順序，並支援針對特定需求的自訂規則。</block>
@@ -560,4 +552,25 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">配置分析</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">改進檔案系統配置</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">改善系統組態</block>
+  <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
+  <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
+  <block id="2888fa977354ad1bf513fa2f17fdd7df" category="paragraph">Workload Factory 每日分析您在 Amazon FSx for NetApp ONTAP 檔案系統部署上執行的工作負載。分析結果提供架構完善的狀態、深入見解和建議。</block>
+  <block id="678b83ba882b41e4bae10f8e48f4a766" category="paragraph">每日分析完成後，部署的 Well-architected 儀表板會顯示配置狀態為「已最佳化」或「未最佳化」。您可以在這裡找到總最佳化得分、按類別劃分的組態問題，以及組態問題和建議清單。您可以審查針對組態問題的建議。部分問題可由 Workload Factory 自動修復，而其他問題則需要人工幹預。在這種情況下，Workload Factory 會提供詳細說明，幫助您實施建議的變更。</block>
+  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">您可以忽略不適用於您環境的組態分析。這樣可以避免不必要的警示和不準確的最佳化結果。當您忽略某個設定分析時，Workload Factory 不會將該配置計入總最佳化得分。</block>
+  <block id="1ae45cc8915c23757127ca10c1cc4000" category="paragraph">Workload Factory 將最佳實踐應用於大型儲存、資料庫和 VMware 環境，透過持續評估與建議洞察和修復措施相結合。在 Workload Factory 主控台中套用的自動化修復可減少人為錯誤、確保統一管理，並維護工作負載基礎架構的效能和可靠性。</block>
+  <block id="e3a12eeb93ddbad9936f64a12bb2990b" category="summary">Workload Factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。</block>
+  <block id="55f2831e5ee9e4f5e3415852d7e413ac" category="paragraph">利用組態分析洞察和建議，運用 Workload Factory 為您的 FSx for ONTAP 檔案系統實作最佳實踐。您可以輕鬆審查架構良好的狀態，了解組態中的問題，並採取行動改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。</block>
+  <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">您也可以忽略不適用於您儲存環境的特定儲存設備組態分析，以避免不必要的警示及不準確的最佳化結果。</block>
+  <block id="04b3e1206245453c778ab6cffd793ea7" category="inline-link-macro">了解 Workload Factory 的組態分析和架構完善狀態。</block>
+  <block id="4aa06a8f25c52b419690e3e3f49c6ed5" category="paragraph"><block ref="4aa06a8f25c52b419690e3e3f49c6ed5" category="inline-link-macro-rx"></block></block>
+  <block id="7666c58e0bddac1cbe28645920551133" category="paragraph">Workload Factory 每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組態。每日分析提供架構完善的狀態資訊、深入見解和建議，並提供自動修復組態問題的選項，確保您的檔案系統符合最佳實務。</block>
+  <block id="e7b9cb1cfdf339ec8cea0ee3bb7d6563" category="paragraph">透過連結或 Console 代理程式連線，Workload Factory 可對您的檔案系統進行全面掃描，以找出效能、資料保護和組態方面的問題。</block>
+  <block id="efa540b6730dc694889e9447404ff68a" category="paragraph">您可以選擇審查檔案系統組態問題的建議，並從 Workload Factory 主控台的儲存設備中修正這些問題。</block>
+  <block id="2fe18b688cc61d042ef62fb924155b95" category="paragraph">由於儲存組態的要求各不相同，您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。忽略特定組態的分析後，此組態將不計入總最佳化分數。</block>
+  <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">安裝 Console 代理程式</block>
+  <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 或 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>，以對您的檔案系統資源進行最全面的分析。</block>
+  <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">請務必仔細檢閱建議。此建議說明最佳實務，以及未最佳化組態的潛在問題。</block>
+  <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">從架構良好的儀表板中，*已忽略的組態*。</block>
+  <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">透過 NetApp Console 中架構完善的儀表板了解最新功能。</block>
+  <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">NetApp Console 中架構完善的儀表板有哪些新特性？</block>
 </blocks>
