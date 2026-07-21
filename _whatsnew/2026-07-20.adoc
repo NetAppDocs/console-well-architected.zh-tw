@@ -24,4 +24,4 @@ Console 中架構完善的儀表板適用於以下儲存系統：
 
 使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["深入瞭解自訂規則"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["深入瞭解自訂規則"]

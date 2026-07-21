@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: fsx/improve-configurations-fsx.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Amazon FSx for NetApp ONTAP, FSx for ONTAP 
-summary: Workload Factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。 
+summary: 架構完善的儀表板掃描 Amazon FSx for NetApp ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。 
 ---
 = 為 ONTAP 檔案系統組態實作架構良好的 FSx
 :allow-uri-read: 
@@ -11,24 +11,22 @@ summary: Workload Factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供見�
 
 
 [role="lead"]
-利用組態分析洞察和建議，運用 Workload Factory 為您的 FSx for ONTAP 檔案系統實作最佳實踐。您可以輕鬆審查架構良好的狀態，了解組態中的問題，並採取行動改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。
+利用組態分析的洞察和建議，運用 NetApp 為 FSx for ONTAP 檔案系統實作最佳實務。您可以輕鬆審查架構良好的狀態、了解組態中存在的問題，並採取行動改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。
 
 您也可以忽略不適用於您儲存環境的特定儲存設備組態分析，以避免不必要的警示及不準確的最佳化結果。
 
-link:configuration-analysis.html["了解 Workload Factory 的組態分析和架構完善狀態。"]
+link:configuration-analysis-fsx.html["了解組態分析和架構良好狀態。"]
 
 
 
 [[about-this-task]]
 == 關於此任務
 
-Workload Factory 每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組態。每日分析提供架構完善的狀態資訊、深入見解和建議，並提供自動修復組態問題的選項，確保您的檔案系統符合最佳實務。
+架構完善的儀表板每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組態。每日分析提供架構完善的狀態、洞察與建議。您可以自動修復組態問題，以符合最佳實務。
 
-透過連結或 Console 代理程式連線，Workload Factory 可對您的檔案系統進行全面掃描，以找出效能、資料保護和組態方面的問題。
+透過 Link 或 Console 代理程式連接，NetApp Console 中架構完善的儀表板可以對您的檔案系統進行全面掃描，找出效能、資料保護和組態方面的問題。這可確保您獲得準確的洞察和建議，以最佳化您的 FSx for ONTAP 檔案系統。
 
-您可以選擇審查檔案系統組態問題的建議，並從 Workload Factory 主控台的儲存設備中修正這些問題。
-
-由於儲存組態的要求各不相同，您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。忽略特定組態的分析後，此組態將不計入總最佳化分數。
+儲存組態要求各不相同。您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。
 
 
 
@@ -46,7 +44,7 @@ Workload Factory 每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組�
 
 您可以修正 FSx for ONTAP 檔案系統或檔案系統中選定 Volume 的組態問題。您可以選擇一個或多個組態進行修正。
 
-修復過程可能會導致執行個體停機或服務中斷。在修復組態問題之前，請仔細審查每個建議。
+修復組態問題可能會導致執行個體停機或服務中斷。在修復組態問題之前，請仔細閱讀每個建議。
 
 .步驟
 . 登入 link:https://console.netapp.com/home["NetApp Console"^]。
@@ -59,7 +57,7 @@ Workload Factory 每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組�
 +
 如果「檢視並修復」是一個選項，請選擇受影響的 Volume 進行修復。
 
-. 請審查對話方塊中顯示的摘要和行動項目，以了解修正問題後會發生什麼情況。某些操作可能會導致執行個體停機或服務中斷。
+. 請審查對話方塊中的摘要和行動項目，以了解修正問題後會發生什麼情況。某些操作可能會導致執行個體停機或服務中斷。
 . 選擇 *Continue* 以修正組態問題。
 
 
@@ -122,7 +120,7 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 .步驟
 . 登入 link:https://console.netapp.com/home["NetApp Console"^]。
 . 從 NetApp Console 選單中，選取 *工作負載*，然後選取 *架構良好*。
-. 從架構良好的儀表板中，*已忽略的組態*。
+. 從「架構完善的儀表板」中選擇「已忽略的組態」。
 . 確定要重新啟動的組態，然後選取 *Reactivate*。
 
 
@@ -145,4 +143,4 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 --
 ====
 .結果
-系統重新啟動組態分析。每天都會進行一次新的分析。
+組態分析已重新啟動。Workload Factory 每天都會執行一次新的分析。

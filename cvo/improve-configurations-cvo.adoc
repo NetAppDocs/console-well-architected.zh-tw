@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/improve-configurations-cvo.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Cloud Volumes ONTAP, Microsoft Azure 
-summary: Workload factory 掃描 Cloud Volumes ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。 
+summary: 架構完善的儀表板掃描 Cloud Volumes ONTAP 組態，提供見解與建議，協助您實現卓越營運績效。 
 ---
 = 實作架構良好的 Cloud Volumes ONTAP 系統組態
 :allow-uri-read: 
@@ -20,11 +20,11 @@ link:configuration-analysis-cvo.html["了解組態分析和架構良好狀態。
 [[about-this-task]]
 == 關於此任務
 
-NetApp 每日分析 Microsoft Azure 中 Cloud Volumes ONTAP 系統的部署。每日分析提供架構完善的狀態、洞察與建議，協助您修正組態問題，使您的系統符合最佳實務。
+精心設計的儀表板每日分析 Microsoft Azure 上 Cloud Volumes ONTAP 系統的部署組態。每日分析提供精心設計的狀態、洞察和建議。
 
-您無需部署 Console 代理程式即可檢視系統組態問題的建議；但是，Console 代理程式連線可讓 NetApp 對您的系統資源進行最全面的分析。
+透過 Link 或 Console 代理程式連線，NetApp Console 中架構完善的儀表板可對您的 Cloud Volumes ONTAP 系統進行全面掃描，以找出效能、資料保護和組態方面的問題。這可確保您獲得準確的洞察與建議，以最佳化您的 Cloud Volumes ONTAP 系統。
 
-每日分析完成後，儀表板會顯示架構良好的資源總數、處於關鍵狀態的資源數量以及處於警告狀態的資源數量。組態按架構良好架構的支柱進行分類：可靠性、卓越營運績效、成本優化、效能與效率和安全性。儀表板還包含一個表格，其中列出了所有組態、這些組態的架構良好狀態、嚴重程度、類別、資源類型（Volume 或系統）、受影響的資源，以及在組態未最佳化時檢視建議的選項。
+儲存組態要求各不相同。您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。
 
 
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/configuration-analysis-cvo.html 
 keywords: Cloud Volumes ONTAP, configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
-summary: NetApp Console 每天分析儲存系統組態，以判斷是否存在任何組態問題。 
+summary: NetApp Console 中架構完善的儀表板每天分析 Cloud Volumes ONTAP 系統組態，以判斷是否存在任何組態問題。 
 ---
 = Cloud Volumes ONTAP 組態分析
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: NetApp Console 每天分析儲存系統組態，以判斷是否存在�
 
 
 [role="lead"]
-NetApp Console 會定期分析儲存系統組態，以確定是否存在任何組態問題。如果發現問題，Console 會顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到尖峰效率、成本效益，並符合最佳實務做法。
+NetApp Console 中架構完善的儀表板會定期分析儲存系統組態，以判斷您的 Cloud Volumes ONTAP 系統是否存在任何組態問題。發現問題時，儀表板會顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到最佳效能、具成本效益，並符合最佳實務的法規遵循要求。
 
 主要功能包括：
 
@@ -26,14 +26,14 @@ NetApp Console 會定期分析儲存系統組態，以確定是否存在任何�
 [[analysis-requirements]]
 == 分析要求
 
-要進行完整的 Cloud Volumes ONTAP 系統分析，您必須link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console 代理程式"^]。Console 代理程式連線能力可讓 Console 分析所有 Cloud Volumes ONTAP 系統組態，例如資料保護和效能。
+若要進行完整的 Cloud Volumes ONTAP 系統分析，您必須link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console 代理程式"^]在系統和 NetApp Console 之間建立連線。
 
 
 
 [[best-practices-and-recommendations-for-cloud-volumes-ontap-systems]]
 == Cloud Volumes ONTAP 系統的最佳實務做法與建議
 
-NetApp 評估儲存設備組態，深入檢視 ONTAP 組態最佳實務做法，並確保其符合 Azure Well-Architected Framework。評估也會提出改進和修復建議。
+架構完善的儀表板可評估儲存組態，深入檢視 ONTAP 組態最佳實務，以及是否符合 Azure Well-Architected Framework。評估也會提出改進和修復建議。
 
 精心設計的分析將組態分類為架構的下列要素：_可靠性_、_安全性_、_卓越營運_、_成本最佳化_和_效能效率_。
 
@@ -42,7 +42,7 @@ NetApp 評估儲存設備組態，深入檢視 ONTAP 組態最佳實務做法，
 [[reliability]]
 === 可靠性
 
-可靠性確保工作負載即使在出現中斷的情況下也能正確、持續地執行其預期功能。
+可靠性確保工作負載即使在中斷期間也能正確且持續地執行其預期功能。
 
 * *排程本機快照*
 +
@@ -50,7 +50,7 @@ NetApp 評估儲存設備組態，深入檢視 ONTAP 組態最佳實務做法，
 
 * *SSD 容量臨界值*
 +
-SSD 儲存層的容量使用率不應持續超過 80%。超過此臨界值會降低處理量，並導致資料 Volume 變為唯讀，進而導致寫入作業失敗。
+SSD 儲存層容量使用率不應持續超過 80%。超過此臨界值可能會降低處理量、使資料 Volume 變為唯讀，並導致寫入作業失敗。
 
 
 
@@ -80,7 +80,7 @@ NetApp 建議 Volume 容量使用率不要持續超過 80%。這可能會影響�
 
 * *快取關係寫入模式*
 +
-為了獲得最佳效能，NetApp 建議選擇最適合您工作負載的快取關係寫入模式。環繞寫入模式對於讀取密集型、處理小檔案的工作負載可提供更好的效能，而回寫模式對於寫入密集型、處理大檔案的工作負載可提供更好的效能。
+為了獲得最佳效能，NetApp 建議選擇最適合您工作負載的快取關係寫入模式。環繞寫入模式為讀取密集型、處理小檔案的工作負載提供更佳效能，而回寫模式為寫入密集型、處理大檔案的工作負載提供更佳效能。
 
 * *ONTAP 快取 Volume 大小*
 +
@@ -101,7 +101,7 @@ NetApp 建議在快取 Volume 上啟用 Volume 自動調整規模和清理功能
 
 * *辨識未充分利用的固態硬碟容量*
 +
-未充分利用的 SSD 容量分層可能會造成不必要的成本。NetApp 建議降低 SSD 分層容量，同時在目前已使用容量之上保持 20% 的可用空間緩衝區。容量縮減操作可能需要數小時到數天時間，在此期間系統將不支援其他檔案系統操作。
+未充分利用的 SSD 容量分層可能會產生不必要的成本。NetApp 建議降低 SSD 分層容量，同時在目前已用容量之上維持 20% 的可用空間緩衝區。容量縮減作業需要數小時到數天時間，在此期間其他系統作業將無法進行。
 
 * *資料分層原則*
 +

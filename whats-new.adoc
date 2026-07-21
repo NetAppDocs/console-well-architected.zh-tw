@@ -1,19 +1,17 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
 summary: 透過 NetApp Console 中架構完善的儀表板了解最新功能。 
 ---
-= NetApp Console 中架構完善的儀表板有哪些新特性？
+= NetApp Console 中架構完善的儀表板有哪些新功能？
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-了解 Workload Factory 中架構完善的元件有哪些新功能。
-
-了解 NetApp Console 中「架構完善」儀表板的新增功能。
+透過 NetApp Console 中架構完善的儀表板了解最新功能。
 
 
 
@@ -42,4 +40,4 @@ Console 中架構完善的儀表板適用於以下儲存系統：
 
 使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["深入瞭解自訂規則"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["深入瞭解自訂規則"]

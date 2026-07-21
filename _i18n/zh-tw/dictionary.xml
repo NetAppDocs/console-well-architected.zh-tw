@@ -10,7 +10,6 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">建立您自己的自訂規則</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">深入瞭解自訂規則</block>
-  <block id="9bd966d21188bc73353090c821e40934" category="paragraph"><block ref="9bd966d21188bc73353090c821e40934" category="inline-link-rx"></block></block>
   <block id="502e4764bf709decaf10769de6bc6d35" category="summary">使用自然語言建立自訂架構規則，以強制執行 FSx for ONTAP 的組織標準。</block>
   <block id="cff2e3f5566a6d8510f1c58ca5513eb3" category="doc">建立自訂規則</block>
   <block id="525a9e811bf7135ecb9c670b3288f94f" category="paragraph">用簡單易懂的語言描述規則，即可建立自訂規則。AI 規則建構者會將您的要求轉換為經過驗證的規則，用於檢查您的 FSx for ONTAP 資源。</block>
@@ -83,9 +82,7 @@
   <block id="3f710cadb0123c693533da68aaf5b596" category="section-title">接下來該做什麼</block>
   <block id="79d32aa7b3e52f3c6db178577378b427" category="inline-link-macro">管理自訂規則</block>
   <block id="f571cd95e32f7c421382198bc0dd0eae" category="paragraph"><block ref="f571cd95e32f7c421382198bc0dd0eae" category="inline-link-macro-rx"></block></block>
-  <block id="f72f6cfe102f777741a1c23bd3519299" category="summary">NetApp Console 每天分析儲存系統組態，以判斷是否存在任何組態問題。</block>
   <block id="109cdb23e41e8df9e7f4319a28a800c9" category="doc">Cloud Volumes ONTAP 組態分析</block>
-  <block id="7711c6e829f186d665b119ea7cbac7a9" category="paragraph">NetApp Console 會定期分析儲存系統組態，以確定是否存在任何組態問題。如果發現問題，Console 會顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到尖峰效率、成本效益，並符合最佳實務做法。</block>
   <block id="1c11d2e59190fe6a4e37f1e68abafcb4" category="paragraph">主要功能包括：</block>
   <block id="ebc3bf5de769bc75ad8e36a90a0ed695" category="list-text">每日配置分析</block>
   <block id="d0367f15d2fd772d543d692442807fa1" category="list-text">對 NetApp ONTAP 儲存系統和合作夥伴儲存設備提供者進行自動最佳實務做法驗證</block>
@@ -93,16 +90,13 @@
   <block id="16fcd85dc9469370b62b4b46381f8e2a" category="list-text">洞察化為行動</block>
   <block id="3f6f8b4e204fd3aa39cac35661de164d" category="section-title">分析要求</block>
   <block id="021c4674734853c034b954078fa080f3" category="inline-link-macro">部署 NetApp Console 代理程式</block>
-  <block id="9b445cfda1179eae13555c376ac10ad3" category="paragraph">要進行完整的 Cloud Volumes ONTAP 系統分析，您必須<block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block>。Console 代理程式連線能力可讓 Console 分析所有 Cloud Volumes ONTAP 系統組態，例如資料保護和效能。</block>
   <block id="f064aed6dd86a2b762ecf9bcf528b941" category="section-title">Cloud Volumes ONTAP 系統的最佳實務做法與建議</block>
-  <block id="c2bcefffc88ff83198b89fb2d983e8e2" category="paragraph">NetApp 評估儲存設備組態，深入檢視 ONTAP 組態最佳實務做法，並確保其符合 Azure Well-Architected Framework。評估也會提出改進和修復建議。</block>
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">精心設計的分析將組態分類為架構的下列要素：_可靠性_、_安全性_、_卓越營運_、_成本最佳化_和_效能效率_。</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">可靠性</block>
   <block id="32293fdcb7dff0798e6d06da4b108ce6" category="paragraph">可靠性確保工作負載即使在出現中斷的情況下也能正確、持續地執行其預期功能。</block>
   <block id="277088f7a0bc1d2b0023dc08b1d30e37" category="list-text">*排程本機快照*</block>
   <block id="ce36269ae95cd0ab7422d78bb843b720" category="paragraph">安排本機快照以實現高效備份和快速還原。快照是磁碟區的即時時間點映像。</block>
   <block id="eb995e3e26a9ce43e4cb513af9782398" category="list-text">*SSD 容量臨界值*</block>
-  <block id="17a08b60247ab6f3cd8125402b1289e8" category="paragraph">SSD 儲存層的容量使用率不應持續超過 80%。超過此臨界值會降低處理量，並導致資料 Volume 變為唯讀，進而導致寫入作業失敗。</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="section-title">安全性</block>
   <block id="7d7265a6929882bb433fc74e8bee871a" category="paragraph">安全重點在於透過風險評估和緩解策略來保護資料、系統和資產。</block>
   <block id="d08117d717007eeb4d6273695d9a7725" category="list-text">*搭載 AI 的自主勒索軟體防護 (ARP/AI)*</block>
@@ -112,7 +106,6 @@
   <block id="32438b829cdc61174e9727896ad00733" category="list-text">*Volume 容量使用率閾值*</block>
   <block id="e973d533a0ae133a86d3a32d9c71df3f" category="paragraph">NetApp 建議 Volume 容量使用率不要持續超過 80%。這可能會影響應用程式的資料讀寫。Volume 容量的增加可以手動執行，也可以使用 Volume 自動擴充功能自動增加。</block>
   <block id="dea8be5f351d7ba412ea10951c1fe16c" category="list-text">*快取關係寫入模式*</block>
-  <block id="6ca1e17b2494653a565ef0a387421fee" category="paragraph">為了獲得最佳效能，NetApp 建議選擇最適合您工作負載的快取關係寫入模式。環繞寫入模式對於讀取密集型、處理小檔案的工作負載可提供更好的效能，而回寫模式對於寫入密集型、處理大檔案的工作負載可提供更好的效能。</block>
   <block id="172f50b41b5736d316b29512e1c1cc01" category="list-text">*ONTAP 快取 Volume 大小*</block>
   <block id="c9eaece9ad2e9f2b182ab193795510eb" category="paragraph">NetApp 建議在快取 Volume 上啟用 Volume 自動調整規模和清理功能，以維持最佳大小，並將快取集中用於頻繁存取（熱）資料，以達到尖峰效率。</block>
   <block id="7f14df7d96b168d75780c47437a63021" category="list-text">*ONTAP 版本法規遵循*</block>
@@ -120,18 +113,13 @@
   <block id="a39ae09f8be4327fc176cfeb76a0e366" category="section-title">成本最佳化</block>
   <block id="394c926099d3d2cf7e0d7477f17faf38" category="paragraph">成本優化可協助您在保持低成本的同時，為企業創造最大價值。</block>
   <block id="7a9a8f4f357fd479616721650f578eab" category="list-text">*辨識未充分利用的固態硬碟容量*</block>
-  <block id="e0cb484e5dc0a5e8f28522404fbb8bd3" category="paragraph">未充分利用的 SSD 容量分層可能會造成不必要的成本。NetApp 建議降低 SSD 分層容量，同時在目前已使用容量之上保持 20% 的可用空間緩衝區。容量縮減操作可能需要數小時到數天時間，在此期間系統將不支援其他檔案系統操作。</block>
   <block id="d8789f9e1c2f22ea67573de6c6a2a782" category="list-text">*資料分層原則*</block>
   <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">啟用冷資料分層，將冷資料從 SSD 儲存層遷移到成本更低的儲存設備。Azure Blob Storage 可作為非作用中資料的容量層。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">接下來</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">實作架構良好的 Cloud Volumes ONTAP 系統組態</block>
-  <block id="17971bad5bbff77e668b69daffb7a446" category="summary">Workload factory 掃描 Cloud Volumes ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">利用組態分析洞察和建議，運用 NetApp 為執行在 Microsoft Azure 儲存設備上的 Cloud Volumes ONTAP 系統實作最佳實務做法。您可以輕鬆審查架構良好的狀態、了解組態中存在的問題，並獲得改進建議，以改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">了解組態分析和架構良好狀態。</block>
   <block id="87e3cbe1631f11a9fa503588a98c8d88" category="paragraph"><block ref="87e3cbe1631f11a9fa503588a98c8d88" category="inline-link-macro-rx"></block></block>
-  <block id="1c31ded7e3708463611bd34d13318a27" category="paragraph">NetApp 每日分析 Microsoft Azure 中 Cloud Volumes ONTAP 系統的部署。每日分析提供架構完善的狀態、洞察與建議，協助您修正組態問題，使您的系統符合最佳實務。</block>
-  <block id="bf913b7a370892c7cb1f33a829e6caa1" category="paragraph">您無需部署 Console 代理程式即可檢視系統組態問題的建議；但是，Console 代理程式連線可讓 NetApp 對您的系統資源進行最全面的分析。</block>
-  <block id="201778c0d89f33125a6402f974422153" category="paragraph">每日分析完成後，儀表板會顯示架構良好的資源總數、處於關鍵狀態的資源數量以及處於警告狀態的資源數量。組態按架構良好架構的支柱進行分類：可靠性、卓越營運績效、成本優化、效能與效率和安全性。儀表板還包含一個表格，其中列出了所有組態、這些組態的架構良好狀態、嚴重程度、類別、資源類型（Volume 或系統）、受影響的資源，以及在組態未最佳化時檢視建議的選項。</block>
   <block id="e30c066b362527ca1f723c8014e57d99" category="inline-link-macro">新增 Cloud Volumes ONTAP 系統</block>
   <block id="c4c1a72a07169f082f4b7b2689d91958" category="list-text">您必須<block ref="17b4c324562b043f43cc70bbb41ce6a4" category="inline-link-macro-rx"></block>至 NetApp Console，才能檢視架構完善的狀態及組態問題的建議。</block>
   <block id="fa3c49e6d904ccc316884124db538c80" category="inline-link-macro">您應該部署 Console 代理程式</block>
@@ -146,30 +134,22 @@
   <block id="12fb11593709031df8791d4256219091" category="paragraph">（可選）選取 <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block>以下載包含所有組態建議的 CSV 檔案。</block>
   <block id="a1a31d23ff3b3c49f603bdfad41624a7" category="list-text">審查建議。</block>
   <block id="8f6fc7ab8dca3a508e79c4cddacfe4a7" category="paragraph">修復組態問題，使系統保持最佳效能運作。</block>
-  <block id="e35b0fe1641c884bf97977bfc604174f" category="summary">NetApp Console 會定期分析儲存系統組態，以判斷是否存在任何組態問題。</block>
   <block id="56f8181fa25efca14808cd61ff615728" category="doc">Amazon FSx for NetApp ONTAP 組態分析</block>
-  <block id="b851d3c26ef63153cd7ef78769275781" category="paragraph">NetApp Console 會定期分析儲存系統組態，以確定是否存在任何組態問題。如果發現問題，NetApp Console 會顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到最佳效能、成本效率並符合最佳實務的法規遵循要求。</block>
   <block id="ccfc2060f8f316d0ccd33b0289111a38" category="paragraph">要進行完整的檔案系統分析，必須執行以下操作：</block>
   <block id="8c696f376388c7710b3ca416a2bc8c23" category="inline-link-macro">部署 NetApp Console 代理程式</block>
   <block id="4820ffe2fe615fd37fb7932b296c86f1" category="inline-link-macro">關聯連結</block>
-  <block id="bb42975f366470aeb5b03d6f1807d353" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block>。Console 代理程式和連結連線可讓 NetApp Console 分析所有檔案系統組態，例如資料保護和效能。</block>
   <block id="64aefaaa1ffe9f3b50d13850f89ff59a" category="list-text">在您的 AWS 帳戶中授予 _view、planning 和 analysis_ 權限。</block>
   <block id="bf2ef084e923ce6ebc4b57db27892de8" category="inline-link-macro">了解如何授予 AWS 帳戶權限</block>
   <block id="582f3532371a870cf4bd6406f93d26de" category="paragraph"><block ref="582f3532371a870cf4bd6406f93d26de" category="inline-link-macro-rx"></block></block>
   <block id="c6ee17dfa8bb85cfb470ccbc889f031c" category="section-title">儲存工作負載的最佳實務做法和建議</block>
-  <block id="3ad2aab338d1221057b35359a78c6ff4" category="paragraph">Workload Factory 會根據 ONTAP 最佳實務和 AWS Well-Architected Framework 評估儲存設備組態。評估也會提出改進和修復建議。</block>
   <block id="8994ec75ad87cef8edf4cf8eae6b4e4c" category="list-text">*排程磁碟區備份*</block>
   <block id="3bacc0d1986b203b432f61110667b3d7" category="paragraph">備份磁碟區有助於滿足資料保留和合規性需求。使用磁碟區備份來設定資料的自動備份和保留。</block>
   <block id="b34347ddf6e48f7eb5aee09d6f7b92a6" category="list-text">* 跨區域複寫 *</block>
-  <block id="152d89843ca63a94df485f882e2be60d" category="paragraph">跨區域複製可確保您的資料複製到另一個 AWS 區域，從而增強資料的持久性和可用性。Workload Factory 建議設定跨區域複製，以協助災難復原和合規性檢查。</block>
   <block id="1efec9308ce64129e1db77dd8baa679c" category="list-text">*設定資料複寫*</block>
-  <block id="793435fc062d4d74518687597c405959" category="paragraph">為了提高資料可靠性，可以將資料複製到同一區域或其他區域的 Amazon FSx for NetApp ONTAP 檔案系統。設定資料複製以支援跨檔案系統的遷移、災難復原和長期資料保留。</block>
   <block id="4776b32ae8a508cea6dc14786e7b1d3f" category="list-text">*提高 SSD 容量閾值*</block>
-  <block id="9692adf4fc7a278531d8639daa5e7ce5" category="paragraph">SSD 儲存層的容量使用率不得超過 80%。否則可能會影響容量資源池儲存層的資料讀寫，進而影響檔案系統的處理量。容量不足會導致資料 Volume 變成唯讀。嘗試寫入新資料的服務也會失敗。</block>
   <block id="52dcb980883fc7c1570f6f9c4c6e4f47" category="list-text">*比對標籤以確保資料可靠性*</block>
   <block id="6b684c41f8808f2d21748ed56ee909d7" category="paragraph">來源磁碟區的快照原則標籤和複寫原則標籤必須相符，以確保資料可靠性。</block>
   <block id="ec75a1c7b766068775fc7894ddaf83e4" category="list-text">*提高檔案容量閾值*</block>
-  <block id="2154e32e217772c919df25662fc5e276" category="paragraph">應提高檔案容量臨界值，以避免達到 Volume 容量限制。檔案容量（inodes）過低會阻止向 Volume 寫入更多資料。Workload Factory 建議將檔案容量使用率保持在 80% 以下。在 Volume 中建立新檔案需要足夠的可用檔案容量。</block>
   <block id="6b164cf17f1cd008f12b094341cb3264" category="list-text">*啟用 ARP/AI*</block>
   <block id="3c93b584a7552b941c7752fec865d7f1" category="paragraph">NetApp 具備人工智慧的自主勒索軟體防護（ARP/AI）可協助您保護磁碟區免受勒索軟體威脅。Workload Factory 建議為所有磁碟區啟用 ARP/AI。</block>
   <block id="1218a704bef91508c259c867ba832d76" category="list-text">*未經授權存取磁碟區*</block>
@@ -177,7 +157,6 @@
   <block id="aae272278ce139a51849ab88adc7d597" category="paragraph">卓越營運的重點在於提供最佳架構和業務價值。</block>
   <block id="2e8c868875c81824742ded82e0ff9518" category="list-text">* 啟用自動容量管理 *</block>
   <block id="c2af0d35add26707ebd7d7030d750beb" category="paragraph">應啟用自動容量管理，以定期確保 SSD 層不超過閾值。</block>
-  <block id="938de8c74e8e4f67c370d24df8ab0411" category="paragraph">Workload Factory 建議磁碟區容量使用率不要持續超過 80%。這可能會影響應用程式的資料讀寫操作。磁碟區容量的增加可以手動進行，也可以使用磁碟區自動增長功能自動進行。</block>
   <block id="900f4b8178b38a2b7075005f38bd4a08" category="list-text">*磁碟區使用率接近滿載*</block>
   <block id="1771306e58ae20ceab27a04d0b17adcd" category="paragraph">當磁碟區接近滿載時、NetApp Workload Factory 建議採取措施增加磁碟區容量、以避免潛在的應用程式中斷。</block>
   <block id="a58ce95d0ee8f9d592643a6f31d60878" category="paragraph">為了獲得最佳效能， Workload Factory 會根據您的工作負載推薦最合適的快取關係寫入模式。對於讀取密集型、檔案較小的工作負載，環繞寫入模式可提供更佳的效能；而對於寫入密集型、檔案較大的工作負載，回寫模式可提供更佳的效能。</block>
@@ -186,15 +165,12 @@
   <block id="a49bf929860657a29ec7b321ff7a63ba" category="list-text">*Storage VM 邏輯報告*</block>
   <block id="7edda8ec9be79d47927f4aa7e27bd776" category="paragraph">Workload Factory 建議將儲存 VM 的預設報告設定設為邏輯報告，以便更了解磁碟區層級的儲存使用情況。</block>
   <block id="ff879d0ae47ba423426718c1437f43bc" category="list-text">*透過對冷資料進行分層來優化 TCO*</block>
-  <block id="f71c43abfbda1f4409b6076092997c88" category="paragraph">啟用冷資料分層可降低 SSD 儲存層的使用率。Workload Factory 建議對每個 Volume 套用分層原則。FSx for ONTAP 會持續掃描資料以偵測冷資料，並將其無縫移至容量儲存資源池分層。</block>
   <block id="7cee9f2699d966625a5743c41334d168" category="list-text">*啟用儲存效率*</block>
   <block id="a97dffed0cf7eab28dd24e64546425b8" category="paragraph">啟用儲存設備效率提升（資料精簡、壓縮和重複資料刪除），以最佳化儲存使用率並降低 SSD 分層成本。</block>
   <block id="fed8dca8f704b8520ccccb85704d4336" category="list-text">*不必要的快照和備份刪除*</block>
-  <block id="0c3c1c3be816da545548a0d1ddb8eab2" category="paragraph">應刪除不再需要的快照和備份以降低成本。</block>
   <block id="c359614024935abd3712075452782fa3" category="list-text">*非作用中區塊裝置*</block>
   <block id="934ae55c0ac8033312b0dd4fc00ad677" category="paragraph">如果區塊設備連續七天未使用、Workload Factory 建議歸檔區塊設備資料或刪除未使用的區塊設備以降低成本。</block>
   <block id="f915580ac605b8302594b2e8b9e200c4" category="list-text">*未充分利用的 SSD 容量*</block>
-  <block id="7a5f4ce0958e9cefd252cd5aafc4efe8" category="paragraph">SSD 容量分層利用率不足會造成不必要的成本。Workload Factory 建議降低 SSD 分層容量，同時保持比目前已使用容量高出 20% 的可用空間緩衝區。容量縮減操作可能需要數小時到數天時間，在此期間系統將不支援其他檔案系統操作。</block>
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*非使用中的 NAS Volume*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">組態分析會識別未主動使用的 NAS Volume ，並建議刪除或歸檔 Volume 以降低成本。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">為 ONTAP 檔案系統組態實作架構良好的 FSx</block>
@@ -203,13 +179,11 @@
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">使用連結連線至 FSx for ONTAP 檔案系統</block>
   <block id="74bdd3d51d7fef35f3c1e1829b2c63fe" category="section-title">修復組態問題</block>
   <block id="4d39d4688820662a72b89ef0ab12f050" category="paragraph">您可以修正 FSx for ONTAP 檔案系統或檔案系統中選定 Volume 的組態問題。您可以選擇一個或多個組態進行修正。</block>
-  <block id="cd375ffa56c1139e1dfd8d14cf3947db" category="paragraph">修復過程可能會導致執行個體停機或服務中斷。在修復組態問題之前，請仔細審查每個建議。</block>
   <block id="342a19841e494c61bf9c06a5879eaffa" category="inline-image-macro">漢堡選單圖示用於導覽至儲存、EDA、AI、資料庫、VMware 和管理等工作負載。</block>
   <block id="757a7ffb20a279d7239febb013141ad5" category="list-text">選擇選單 <block ref="d1917ed039a7bd34b3d1373e5ffc5ece" category="inline-image-macro-rx" type="image"></block>，然後選擇 *Storage*。</block>
   <block id="8c8656579a32ab7e80c68b10832337bb" category="list-text">從 Storage 選單中，選擇 *Well-architected* 。</block>
   <block id="8e369a2580b67427ac856eea6e4e3eb6" category="list-text">選擇以*修復*。</block>
   <block id="fe5f70c74405942514095d724e090b64" category="paragraph">如果「檢視並修復」是一個選項，請選擇受影響的 Volume 進行修復。</block>
-  <block id="44642e2ce79e19a13d96c2540f6a27e3" category="list-text">請審查對話方塊中顯示的摘要和行動項目，以了解修正問題後會發生什麼情況。某些操作可能會導致執行個體停機或服務中斷。</block>
   <block id="45b5dce37159255d07342e3102124571" category="list-text">選擇 *Continue* 以修正組態問題。</block>
   <block id="7b0f67aaae9855ca81dfbbf20c5abb2e" category="paragraph">Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，然後選擇 *Tracker* 以檢視操作狀態。</block>
   <block id="a46fab6bb1626887eac54858dc05cb71" category="section-title">駁回組態分析</block>
@@ -235,7 +209,6 @@
   <block id="a6d91f466d4bad114b9a0f88a90da3cd" category="list-text">根據組態分析識別要重新啟動的 Volume。</block>
   <block id="bac7c367211d21ad06604f0cd3ce59fd" category="list-text">對於單一磁碟區：選擇操作選單，然後選擇 *Reactivate volume*。</block>
   <block id="98962b66e5cd6d68ed29081a50cd1c88" category="list-text">對於多個 Volume：選取 Volume，然後選取「批次行動」旁邊的 *Reactivate*。</block>
-  <block id="77b9268ed80b17f39e2b280a439b5a22" category="paragraph">系統重新啟動組態分析。每天都會進行一次新的分析。</block>
   <block id="a99fab69b8aa9775fe1767ce605ae8bd" category="summary">NetApp 以多種方式為 NetApp Console 提供支援。我們提供豐富的免費自助支援選項，全天候 24x7 可用，例如知識庫 （KB） 文章和社群論壇。您的支援註冊包含透過線上工單系統提供的遠端技術支援。</block>
   <block id="fabfc25ef8996fd90836e58a4c0b26b6" category="doc">取得協助</block>
   <block id="2feeca48692986e9cc471ec61f847fca" category="paragraph">NetApp 以多種方式為 NetApp Console 及其雲端服務提供支援。全天候 24/7 提供多種免費自助支援選項，例如知識庫（KB）文章及社群論壇。您的支援註冊包含透過網頁工單進行的遠端技術支援。</block>
@@ -378,17 +351,10 @@
   <block id="269acf14c942e18c7f92dabf12bccaf5" category="list-text">「所有檔案系統都必須遵循命名慣例 'fsx-{environment}-{application}'」</block>
   <block id="bf0fa31d0a55270b5b0783d82f5a26b2" category="paragraph">此規則驗證檔案系統是否遵守組織命名慣例，以便於管理和成本分配。</block>
   <block id="385442535e80145b437f6d2ceb94114a" category="paragraph"><block ref="385442535e80145b437f6d2ceb94114a" category="inline-link-macro-rx"></block></block>
-  <block id="a4784024022566249b6075c39668b7f8" category="summary">NetApp Console 掃描系統組態的可靠性、安全性、卓越營運績效、成本最佳化和效能與效率，提供見解和建議，協助您實現卓越營運績效。</block>
   <block id="353f1c67bf11f23b2da8c213a9bc70b5" category="doc">了解 NetApp Console 中架構完善的儀表板</block>
-  <block id="d9883d0278babbc95871a912a1228569" category="paragraph">NetApp Console 可協助您維護和運作可靠、安全、高效且具成本效益的組態，這些組態與您所使用的儲存設備類型的架構框架遵守。架構完善的儀表板提供跨帳戶和區域的統一檢視，協助團隊識別風險並確定優先順序，並支援針對特定需求的自訂規則。每日自動掃描儲存系統組態，提供深入見解與建議，協助您最佳化儲存設備環境。</block>
   <block id="9ffdb95250e26c7a6b468126ac7c75b0" category="section-title">運作方式</block>
-  <block id="23913ac3e47be1b171c63a74cbea17c5" category="paragraph">NetApp Console 每天分析您的組態。分析結果提供架構完善的狀態、深入見解和建議。</block>
-  <block id="f8c2962ffd59539175098d9cec464e88" category="paragraph">每日分析完成後，部署的組態會在架構完善的儀表板中顯示為「最佳化的」或「未最佳化的」。您可以在這裡找到總最佳化得分、按類別劃分的組態問題，以及組態問題和建議清單。您可以審查針對組態問題的建議。某些問題可以由 NetApp Console 自動修復，而其他問題則需要手動介入。在這種情況下，NetApp Console 會提供詳細說明，協助您實作建議的變更。</block>
-  <block id="9dcaa39bfda1d173aaf4d2947a1719c9" category="paragraph">您可以忽略不適用於您環境的組態分析。這樣可以避免不必要的警示和不準確的最佳化結果。忽略特定組態分析後，NetApp Console 不會將該組態計入總最佳化分數。</block>
   <block id="ee25e0b6cd574166f206b4c5b7f02df3" category="section-title">為什麼這很重要</block>
-  <block id="48f442280f0cb7e5f8aeb7e9e64bab0a" category="paragraph">NetApp Console 將最佳實務應用於大型儲存設備、資料庫和 VMware 環境，透過結合後續評估、建議洞察和修復措施的方式實現這一目標。在 NetApp Console 中套用的自動化修復功能可減少人為錯誤、確保統一管理，並維護系統基礎架構的效能與可靠性。</block>
   <block id="edfe108640fece93c135374c05152399" category="section-title">支援的儲存系統</block>
-  <block id="d2009269a39f66ebd14d1e37d03d192c" category="paragraph">Console 中架構完善的儀表板支援以下儲存系統：</block>
   <block id="6c7de0adb95b1316c9bfad5feb9f2a84" category="section-title">開始使用 NetApp Console 偵測並修正系統組態錯誤</block>
   <block id="efa0436d4285f6b978deea924bca974d" category="paragraph">要開始使用 NetApp Console，請註冊、新增憑證並建立連線，以管理您的資源並最佳化系統組態。</block>
   <block id="8e868a8ae9b76f3b18202d7661a1fc8d" category="inline-link-macro">開始使用 NetApp Console （SaaS 應用程式）的工作流程</block>
@@ -531,11 +497,7 @@
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登入憑證令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 選單中還有一個「更新憑證」選項。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此選項將提示您重新登入。請注意，這些帳戶的 token 將在 90 天後過期。屆時將發布通知提醒您。</block>
   <block id="ac750267020c9b3c0e32de825d9b57fc" category="doc">2026年7月20日</block>
-  <block id="b718f3585030c0abec042a5bbf6d2e9f" category="paragraph">了解 Workload Factory 中架構完善的元件有哪些新功能。</block>
-  <block id="ada3d9e6c32ad89515ed748b05fc1156" category="paragraph">了解 NetApp Console 中「架構完善」儀表板的新增功能。</block>
-  <block id="c7c52ad889fc325f79c9eb4c7bf5f790" category="sidebar">NetApp Console 可協助您維護可靠、安全的、高效且具成本效益的儲存設備配置，使其遵守您儲存設備類型的完善架構。完善架構儀表板提供跨帳戶和區域的統一檢視，協助團隊識別風險並確定其優先順序，並支援針對特定需求的自訂規則。</block>
   <block id="d415d2282c2358533fbf25eb96870b80" category="sidebar">NetApp Console 中的架構完善儀表板</block>
-  <block id="2a627ffd986ce157fe857e61c818665a" category="sidebar">NetApp Console 可協助您維護和運作可靠、安全的、高效且具成本效益的配置，使其遵守您所使用之儲存設備類型的完善架構。</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="d33632de78682fa0bdaa856a10d698bd" category="sidebar">了解架構良好的儀表板</block>
@@ -552,25 +514,55 @@
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">改善系統組態</block>
   <block id="2792cdd0b68bc0567866e5ad220d7b78" category="list-text"><block ref="2792cdd0b68bc0567866e5ad220d7b78" category="inline-link-macro-rx"></block></block>
   <block id="aa8acd8bfdebf2540f62c36f9f09a75f" category="list-text"><block ref="aa8acd8bfdebf2540f62c36f9f09a75f" category="inline-link-macro-rx"></block></block>
-  <block id="2888fa977354ad1bf513fa2f17fdd7df" category="paragraph">Workload Factory 每日分析您在 Amazon FSx for NetApp ONTAP 檔案系統部署上執行的工作負載。分析結果提供架構完善的狀態、深入見解和建議。</block>
-  <block id="678b83ba882b41e4bae10f8e48f4a766" category="paragraph">每日分析完成後，部署的 Well-architected 儀表板會顯示配置狀態為「已最佳化」或「未最佳化」。您可以在這裡找到總最佳化得分、按類別劃分的組態問題，以及組態問題和建議清單。您可以審查針對組態問題的建議。部分問題可由 Workload Factory 自動修復，而其他問題則需要人工幹預。在這種情況下，Workload Factory 會提供詳細說明，幫助您實施建議的變更。</block>
-  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">您可以忽略不適用於您環境的組態分析。這樣可以避免不必要的警示和不準確的最佳化結果。當您忽略某個設定分析時，Workload Factory 不會將該配置計入總最佳化得分。</block>
-  <block id="1ae45cc8915c23757127ca10c1cc4000" category="paragraph">Workload Factory 將最佳實踐應用於大型儲存、資料庫和 VMware 環境，透過持續評估與建議洞察和修復措施相結合。在 Workload Factory 主控台中套用的自動化修復可減少人為錯誤、確保統一管理，並維護工作負載基礎架構的效能和可靠性。</block>
-  <block id="e3a12eeb93ddbad9936f64a12bb2990b" category="summary">Workload Factory 掃描 Amazon FSx for NetApp ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。</block>
-  <block id="55f2831e5ee9e4f5e3415852d7e413ac" category="paragraph">利用組態分析洞察和建議，運用 Workload Factory 為您的 FSx for ONTAP 檔案系統實作最佳實踐。您可以輕鬆審查架構良好的狀態，了解組態中的問題，並採取行動改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。</block>
   <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">您也可以忽略不適用於您儲存環境的特定儲存設備組態分析，以避免不必要的警示及不準確的最佳化結果。</block>
-  <block id="04b3e1206245453c778ab6cffd793ea7" category="inline-link-macro">了解 Workload Factory 的組態分析和架構完善狀態。</block>
-  <block id="4aa06a8f25c52b419690e3e3f49c6ed5" category="paragraph"><block ref="4aa06a8f25c52b419690e3e3f49c6ed5" category="inline-link-macro-rx"></block></block>
-  <block id="7666c58e0bddac1cbe28645920551133" category="paragraph">Workload Factory 每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組態。每日分析提供架構完善的狀態資訊、深入見解和建議，並提供自動修復組態問題的選項，確保您的檔案系統符合最佳實務。</block>
-  <block id="e7b9cb1cfdf339ec8cea0ee3bb7d6563" category="paragraph">透過連結或 Console 代理程式連線，Workload Factory 可對您的檔案系統進行全面掃描，以找出效能、資料保護和組態方面的問題。</block>
-  <block id="efa540b6730dc694889e9447404ff68a" category="paragraph">您可以選擇審查檔案系統組態問題的建議，並從 Workload Factory 主控台的儲存設備中修正這些問題。</block>
-  <block id="2fe18b688cc61d042ef62fb924155b95" category="paragraph">由於儲存組態的要求各不相同，您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。忽略特定組態的分析後，此組態將不計入總最佳化分數。</block>
   <block id="947d9294996f8955f80ff03bc9f99324" category="inline-link-macro">安裝 Console 代理程式</block>
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 或 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>，以對您的檔案系統資源進行最全面的分析。</block>
   <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">請務必仔細檢閱建議。此建議說明最佳實務，以及未最佳化組態的潛在問題。</block>
-  <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">從架構良好的儀表板中，*已忽略的組態*。</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">透過 NetApp Console 中架構完善的儀表板了解最新功能。</block>
-  <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">NetApp Console 中架構完善的儀表板有哪些新特性？</block>
   <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
+  <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
+  <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console 中架構完善的儀表板每天分析 Cloud Volumes ONTAP 系統組態，以判斷是否存在任何組態問題。</block>
+  <block id="6cb16892d109192c0cd1c62fbd1330a2" category="paragraph">NetApp Console 中架構完善的儀表板會定期分析儲存系統組態，以判斷您的 Cloud Volumes ONTAP 系統是否存在任何組態問題。發現問題時，儀表板會顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到最佳效能、具成本效益，並符合最佳實務的法規遵循要求。</block>
+  <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">若要進行完整的 Cloud Volumes ONTAP 系統分析，您必須<block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block>在系統和 NetApp Console 之間建立連線。</block>
+  <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">架構完善的儀表板可評估儲存組態，深入檢視 ONTAP 組態最佳實務，以及是否符合 Azure Well-Architected Framework。評估也會提出改進和修復建議。</block>
+  <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">可靠性確保工作負載即使在中斷期間也能正確且持續地執行其預期功能。</block>
+  <block id="5e4a737b303d3a3939eb4537aca01c87" category="paragraph">SSD 儲存層容量使用率不應持續超過 80%。超過此臨界值可能會降低處理量、使資料 Volume 變為唯讀，並導致寫入作業失敗。</block>
+  <block id="164f1fe3d78ea23dbd1a73e77dc30653" category="paragraph">為了獲得最佳效能，NetApp 建議選擇最適合您工作負載的快取關係寫入模式。環繞寫入模式為讀取密集型、處理小檔案的工作負載提供更佳效能，而回寫模式為寫入密集型、處理大檔案的工作負載提供更佳效能。</block>
+  <block id="88d49e924d44f746e9c3f5abf877e55e" category="paragraph">未充分利用的 SSD 容量分層可能會產生不必要的成本。NetApp 建議降低 SSD 分層容量，同時在目前已用容量之上維持 20% 的可用空間緩衝區。容量縮減作業需要數小時到數天時間，在此期間其他系統作業將無法進行。</block>
+  <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">架構完善的儀表板掃描 Cloud Volumes ONTAP 組態，提供見解與建議，協助您實現卓越營運績效。</block>
+  <block id="d1ba3c7d12e9fa88a8e12a675029080d" category="paragraph">精心設計的儀表板每日分析 Microsoft Azure 上 Cloud Volumes ONTAP 系統的部署組態。每日分析提供精心設計的狀態、洞察和建議。</block>
+  <block id="8939d3be821890ad665739df92be085d" category="paragraph">透過 Link 或 Console 代理程式連線，NetApp Console 中架構完善的儀表板可對您的 Cloud Volumes ONTAP 系統進行全面掃描，以找出效能、資料保護和組態方面的問題。這可確保您獲得準確的洞察與建議，以最佳化您的 Cloud Volumes ONTAP 系統。</block>
+  <block id="5c210c8aeffa54017d256fabfef0d620" category="paragraph">儲存組態要求各不相同。您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。</block>
+  <block id="7d8ce54875dd8d37c61d873a00e8d034" category="summary">精心設計的儀表板會定期分析 FSx for ONTAP 檔案系統組態，以確定是否存在任何組態問題。</block>
+  <block id="a9ba022bf75efb74937dee5a733b2349" category="paragraph">NetApp Console 中架構完善的儀表板會定期分析儲存系統組態，以確定您的 Amazon FSx for NetApp ONTAP 檔案系統是否存在任何組態問題。發現問題時，儀表板會顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到最佳效能、具成本效益，並符合最佳實務的法規遵循要求。</block>
+  <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block> 以設定檔案系統與 NetApp Console 之間的連線。</block>
+  <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">架構完善的儀表板會根據 ONTAP 最佳實務和 AWS Well-Architected Framework 評估儲存組態。此評估也會建議改進措施和修正方法。</block>
+  <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">跨區域複寫可確保您的資料複寫到另一個 AWS 區域，從而增強資料持久性和可用度。設定跨區域複寫以支援災難恢復和法規遵循。</block>
+  <block id="d66064a70712979bb0d8d042862a4bb8" category="paragraph">為了提高資料可靠性，請將資料複寫到同一區域或其他區域的 FSx for ONTAP 檔案系統。設定資料複寫以支援跨檔案系統的移轉、災難恢復和長期保留。</block>
+  <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">SSD 儲存層的容量使用率不得超過 80%。否則可能會影響容量資源池儲存層的資料讀寫，進而影響檔案系統的處理量。當容量耗盡時，資料 Volume 將變為唯讀。嘗試寫入新資料的服務也會失敗。</block>
+  <block id="9782f948325708f7c9a12b48ab18675e" category="paragraph">應提高檔案容量臨界值，以避免達到 Volume 容量限制。檔案容量（inodes）過低會阻止向 Volume 寫入更多資料。Workload Factory 建議將檔案容量使用率保持在 80% 以下，以允許建立新檔案。</block>
+  <block id="358a04c23a2e8b7a739dbfc478ae8427" category="paragraph">Workload Factory 建議 Volume 容量使用率不要超過 80%。這可能會影響應用程式的資料讀寫操作。Volume 容量的增加可以手動進行，也可以使用 Volume 自動擴充功能自動增加。</block>
+  <block id="92e1f2c8148081be697b1fcd43f3c042" category="paragraph">啟用冷資料分層以降低 SSD 儲存層的使用率。Workload Factory 建議對每個 Volume 套用分層原則。FSx for ONTAP 會持續掃描資料中的冷資料，並將其移至容量資源池分層，而不會造成任何中斷。</block>
+  <block id="88cf1998ed9b446c340be12e0a63b4bf" category="paragraph">刪除不再需要的快照和備份，以降低成本。</block>
+  <block id="9fe3c6af0b209b829dedbd6205c7c514" category="paragraph">未充分利用的 SSD 容量分層會增加不必要的成本。Workload Factory 建議降低 SSD 分層容量，同時保持 20% 的可用空間緩衝區。容量縮減操作需要數小時到數天時間，在此期間其他檔案系統操作將無法進行。</block>
+  <block id="cdbdf3ae7b11d60e8f117000f407abdd" category="summary">架構完善的儀表板掃描 Amazon FSx for NetApp ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。</block>
+  <block id="994563f8c4fb5e35f528265f7b5eb386" category="paragraph">利用組態分析的洞察和建議，運用 NetApp 為 FSx for ONTAP 檔案系統實作最佳實務。您可以輕鬆審查架構良好的狀態、了解組態中存在的問題，並採取行動改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。</block>
+  <block id="bca076b9764e88630a27e6313a438554" category="paragraph"><block ref="bca076b9764e88630a27e6313a438554" category="inline-link-macro-rx"></block></block>
+  <block id="17d02c3c664501a80a6f0a33f4108847" category="paragraph">架構完善的儀表板每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組態。每日分析提供架構完善的狀態、洞察與建議。您可以自動修復組態問題，以符合最佳實務。</block>
+  <block id="4f3a813979955ee2205115a6469c8e63" category="paragraph">透過 Link 或 Console 代理程式連接，NetApp Console 中架構完善的儀表板可以對您的檔案系統進行全面掃描，找出效能、資料保護和組態方面的問題。這可確保您獲得準確的洞察和建議，以最佳化您的 FSx for ONTAP 檔案系統。</block>
+  <block id="1b8db5117986eea2dcce46960208ea8f" category="paragraph">修復組態問題可能會導致執行個體停機或服務中斷。在修復組態問題之前，請仔細閱讀每個建議。</block>
+  <block id="d3bd8654e436a8de8573cf28ce4e5017" category="list-text">請審查對話方塊中的摘要和行動項目，以了解修正問題後會發生什麼情況。某些操作可能會導致執行個體停機或服務中斷。</block>
+  <block id="2a8f138f76dd4c03602510d60c886540" category="list-text">從「架構完善的儀表板」中選擇「已忽略的組態」。</block>
+  <block id="d27dac0f3ad735d6a4435ca9410321e1" category="paragraph">組態分析已重新啟動。Workload Factory 每天都會執行一次新的分析。</block>
+  <block id="8dee1d3b9574cb8e16a1526b5be97352" category="summary">NetApp Console 中架構完善的儀表板會掃描系統組態的可靠性、安全性、卓越營運績效、成本最佳化和效能與效率，提供見解和建議，協助您實現卓越營運績效。</block>
+  <block id="00f2499c6b6a88141fd9dfd12ec43415" category="paragraph">NetApp Console 中精心設計的儀表板可協助您維護和操作可靠、安全、高效且具成本效益的組態，這些組態與您所使用的儲存設備類型的架構遵守。此儀表板提供跨帳戶和區域的統一檢視，可協助團隊識別風險並確定優先順序，並支援針對特定需求的自訂規則。每日自動掃描您的儲存系統組態，提供洞察和建議，協助您最佳化儲存環境。</block>
+  <block id="24fbb988a06fac1e923be0806df2c5e1" category="paragraph">架構完善的儀表板每日分析您的組態。分析結果提供架構完善的狀態、洞察分析和建議。</block>
+  <block id="97e62c55a59839f12cf04d1c8058970b" category="paragraph">每日分析完成後，組態會在架構完善的儀表板中顯示為「最佳化的」或「未最佳化的」。您可以在這裡找到總最佳化得分、按類別劃分的組態問題，以及組態問題和建議清單。您可以審查針對組態問題的建議。某些問題可以由架構完善的儀表板自動修復，而其他問題則需要手動介入。在這種情況下，架構完善的儀表板會提供詳細的說明，幫助您實作建議的變更。</block>
+  <block id="573d97edca566706def0591f71e6ff4b" category="paragraph">您可以忽略不適用於您環境的組態分析。這樣可以避免不必要的警示和不準確的最佳化結果。當您忽略某個組態分析時，架構完善的儀表板不會將該組態計入總最佳化分數。</block>
+  <block id="23c968b7f3a3d7f48b09672bade35ce8" category="paragraph">NetApp Console 中架構完善的儀表板將最佳實務應用於大型儲存設備、資料庫和 VMware 環境，透過結合後續評估、建議洞察和修復措施，確保系統穩定運作。架構完善的儀表板所應用的自動化修復功能可減少人為錯誤、確保統一管理，並維護系統基礎架構的效能和可靠性。</block>
+  <block id="63fbe13ca7ea89f88ab4f377def52e56" category="paragraph">Console 中架構完善的儀表板支援以下儲存系統：</block>
+  <block id="edd854bc8fa69e282718b3a59e15995a" category="doc">NetApp Console 中架構完善的儀表板有哪些新功能？</block>
+  <block id="e934f48b300109b5939d0cbed21d591e" category="sidebar">NetApp Console 中架構完善的儀表板可協助您維護可靠、安全的、高效且具成本效益的儲存設備組態，使其與您儲存設備類型的架構完善架構保持一致。此架構完善的儀表板提供跨帳戶和區域的統一檢視，可協助團隊識別風險並確定其優先順序，並支援針對特定需求的自訂規則。</block>
+  <block id="bba0cbb6b2f0c8891673b3856f926b83" category="sidebar">NetApp Console 中架構完善的儀表板可協助您維護和操作可靠、安全、高效且具成本效益的組態，這些組態與您所使用的儲存設備類型的架構完善架構遵守。</block>
 </blocks>
