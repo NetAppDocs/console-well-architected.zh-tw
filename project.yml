@@ -13,10 +13,12 @@ settings:
   langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
   entries:
-  - title: 開始使用
+  - title: 版本資訊
     entries:
     - title: 新增功能
       url: "/whats-new.html"
+  - title: 開始使用
+    entries:
     - title: 了解架構良好的儀表板
       url: "/learn-well-architected-dashboard.html"
   - title: 支援的產品

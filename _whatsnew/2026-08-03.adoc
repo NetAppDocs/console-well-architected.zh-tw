@@ -1,22 +1,6 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
-summary: 透過 NetApp Console 中架構完善的儀表板了解最新功能。 
----
-= NetApp Console 中架構完善的儀表板有哪些新功能？
+= 在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
-
-[role="lead"]
-透過 NetApp Console 中架構完善的儀表板了解最新功能。
-
-
-
-[[03-august-2026]]
-== 2026年8月3日
 
 
 
@@ -94,32 +78,3 @@ NetApp Console 中架構完善的儀表板現在可讓您修復 Cloud Volumes ON
 如果您之後想要納入先前被忽略的組態，可以在架構完善的儀表板中重新啟用它。這樣就能將該組態恢復到分析中，並讓您獲得相關的建議和修復方案。
 
 link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態"]
-
-
-
-[[20-july-2026]]
-== 2026年7月20日
-
-
-
-[[introducing-the-well-architected-dashboard-in-netapp-console]]
-=== 隆重介紹 NetApp Console 中架構完善的儀表板
-
-NetApp Console 中架構完善的儀表板提供跨帳戶和區域的儲存系統與組態的單一檢視。此儀表板提供各種洞察和建議，協助您實現卓越營運績效。您可以檢視組態的架構完善狀態、依照您所用儲存類型的架構完善架構支柱分類的組態問題，以及組態問題和建議清單。
-
-深入瞭解 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["架構良好的儀表板"]。
-
-Console 中架構完善的儀表板適用於以下儲存系統：
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP"]
-
-
-
-
-[[build-your-own-custom-rules]]
-=== 建立您自己的自訂規則
-
-使用簡明易懂的語言編寫自訂規則，確保您的系統遵循組織的標準和 NetApp 最佳實務做法。先進行模擬執行測試，然後排程規則在您的環境中執行。
-
-https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["深入瞭解自訂規則"]

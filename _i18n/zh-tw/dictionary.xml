@@ -94,27 +94,17 @@
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">精心設計的分析將組態分類為架構的下列要素：_可靠性_、_安全性_、_卓越營運_、_成本最佳化_和_效能效率_。</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">可靠性</block>
   <block id="32293fdcb7dff0798e6d06da4b108ce6" category="paragraph">可靠性確保工作負載即使在出現中斷的情況下也能正確、持續地執行其預期功能。</block>
-  <block id="277088f7a0bc1d2b0023dc08b1d30e37" category="list-text">*排程本機快照*</block>
   <block id="ce36269ae95cd0ab7422d78bb843b720" category="paragraph">安排本機快照以實現高效備份和快速還原。快照是磁碟區的即時時間點映像。</block>
-  <block id="eb995e3e26a9ce43e4cb513af9782398" category="list-text">*SSD 容量臨界值*</block>
   <block id="2fae32629d4ef4fc6341f1751b405e45" category="section-title">安全性</block>
   <block id="7d7265a6929882bb433fc74e8bee871a" category="paragraph">安全重點在於透過風險評估和緩解策略來保護資料、系統和資產。</block>
   <block id="d08117d717007eeb4d6273695d9a7725" category="list-text">*搭載 AI 的自主勒索軟體防護 (ARP/AI)*</block>
   <block id="167fce45da752e074139dbfd85f1d96d" category="paragraph">NetApp 具備人工智慧的自主勒索軟體防護 (ARP/AI) 有助於增強網路彈性，保護您的 Volume 免受勒索軟體威脅。我們建議為所有 Volume 啟用 ARP/AI。</block>
   <block id="17d2a91a4f3c01de4c2f05b2242e49d3" category="section-title">卓越營運</block>
   <block id="84c2d06d655e822b38b222df9c0aa965" category="paragraph">卓越營運績效的重點在於提供最佳的架構和商業價值。</block>
-  <block id="32438b829cdc61174e9727896ad00733" category="list-text">*Volume 容量使用率閾值*</block>
-  <block id="e973d533a0ae133a86d3a32d9c71df3f" category="paragraph">NetApp 建議 Volume 容量使用率不要持續超過 80%。這可能會影響應用程式的資料讀寫。Volume 容量的增加可以手動執行，也可以使用 Volume 自動擴充功能自動增加。</block>
-  <block id="dea8be5f351d7ba412ea10951c1fe16c" category="list-text">*快取關係寫入模式*</block>
-  <block id="172f50b41b5736d316b29512e1c1cc01" category="list-text">*ONTAP 快取 Volume 大小*</block>
-  <block id="c9eaece9ad2e9f2b182ab193795510eb" category="paragraph">NetApp 建議在快取 Volume 上啟用 Volume 自動調整規模和清理功能，以維持最佳大小，並將快取集中用於頻繁存取（熱）資料，以達到尖峰效率。</block>
   <block id="7f14df7d96b168d75780c47437a63021" category="list-text">*ONTAP 版本法規遵循*</block>
   <block id="3bbb5a399ebdfb8d2d4a8a5c7bafb3fb" category="paragraph">升級至最新 ONTAP 版本，以獲得完整的相容性、支援及新功能的存取。</block>
   <block id="a39ae09f8be4327fc176cfeb76a0e366" category="section-title">成本最佳化</block>
   <block id="394c926099d3d2cf7e0d7477f17faf38" category="paragraph">成本優化可協助您在保持低成本的同時，為企業創造最大價值。</block>
-  <block id="7a9a8f4f357fd479616721650f578eab" category="list-text">*辨識未充分利用的固態硬碟容量*</block>
-  <block id="d8789f9e1c2f22ea67573de6c6a2a782" category="list-text">*資料分層原則*</block>
-  <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">啟用冷資料分層，將冷資料從 SSD 儲存層遷移到成本更低的儲存設備。Azure Blob Storage 可作為非作用中資料的容量層。</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">接下來</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">實作架構良好的 Cloud Volumes ONTAP 系統組態</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">利用組態分析洞察和建議，運用 NetApp 為執行在 Microsoft Azure 儲存設備上的 Cloud Volumes ONTAP 系統實作最佳實務做法。您可以輕鬆審查架構良好的狀態、了解組態中存在的問題，並獲得改進建議，以改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。</block>
@@ -133,7 +123,6 @@
   <block id="a986c1177dbf821528da387099394568" category="inline-image-macro">下載圖示的快照</block>
   <block id="12fb11593709031df8791d4256219091" category="paragraph">（可選）選取 <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block>以下載包含所有組態建議的 CSV 檔案。</block>
   <block id="a1a31d23ff3b3c49f603bdfad41624a7" category="list-text">審查建議。</block>
-  <block id="8f6fc7ab8dca3a508e79c4cddacfe4a7" category="paragraph">修復組態問題，使系統保持最佳效能運作。</block>
   <block id="56f8181fa25efca14808cd61ff615728" category="doc">Amazon FSx for NetApp ONTAP 組態分析</block>
   <block id="ccfc2060f8f316d0ccd33b0289111a38" category="paragraph">要進行完整的檔案系統分析，必須執行以下操作：</block>
   <block id="8c696f376388c7710b3ca416a2bc8c23" category="inline-link-macro">部署 NetApp Console 代理程式</block>
@@ -142,35 +131,18 @@
   <block id="bf2ef084e923ce6ebc4b57db27892de8" category="inline-link-macro">了解如何授予 AWS 帳戶權限</block>
   <block id="582f3532371a870cf4bd6406f93d26de" category="paragraph"><block ref="582f3532371a870cf4bd6406f93d26de" category="inline-link-macro-rx"></block></block>
   <block id="c6ee17dfa8bb85cfb470ccbc889f031c" category="section-title">儲存工作負載的最佳實務做法和建議</block>
-  <block id="8994ec75ad87cef8edf4cf8eae6b4e4c" category="list-text">*排程磁碟區備份*</block>
   <block id="3bacc0d1986b203b432f61110667b3d7" category="paragraph">備份磁碟區有助於滿足資料保留和合規性需求。使用磁碟區備份來設定資料的自動備份和保留。</block>
   <block id="b34347ddf6e48f7eb5aee09d6f7b92a6" category="list-text">* 跨區域複寫 *</block>
-  <block id="1efec9308ce64129e1db77dd8baa679c" category="list-text">*設定資料複寫*</block>
-  <block id="4776b32ae8a508cea6dc14786e7b1d3f" category="list-text">*提高 SSD 容量閾值*</block>
-  <block id="52dcb980883fc7c1570f6f9c4c6e4f47" category="list-text">*比對標籤以確保資料可靠性*</block>
   <block id="6b684c41f8808f2d21748ed56ee909d7" category="paragraph">來源磁碟區的快照原則標籤和複寫原則標籤必須相符，以確保資料可靠性。</block>
-  <block id="ec75a1c7b766068775fc7894ddaf83e4" category="list-text">*提高檔案容量閾值*</block>
-  <block id="6b164cf17f1cd008f12b094341cb3264" category="list-text">*啟用 ARP/AI*</block>
   <block id="3c93b584a7552b941c7752fec865d7f1" category="paragraph">NetApp 具備人工智慧的自主勒索軟體防護（ARP/AI）可協助您保護磁碟區免受勒索軟體威脅。Workload Factory 建議為所有磁碟區啟用 ARP/AI。</block>
-  <block id="1218a704bef91508c259c867ba832d76" category="list-text">*未經授權存取磁碟區*</block>
   <block id="5f11ab37407484ede3169d7e37c9e28b" category="paragraph">使用 iSCSI 儲存應用程式資料的 Volume 不應同時允許 NAS 存取。Workload Factory 建議限制 iSCSI Volume 使用任何其他通訊協定。</block>
   <block id="aae272278ce139a51849ab88adc7d597" category="paragraph">卓越營運的重點在於提供最佳架構和業務價值。</block>
-  <block id="2e8c868875c81824742ded82e0ff9518" category="list-text">* 啟用自動容量管理 *</block>
   <block id="c2af0d35add26707ebd7d7030d750beb" category="paragraph">應啟用自動容量管理，以定期確保 SSD 層不超過閾值。</block>
-  <block id="900f4b8178b38a2b7075005f38bd4a08" category="list-text">*磁碟區使用率接近滿載*</block>
-  <block id="1771306e58ae20ceab27a04d0b17adcd" category="paragraph">當磁碟區接近滿載時、NetApp Workload Factory 建議採取措施增加磁碟區容量、以避免潛在的應用程式中斷。</block>
   <block id="a58ce95d0ee8f9d592643a6f31d60878" category="paragraph">為了獲得最佳效能， Workload Factory 會根據您的工作負載推薦最合適的快取關係寫入模式。對於讀取密集型、檔案較小的工作負載，環繞寫入模式可提供更佳的效能；而對於寫入密集型、檔案較大的工作負載，回寫模式可提供更佳的效能。</block>
-  <block id="3a3b30a3337caa5b953626eb873e3e6b" category="list-text">*最佳化快取磁碟區大小*</block>
   <block id="3f8b3943fba700ffad94c47ef4638509" category="paragraph">Workload Factory 建議啟用快取磁碟區的磁碟區自動調整大小和清理功能，以保持最佳大小並將快取集中用於熱資料，從而達到最高效率。</block>
-  <block id="a49bf929860657a29ec7b321ff7a63ba" category="list-text">*Storage VM 邏輯報告*</block>
-  <block id="7edda8ec9be79d47927f4aa7e27bd776" category="paragraph">Workload Factory 建議將儲存 VM 的預設報告設定設為邏輯報告，以便更了解磁碟區層級的儲存使用情況。</block>
-  <block id="ff879d0ae47ba423426718c1437f43bc" category="list-text">*透過對冷資料進行分層來優化 TCO*</block>
-  <block id="7cee9f2699d966625a5743c41334d168" category="list-text">*啟用儲存效率*</block>
   <block id="a97dffed0cf7eab28dd24e64546425b8" category="paragraph">啟用儲存設備效率提升（資料精簡、壓縮和重複資料刪除），以最佳化儲存使用率並降低 SSD 分層成本。</block>
-  <block id="fed8dca8f704b8520ccccb85704d4336" category="list-text">*不必要的快照和備份刪除*</block>
   <block id="c359614024935abd3712075452782fa3" category="list-text">*非作用中區塊裝置*</block>
   <block id="934ae55c0ac8033312b0dd4fc00ad677" category="paragraph">如果區塊設備連續七天未使用、Workload Factory 建議歸檔區塊設備資料或刪除未使用的區塊設備以降低成本。</block>
-  <block id="f915580ac605b8302594b2e8b9e200c4" category="list-text">*未充分利用的 SSD 容量*</block>
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*非使用中的 NAS Volume*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">組態分析會識別未主動使用的 NAS Volume ，並建議刪除或歸檔 Volume 以降低成本。</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">為 ONTAP 檔案系統組態實作架構良好的 FSx</block>
@@ -393,7 +365,6 @@
   <block id="9e2e4a6d40890d391147ee63c83e4ebf" category="list-text">在規則目錄中，按一下要審查的規則。</block>
   <block id="2d6751ce25ede21d2492997ddca98b45" category="list-text">選取「所有執行結果」索引標籤。</block>
   <block id="f4e2484ce7f636995f87d4460bb472cf" category="list-text">選取 **View details** 以查看每次執行的結果。</block>
-  <block id="1e1d7fe345b85c5ca8f56429f339869c" category="paragraph">如果某些項目的檢查失敗，請讀取錯誤訊息以了解原因。常見原因包括連線問題、缺少權限，或 Link/Connector 尚未設定。</block>
   <block id="8c5fb02c595607ff2d6a7bffe64be464" category="section-title">暫停規則</block>
   <block id="ad91e5fff3b8c62296713afbb3628a85" category="paragraph">暫停規則可以停止評估，但不會刪除該規則。暫停的規則會保留在目錄中，可以隨時重新啟動。</block>
   <block id="6128c344ce68ca2256885ace5b47ff93" category="list-text">在規則目錄中，按一下要暫停的規則。</block>
@@ -422,7 +393,6 @@
   <block id="729ff93b396b672d12011be075fa41c4" category="list-text">評估未完成。常見原因包括 AWS 認證資料錯誤、網路連線問題或 ONTAP 權限問題。</block>
   <block id="78c94c654440e39e298ee7b003ea0c22" category="paragraph">如果某條規則持續失效或僅部分生效，請檢查：</block>
   <block id="aa6ee29156e1ff679f21f8af41a72ab7" category="list-text">AWS 認證資料對所有資源具有唯讀存取權限。</block>
-  <block id="82ffeaea6f26c09775db3df15338abf4" category="list-text">已為範圍內的所有檔案系統設定連結和連接器。</block>
   <block id="83391d1cdfce4d8cbed45dc698dedc6e" category="list-text">FSx for ONTAP 檢視器使用者擁有適當的權限。</block>
   <block id="cc04bd1e4cca8a5b4e87672f588bf490" category="paragraph"><block ref="cc04bd1e4cca8a5b4e87672f588bf490" category="inline-link-macro-rx"></block></block>
   <block id="df3d826b639dd614f0fae940d9ebee78" category="summary">在向 NetApp 技術支援部門開啟支援案例之前，您需要在 NetApp Console 中新增 NetApp 支援網站帳戶，然後註冊以獲得支援。</block>
@@ -519,7 +489,6 @@
   <block id="5b95edeaec9232eb644ac94feb361070" category="list-text"><block ref="516166149f9d9ca9d6d999bf3220e78e" category="inline-link-macro-rx"></block> 或 <block ref="f06ee96e93460df1397f1b3b70044a3e" category="inline-link-macro-rx"></block>，以對您的檔案系統資源進行最全面的分析。</block>
   <block id="4411c3b68fd3c93bc7694b361cc21eaf" category="paragraph">請務必仔細檢閱建議。此建議說明最佳實務，以及未最佳化組態的潛在問題。</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">透過 NetApp Console 中架構完善的儀表板了解最新功能。</block>
-  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console 中架構完善的儀表板每天分析 Cloud Volumes ONTAP 系統組態，以判斷是否存在任何組態問題。</block>
@@ -527,9 +496,6 @@
   <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">若要進行完整的 Cloud Volumes ONTAP 系統分析，您必須<block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block>在系統和 NetApp Console 之間建立連線。</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">架構完善的儀表板可評估儲存組態，深入檢視 ONTAP 組態最佳實務，以及是否符合 Azure Well-Architected Framework。評估也會提出改進和修復建議。</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">可靠性確保工作負載即使在中斷期間也能正確且持續地執行其預期功能。</block>
-  <block id="5e4a737b303d3a3939eb4537aca01c87" category="paragraph">SSD 儲存層容量使用率不應持續超過 80%。超過此臨界值可能會降低處理量、使資料 Volume 變為唯讀，並導致寫入作業失敗。</block>
-  <block id="164f1fe3d78ea23dbd1a73e77dc30653" category="paragraph">為了獲得最佳效能，NetApp 建議選擇最適合您工作負載的快取關係寫入模式。環繞寫入模式為讀取密集型、處理小檔案的工作負載提供更佳效能，而回寫模式為寫入密集型、處理大檔案的工作負載提供更佳效能。</block>
-  <block id="88d49e924d44f746e9c3f5abf877e55e" category="paragraph">未充分利用的 SSD 容量分層可能會產生不必要的成本。NetApp 建議降低 SSD 分層容量，同時在目前已用容量之上維持 20% 的可用空間緩衝區。容量縮減作業需要數小時到數天時間，在此期間其他系統作業將無法進行。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">架構完善的儀表板掃描 Cloud Volumes ONTAP 組態，提供見解與建議，協助您實現卓越營運績效。</block>
   <block id="d1ba3c7d12e9fa88a8e12a675029080d" category="paragraph">精心設計的儀表板每日分析 Microsoft Azure 上 Cloud Volumes ONTAP 系統的部署組態。每日分析提供精心設計的狀態、洞察和建議。</block>
   <block id="8939d3be821890ad665739df92be085d" category="paragraph">透過 Link 或 Console 代理程式連線，NetApp Console 中架構完善的儀表板可對您的 Cloud Volumes ONTAP 系統進行全面掃描，以找出效能、資料保護和組態方面的問題。這可確保您獲得準確的洞察與建議，以最佳化您的 Cloud Volumes ONTAP 系統。</block>
@@ -539,13 +505,9 @@
   <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block> 以設定檔案系統與 NetApp Console 之間的連線。</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">架構完善的儀表板會根據 ONTAP 最佳實務和 AWS Well-Architected Framework 評估儲存組態。此評估也會建議改進措施和修正方法。</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">跨區域複寫可確保您的資料複寫到另一個 AWS 區域，從而增強資料持久性和可用度。設定跨區域複寫以支援災難恢復和法規遵循。</block>
-  <block id="d66064a70712979bb0d8d042862a4bb8" category="paragraph">為了提高資料可靠性，請將資料複寫到同一區域或其他區域的 FSx for ONTAP 檔案系統。設定資料複寫以支援跨檔案系統的移轉、災難恢復和長期保留。</block>
   <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">SSD 儲存層的容量使用率不得超過 80%。否則可能會影響容量資源池儲存層的資料讀寫，進而影響檔案系統的處理量。當容量耗盡時，資料 Volume 將變為唯讀。嘗試寫入新資料的服務也會失敗。</block>
   <block id="9782f948325708f7c9a12b48ab18675e" category="paragraph">應提高檔案容量臨界值，以避免達到 Volume 容量限制。檔案容量（inodes）過低會阻止向 Volume 寫入更多資料。Workload Factory 建議將檔案容量使用率保持在 80% 以下，以允許建立新檔案。</block>
   <block id="358a04c23a2e8b7a739dbfc478ae8427" category="paragraph">Workload Factory 建議 Volume 容量使用率不要超過 80%。這可能會影響應用程式的資料讀寫操作。Volume 容量的增加可以手動進行，也可以使用 Volume 自動擴充功能自動增加。</block>
-  <block id="92e1f2c8148081be697b1fcd43f3c042" category="paragraph">啟用冷資料分層以降低 SSD 儲存層的使用率。Workload Factory 建議對每個 Volume 套用分層原則。FSx for ONTAP 會持續掃描資料中的冷資料，並將其移至容量資源池分層，而不會造成任何中斷。</block>
-  <block id="88cf1998ed9b446c340be12e0a63b4bf" category="paragraph">刪除不再需要的快照和備份，以降低成本。</block>
-  <block id="9fe3c6af0b209b829dedbd6205c7c514" category="paragraph">未充分利用的 SSD 容量分層會增加不必要的成本。Workload Factory 建議降低 SSD 分層容量，同時保持 20% 的可用空間緩衝區。容量縮減操作需要數小時到數天時間，在此期間其他檔案系統操作將無法進行。</block>
   <block id="cdbdf3ae7b11d60e8f117000f407abdd" category="summary">架構完善的儀表板掃描 Amazon FSx for NetApp ONTAP 組態，提供見解和建議，協助您實現卓越營運績效。</block>
   <block id="994563f8c4fb5e35f528265f7b5eb386" category="paragraph">利用組態分析的洞察和建議，運用 NetApp 為 FSx for ONTAP 檔案系統實作最佳實務。您可以輕鬆審查架構良好的狀態、了解組態中存在的問題，並採取行動改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。</block>
   <block id="bca076b9764e88630a27e6313a438554" category="paragraph"><block ref="bca076b9764e88630a27e6313a438554" category="inline-link-macro-rx"></block></block>
@@ -565,4 +527,111 @@
   <block id="edd854bc8fa69e282718b3a59e15995a" category="doc">NetApp Console 中架構完善的儀表板有哪些新功能？</block>
   <block id="e934f48b300109b5939d0cbed21d591e" category="sidebar">NetApp Console 中架構完善的儀表板可協助您維護可靠、安全的、高效且具成本效益的儲存設備組態，使其與您儲存設備類型的架構完善架構保持一致。此架構完善的儀表板提供跨帳戶和區域的統一檢視，可協助團隊識別風險並確定其優先順序，並支援針對特定需求的自訂規則。</block>
   <block id="bba0cbb6b2f0c8891673b3856f926b83" category="sidebar">NetApp Console 中架構完善的儀表板可協助您維護和操作可靠、安全、高效且具成本效益的組態，這些組態與您所使用的儲存設備類型的架構完善架構遵守。</block>
+  <block id="790f31a1565b039a710f1ff6cd60e24a" category="list-text">*Volume 備份*</block>
+  <block id="ca512a483bb26b1b253abc6b2cc463bd" category="list-text">*Snapshot 原則*</block>
+  <block id="6c9fff12a469dffc950e974a95a7b4a4" category="paragraph">排程本機 Snapshot 快照技術，以實現高效備份和快速還原。Snapshot 快照技術是 Volume 的即時時間點映像。此建議不適用於資料庫環境。</block>
+  <block id="4e3fbfcdffe2becd73a5b796de048459" category="list-text">*應用程式一致性快照*</block>
+  <block id="8f1e17436bf3a87fccd5f9e6d1ed851e" category="paragraph">對於資料庫環境，請搭配 NetApp SnapCenter 使用應用程式一致性快照，以便在特定時間點對 Volume 資料進行準確可靠的快照。這可確保應用程式流暢運作並保障資料安全。SnapCenter 能簡化備份流程，幫助您快速且準確地還原資料，從而減少停機並保護最重要的工作負載。</block>
+  <block id="e5cdf4f9c0dda596826a91093d4f69f4" category="list-text">*SSD 容量餘裕*</block>
+  <block id="92c441b22ff16ef5515f94eb674b75dd" category="list-text">*複製原則標籤*</block>
+  <block id="4fa20133576020963cd240328e1cfe1e" category="list-text">*檔案物件容量*</block>
+  <block id="dca1fa637808ac114bc3c64902363958" category="list-text">*勒索軟體保護（ARP/AI）*</block>
+  <block id="737910df50d01fa50997f65a5db71736" category="list-text">*未經授權的 iSCSI Volume 存取*</block>
+  <block id="ac6bba07ba0bbbb40281e6088f214af7" category="list-text">*自動容量管理*</block>
+  <block id="bca05dfe73df2536775bb543bb367fb6" category="list-text">*Volume 容量餘裕*</block>
+  <block id="cb24245fc7fbb951739f0e037e8ed58f" category="list-text">*FlexCache 寫入模式*</block>
+  <block id="199b5a17e840b5e8165065942a5aba7f" category="list-text">*FlexCache® 複本大小*</block>
+  <block id="9df3c9bccd6a766926fdecf9723bee25" category="list-text">*主機可見容量報告*</block>
+  <block id="ac6d1e17d25eaeb65d82b152dfdb57bf" category="paragraph">Workload Factory 建議啟用主機可見的容量報告，以提供更佳的 Volume 層級儲存設備使用率可見度。</block>
+  <block id="47d22e8e629e843266ec7435ff742bbb" category="list-text">*作業系統 （OS） 類型*</block>
+  <block id="5247b145ee65edc273dfc76802aa954d" category="paragraph">Workload Factory 建議確保 ONTAP LUN 作業系統 （OS） 類型值與作業系統分割區方案相符，以實現 I/O 對齊。組態不正確可能會降低效能。</block>
+  <block id="6297d4b1adbdb3df46577f46811017d6" category="list-text">*區塊設備空間管理*</block>
+  <block id="0b3d1dbc35ccab38207b2110ee154a08" category="paragraph">Workload Factory 建議為資料庫主機執行個體所使用的 LUN 設定區塊裝置空間設定，以防止寫入失敗並提高 FSx for ONTAP 上的空間效率。此組態適用於資源隨需配置 Volume 的建議設定組合：保留空間、空間分配和部分保留。</block>
+  <block id="03d17de0352cae761e78b42715347870" category="list-text">*資源隨需配置*</block>
+  <block id="a276a4d3d1bb6ff49ba0c75013f6c037" category="paragraph">Workload Factory 建議為託管資料庫執行個體的 FSx for ONTAP Volume 配置資源隨需配置。此方法可儲存比實際可用空間更多的邏輯資料。</block>
+  <block id="01fd10a8e7ac161e328da4eaf6292046" category="list-text">*冷資料分層*</block>
+  <block id="a5005a71aac05b88dbddcbb021b30d0a" category="paragraph">啟用冷資料分層可降低 SSD 儲存層的使用率。Workload Factory 建議對每個專注於一般資料儲存設備的 Volume 套用分層原則。對於資料庫 Volume，我們建議在適當情況下啟用冷資料分層。FSx for ONTAP 會持續掃描資料中的冷資料，並將其移至容量資源池分層，而不會中斷服務。</block>
+  <block id="1642a3ac22d754ea2e3215648c2ca8a7" category="list-text">*儲存效率*</block>
+  <block id="4839729f2857a14e606b9472d85de0c1" category="list-text">*備份到期*</block>
+  <block id="2d6228f6728e6cfbec7d7d819f3dc6bd" category="paragraph">Workload Factory 建議刪除已刪除 Volume 的所有手動建立的備份，以及超過兩週的備份。這些備份不會自動過期，如果您不再需要它們用於 SLA 或恢復，則會增加成本並增加複雜性。</block>
+  <block id="1404f94ec501f39118a91965272f695e" category="list-text">*Snapshot 快照技術到期*</block>
+  <block id="78820863b97d15c8f341065e658e9150" category="paragraph">Workload Factory 建議您刪除不再需要的舊的或手動建立的 Snapshot 快照技術。刪除這些 Snapshot 快照技術可以降低成本並減少系統冗餘，尤其是在它們不再滿足您的 SLA 或恢復需求的情況下。</block>
+  <block id="8611faa768b220ecb3795c6fda54fdaa" category="list-text">*超額配置的固態硬碟容量*</block>
+  <block id="5d6d944edf403daafeea5a5aeb5e3f87" category="paragraph">過度配置的 SSD 容量層會增加不必要的成本。Workload Factory 建議在維持 20% 可用空間緩衝區的同時縮減 SSD 層容量。縮減作業需要數小時至數天的時間，在此期間不支援其他檔案系統作業。</block>
+  <block id="8722112d28d6eea0aff9478fb61c5de7" category="section-title">效能效率</block>
+  <block id="62d0d3849cddbcf3cccae74f05719854" category="paragraph">效能效率有助於確保有效利用儲存資源，並使工作負載以最佳狀態運作。</block>
+  <block id="fbb48f4d1a3f9488b40b10d1cb8a50bd" category="list-text">*FlexGroup Volume 重新平衡*</block>
+  <block id="a1ff290ebc3ad774d64f34c9530729c0" category="paragraph">Workload Factory 建議您重新平衡 FlexGroup Volume，以提高效率。擴充後，Volume 上的容量和工作負載活動可能會變得不均勻。</block>
+  <block id="ed1fc69039bbd36676c2e04fb15f5d02" category="list-text">*FlexVol® Volume 重新平衡*</block>
+  <block id="d594538bbec3297430ed8c995b262222" category="paragraph">Workload Factory 建議重新平衡您的 FlexVol® Volume，以提高效率。在向外擴充之後，整個 Volume 的容量和工作負載活動可能會變得不均勻。</block>
+  <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">Workload Factory 每日分析您在支援的雲端儲存系統部署上執行的工作負載。此分析提供架構完善的狀態資訊、洞察分析和建議。</block>
+  <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">每日分析完成後，部署的「架構完善」儀表板會顯示組態狀態為「最佳化的」或「未最佳化的」。您可以按類別查看組態問題，以及組態問題和建議清單。您可以審查針對組態問題的建議。部分問題可由 Workload Factory 自動修復，而其他問題則需要手動介入。在這種情況下，Workload Factory 會提供詳細說明，協助您實作建議的變更。</block>
+  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">您可以忽略不適用於您環境的組態分析。這樣可以避免不必要的警示和不準確的最佳化結果。當您忽略某個設定分析時，Workload Factory 不會將該配置計入總最佳化得分。</block>
+  <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory 將最佳實務應用於大型儲存設備、資料庫和 VMware 環境，結合後續評估、建議洞察和修復措施。在 NetApp Console 中套用的自動化修復程序可減少人為錯誤、確保統一管理，並維護工作負載基礎架構的效能和可靠性。</block>
+  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱</block>
+  <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console 中架構完善的儀表板現在已更新 FSx for ONTAP 的儲存組態名稱，以提升清晰度和一致性。</block>
+  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。</block>
+  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">舊組態名稱</block>
+  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新組態名稱</block>
+  <block id="903362563951f197b003dcc5e085f6af" category="cell">排程 Volume 備份</block>
+  <block id="236cb64067292409b71f3255e98656ec" category="cell">Volume 備份</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">SSD 容量臨界值</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">SSD 容量餘裕</block>
+  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">檔案容量臨界值</block>
+  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">檔案容量餘裕</block>
+  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">長期保留資料的可靠性</block>
+  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">複製原則標籤</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">已排程的本機 Snapshot 快照技術</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Snapshot 原則</block>
+  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">刪除不必要的備份</block>
+  <block id="01cbe155039c742db3896b9035645b36" category="cell">備份過期</block>
+  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">刪除不必要的 Snapshot 快照技術</block>
+  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">Snapshot 快照技術到期</block>
+  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">未充分利用的固態硬碟容量</block>
+  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">超額配置的 SSD 容量</block>
+  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">非作用中區塊設備</block>
+  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">非作用中區塊設備（LUN）</block>
+  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">透過對冷資料分層優化總體擁有成本</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">冷資料分層</block>
+  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">Volume 邏輯容量報告</block>
+  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">主機可見容量報告</block>
+  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">FlexGroup Volume 重新平衡</block>
+  <block id="de86f1900d1389562924dab590f1c54b" category="cell">重新平衡 FlexGroup Volume</block>
+  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">FlexVol® Volume 重新平衡</block>
+  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">重新平衡 FlexVol® Volume</block>
+  <block id="e64c3fb252960e226830fb49bf513992" category="cell">快取關係寫入模式</block>
+  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache® 寫入模式</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">優化快取磁碟區大小</block>
+  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache® 複本大小</block>
+  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">未經授權存取 Volume</block>
+  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">未經授權的 iSCSI Volume 存取</block>
+  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI 已停用</block>
+  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">勒索軟體保護（ARP/AI）</block>
+  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態</block>
+  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">NetApp Console 中架構完善的儀表板現在可讓您修復 Cloud Volumes ONTAP 系統的組態建議。</block>
+  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">您也可以從架構完善的分析中排除一個或多個組態。這樣，您可以忽略不適用於您環境的特定組態。</block>
+  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">如果您之後想要納入先前被忽略的組態，可以在架構完善的儀表板中重新啟用它。這樣就能將該組態恢復到分析中，並讓您獲得相關的建議和修復方案。</block>
+  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
+  <block id="21b694dc2503eab08ab245a8bcfe9f1c" category="inline-link-macro">了解 AI 管理</block>
+  <block id="b1e856d73a7bddeb40cc57002b01ea2b" category="admonition">如果您的帳戶管理員已關閉 AI 功能，您將看到一則訊息，並且無法建立自訂規則。請聯絡您的系統管理員或 <block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>。</block>
+  <block id="54b091dc0d26574680b715ea59512839" category="paragraph">未解析的指令位於 &lt;stdin&gt; - include::well-architected-workloads.adoc[]</block>
+  <block id="e1571d44d672c7a35fe7952a28f414b7" category="paragraph">SSD 儲存層的容量使用率不得超過 80%。否則可能會影響容量資源池儲存層的資料讀取和寫入作業，進而影響系統的處理量。當容量耗盡時，資料 Volume 將變為唯讀狀態。嘗試寫入新資料的服務也會失敗。</block>
+  <block id="70a83d0e2246f9bf751ee82d9d86782a" category="paragraph">我們建議 Volume 容量使用率不要超過 80%。這可能會影響應用程式的資料讀取和寫入。Volume 容量的增加可以手動進行，也可以使用 Volume 自動擴充功能自動進行。</block>
+  <block id="fce6ac16b523a1ae826c8b02fe97af9a" category="paragraph">為了獲得最佳效能，我們建議使用最適合您工作負載的 FlexCache® 寫入模式。對於具有小檔案的讀取密集型工作負載，Write-around 模式可提供更好的效能，而對於具有大檔案的寫入密集型工作負載，Write-back 模式則可提供更好的效能。</block>
+  <block id="7cba8fc6d012368d0bb1868a9da3aebb" category="paragraph">我們建議在快取 Volume 上啟用 Volume 自動調整規模和清理功能，以維持最佳大小，並將快取集中用於頻繁存取（熱）資料，以達到尖峰效率。</block>
+  <block id="aafa79fe1c7925cadee2f2931c5a90a6" category="paragraph">過度配置的 SSD 容量層會增加不必要的成本。我們建議在維持 20% 可用空間緩衝區的同時，減少 SSD 層容量。減少容量的作業需要數小時到數天時間，在此期間其他檔案系統作業將無法進行。</block>
+  <block id="038dede88376955fc6f5dc23c8915a6f" category="paragraph">啟用冷資料分層，將冷資料從 SSD 儲存層遷移到成本較低的儲存設備。我們建議對每個 Volume 套用分層原則。Azure Blob Storage 可作為非作用中資料的容量層。</block>
+  <block id="8a4fd5d300e707a9269f6215138076a2" category="paragraph"><block ref="8a4fd5d300e707a9269f6215138076a2" category="inline-link-macro-rx"></block></block>
+  <block id="3b2bdc5e09bea40bfecc86e787cc29c3" category="paragraph">您可以修復 Cloud Volumes ONTAP 系統或檔案系統中所選 Volume 的組態問題。您可以選取一個或多個組態進行修復。</block>
+  <block id="cd375ffa56c1139e1dfd8d14cf3947db" category="paragraph">修復過程可能會導致執行個體停機或服務中斷。在修復組態問題之前，請仔細閱讀每個建議。</block>
+  <block id="44642e2ce79e19a13d96c2540f6a27e3" category="list-text">請審查對話方塊中顯示的摘要和行動項目，以了解修正問題後會發生什麼情況。某些操作可能會導致執行個體停機或服務中斷。</block>
+  <block id="4a98f536eaad8a4f8fba5780c2425562" category="paragraph">停止對 Cloud Volumes ONTAP 系統或所選 Volume 的組態分析。您可以在需要時重新啟動分析。</block>
+  <block id="1ba6be935ab946465d05505a4c53e7a7" category="paragraph">隨時重新啟動 Cloud Volumes ONTAP 系統已關閉的組態分析。您可以選擇一個或多個組態進行重新啟動。</block>
+  <block id="77b9268ed80b17f39e2b280a439b5a22" category="paragraph">系統重新啟動組態分析。每天都會進行一次新的分析。</block>
+  <block id="ff0fee542e14fa22892513a7e8b95e5c" category="paragraph">未解析的指令，位於 &lt;stdin&gt; - include::fsx-configurations.adoc[]</block>
+  <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理人工智慧功能</block>
+  <block id="e3be61076fdf378fb58cb7d809332294" category="admonition">如果您的帳戶系統管理員已關閉 AI 功能，則規則建構者將不可用，您也將無法建立自訂規則。<block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>。</block>
+  <block id="13b595cf2341f5678ff3130cc1287485" category="paragraph">如果某些項目的檢查失敗，請讀取錯誤訊息以了解原因。常見原因包括連線問題、權限不足或連結尚未設定。</block>
+  <block id="a95c691058f1f67702ea9a0cde5efa02" category="list-text">Link 和 Console 代理程式已針對範圍內的所有檔案系統進行設定。</block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
 </blocks>

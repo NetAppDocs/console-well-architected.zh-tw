@@ -26,6 +26,9 @@ Rule builder 可讓您使用純文字語言建立自訂最佳實踐規則。這�
 自訂規則可協助您強制執行組織的標準、風險限制和營運要求—這些是通用廠商規則可能無法完全涵蓋的內容。
 
 
+NOTE: 如果您的帳戶系統管理員已關閉 AI 功能，則規則建構者將不可用，您也將無法建立自訂規則。link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["了解如何管理人工智慧功能"^]。
+
+
 
 [[how-custom-rules-work]]
 == 自訂規則的工作原理
