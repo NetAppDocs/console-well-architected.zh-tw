@@ -88,7 +88,7 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 
 [role="tabbed-block"]
 ====
-.駁回檔案系統的組態分析
+.駁回系統的組態分析
 --
 .步驟
 . 登入 link:https://console.netapp.com/home["NetApp Console"^]。
@@ -119,7 +119,7 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 --
 ====
 .結果
-檔案系統或選定 Volume 的組態分析已停止。
+系統或選定磁碟區的組態分析停止。
 
 您可以隨時重新啟動分析。
 
@@ -132,7 +132,7 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 
 [role="tabbed-block"]
 ====
-.重新啟動檔案系統的組態分析
+.重新啟動系統的組態分析
 --
 .步驟
 . 登入 link:https://console.netapp.com/home["NetApp Console"^]。

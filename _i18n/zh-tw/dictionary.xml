@@ -566,7 +566,6 @@
   <block id="d594538bbec3297430ed8c995b262222" category="paragraph">Workload Factory 建議重新平衡您的 FlexVol® Volume，以提高效率。在向外擴充之後，整個 Volume 的容量和工作負載活動可能會變得不均勻。</block>
   <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">Workload Factory 每日分析您在支援的雲端儲存系統部署上執行的工作負載。此分析提供架構完善的狀態資訊、洞察分析和建議。</block>
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">每日分析完成後，部署的「架構完善」儀表板會顯示組態狀態為「最佳化的」或「未最佳化的」。您可以按類別查看組態問題，以及組態問題和建議清單。您可以審查針對組態問題的建議。部分問題可由 Workload Factory 自動修復，而其他問題則需要手動介入。在這種情況下，Workload Factory 會提供詳細說明，協助您實作建議的變更。</block>
-  <block id="1fab3ff575faec37f5f5855ba6c44e9b" category="paragraph">您可以忽略不適用於您環境的組態分析。這樣可以避免不必要的警示和不準確的最佳化結果。當您忽略某個設定分析時，Workload Factory 不會將該配置計入總最佳化得分。</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory 將最佳實務應用於大型儲存設備、資料庫和 VMware 環境，結合後續評估、建議洞察和修復措施。在 NetApp Console 中套用的自動化修復程序可減少人為錯誤、確保統一管理，並維護工作負載基礎架構的效能和可靠性。</block>
   <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱</block>
   <block id="032088baae45e30e8391672094b24e52" category="paragraph">NetApp Console 中架構完善的儀表板現在已更新 FSx for ONTAP 的儲存組態名稱，以提升清晰度和一致性。</block>
@@ -614,7 +613,6 @@
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="21b694dc2503eab08ab245a8bcfe9f1c" category="inline-link-macro">了解 AI 管理</block>
   <block id="b1e856d73a7bddeb40cc57002b01ea2b" category="admonition">如果您的帳戶管理員已關閉 AI 功能，您將看到一則訊息，並且無法建立自訂規則。請聯絡您的系統管理員或 <block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>。</block>
-  <block id="54b091dc0d26574680b715ea59512839" category="paragraph">未解析的指令位於 &lt;stdin&gt; - include::well-architected-workloads.adoc[]</block>
   <block id="e1571d44d672c7a35fe7952a28f414b7" category="paragraph">SSD 儲存層的容量使用率不得超過 80%。否則可能會影響容量資源池儲存層的資料讀取和寫入作業，進而影響系統的處理量。當容量耗盡時，資料 Volume 將變為唯讀狀態。嘗試寫入新資料的服務也會失敗。</block>
   <block id="70a83d0e2246f9bf751ee82d9d86782a" category="paragraph">我們建議 Volume 容量使用率不要超過 80%。這可能會影響應用程式的資料讀取和寫入。Volume 容量的增加可以手動進行，也可以使用 Volume 自動擴充功能自動進行。</block>
   <block id="fce6ac16b523a1ae826c8b02fe97af9a" category="paragraph">為了獲得最佳效能，我們建議使用最適合您工作負載的 FlexCache® 寫入模式。對於具有小檔案的讀取密集型工作負載，Write-around 模式可提供更好的效能，而對於具有大檔案的寫入密集型工作負載，Write-back 模式則可提供更好的效能。</block>
@@ -628,10 +626,14 @@
   <block id="4a98f536eaad8a4f8fba5780c2425562" category="paragraph">停止對 Cloud Volumes ONTAP 系統或所選 Volume 的組態分析。您可以在需要時重新啟動分析。</block>
   <block id="1ba6be935ab946465d05505a4c53e7a7" category="paragraph">隨時重新啟動 Cloud Volumes ONTAP 系統已關閉的組態分析。您可以選擇一個或多個組態進行重新啟動。</block>
   <block id="77b9268ed80b17f39e2b280a439b5a22" category="paragraph">系統重新啟動組態分析。每天都會進行一次新的分析。</block>
-  <block id="ff0fee542e14fa22892513a7e8b95e5c" category="paragraph">未解析的指令，位於 &lt;stdin&gt; - include::fsx-configurations.adoc[]</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理人工智慧功能</block>
   <block id="e3be61076fdf378fb58cb7d809332294" category="admonition">如果您的帳戶系統管理員已關閉 AI 功能，則規則建構者將不可用，您也將無法建立自訂規則。<block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>。</block>
   <block id="13b595cf2341f5678ff3130cc1287485" category="paragraph">如果某些項目的檢查失敗，請讀取錯誤訊息以了解原因。常見原因包括連線問題、權限不足或連結尚未設定。</block>
   <block id="a95c691058f1f67702ea9a0cde5efa02" category="list-text">Link 和 Console 代理程式已針對範圍內的所有檔案系統進行設定。</block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
+  <block id="8215457eb88ef1fb110b79579b908e3d" category="paragraph">您可以忽略不適用於您環境的組態分析。這樣可以避免不必要的警示和不準確的最佳化結果。</block>
+  <block id="821af7226458ea25572e88e8ab2026e4" category="paragraph">您也可以使用純文字語言建立自訂規則，以根據組織的標準和 NetApp 最佳實務來驗證您的環境。先進行模擬執行測試規則，然後排程在您的環境中執行。<block ref="ce039b478eb432b675a03c04866f31ab" category="inline-link-macro-rx"></block>。</block>
+  <block id="b4bb104bc7f6b013b24aa5c7a44aa055" category="open-title">駁回系統的組態分析</block>
+  <block id="80a954d968e09a819a0b88441d353ade" category="paragraph">系統或選定磁碟區的組態分析停止。</block>
+  <block id="e4950e45b6d4c698727d71332ead60c7" category="open-title">重新啟動系統的組態分析</block>
 </blocks>
