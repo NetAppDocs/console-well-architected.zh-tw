@@ -18,6 +18,8 @@ indexpage:
       url: "/fsx/configuration-analysis-fsx.html"
     - title: Cloud Volumes ONTAP
       url: "/cvo/configuration-analysis-cvo.html"
+    - title: Google Cloud NetApp Volumes
+      url: "/gcnv/configuration-analysis-gcnv.html"
   - title: 制定自己的規則
     links:
     - title: 了解自訂規則

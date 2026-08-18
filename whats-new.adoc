@@ -15,6 +15,20 @@ summary: 透過 NetApp Console 中架構完善的儀表板了解最新功能。
 
 
 
+[[17-august-2026]]
+== 2026年8月17日
+
+
+
+[[google-cloud-netapp-volumes-support-in-the-well-architected-dashboard]]
+=== Google Cloud NetApp Volumes 在架構完善的儀表板中的支援
+
+NetApp Console 儀表板現在支援 Google Cloud NetApp Volumes。儲存管理員可以檢視其儲存資源池和組態的狀態，取得有關提升效率、降低成本、提升效能、可靠性和安全性的建議，並採取行動以最佳化作業並遵循最佳實務。
+
+深入瞭解link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Google Cloud NetApp Volumes 組態分析"]。
+
+
+
 [[03-august-2026]]
 == 2026年8月3日
 

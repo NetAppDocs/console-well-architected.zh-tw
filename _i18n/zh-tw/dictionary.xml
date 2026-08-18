@@ -636,4 +636,36 @@
   <block id="b4bb104bc7f6b013b24aa5c7a44aa055" category="open-title">駁回系統的組態分析</block>
   <block id="80a954d968e09a819a0b88441d353ade" category="paragraph">系統或選定磁碟區的組態分析停止。</block>
   <block id="e4950e45b6d4c698727d71332ead60c7" category="open-title">重新啟動系統的組態分析</block>
+  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">Google Cloud NetApp Volumes 在架構完善的儀表板中的支援</block>
+  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">NetApp Console 儀表板現在支援 Google Cloud NetApp Volumes。儲存管理員可以檢視其儲存資源池和組態的狀態，取得有關提升效率、降低成本、提升效能、可靠性和安全性的建議，並採取行動以最佳化作業並遵循最佳實務。</block>
+  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Google Cloud NetApp Volumes 組態分析</block>
+  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">深入瞭解<block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>。</block>
+  <block id="05029207853354642479203b2397ee75" category="summary">NetApp Console 會定期分析儲存系統組態，以確定是否存在任何組態問題。</block>
+  <block id="d1105940d035a158565dfb73958010e1" category="paragraph">NetApp Console 中的架構完善儀表板會定期分析儲存系統組態，以確定是否存在任何組態問題。發現問題時，儀表板會向您顯示問題所在，並說明需要進行哪些變更，以確保您的儲存系統達到最佳效能、成本效率，並符合最佳實務做法。</block>
+  <block id="1a47b8defb4d7d06bba18c483c447b3d" category="paragraph">要進行完整的儲存資源池分析，您必須執行以下操作：</block>
+  <block id="356cd648ad799f2eb92aa086872fc932" category="inline-link-macro">將您的 Google Cloud NetApp Volumes 系統新增至 NetApp Console</block>
+  <block id="a03acef5fcdb9180f0811d46c7421b0f" category="list-text"><block ref="6ea9c63ba945b3cb96bff5e211bb3f99" category="inline-link-macro-rx"></block>。</block>
+  <block id="01b307f0335162114b66a6190044c275" category="list-text">在您的 Google Cloud 帳戶中授予 _view、planning 和 analysis_ 權限。</block>
+  <block id="1341f195ac9799a77bdbba45d7cc551e" category="inline-link-macro">了解如何授予 Google Cloud 帳戶權限</block>
+  <block id="011c3ba35123b641365e7db9c488ccaa" category="paragraph"><block ref="011c3ba35123b641365e7db9c488ccaa" category="inline-link-macro-rx"></block></block>
+  <block id="9d1211cf0c0938352f5fc0c16d3f4f45" category="paragraph">Workload Factory 會根據儲存設備和 ONTAP 最佳實務以及 Google Cloud Well-Architected Framework 評估儲存組態。此評估也會建議改善措施。</block>
+  <block id="6e1d527b580364f3697ae14e9ee87785" category="paragraph">精心設計的分析將組態按以下架構支柱進行分類：_可靠性_和_卓越營運績效_。</block>
+  <block id="c5a88482771f220e57ee0ee1238fff02" category="paragraph">Workload Factory 建議將 SSD 分層的使用率保持在 80% 或以下。某些工作負載可能需要額外的容量餘裕和更低的使用率目標。如果使用率超過建議的餘裕，效能下降和服務問題的風險將會增加，尤其是在容量未能及時擴充的情況下。您可以暫時關閉一個或多個儲存資源池的此功能，並在需要時重新啟用。</block>
+  <block id="7ac5667c1b90b6524fde9817118effea" category="paragraph">Workload Factory 建議將 Volume 使用率保持在 80% 以下，以降低空間不足的風險。如果 Volume 增長速度超出預期，您可能需要快速擴充它。這可能會增加應用程式受到影響的風險，尤其是在突然或高峰增長的情況下。使用資源隨需配置和自動容量管理可以降低此風險。您可以針對一個或多個 Volume 將其關閉，並在需要時重新啟用。</block>
+  <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">實作架構良好的 Google Cloud NetApp Volumes 組態</block>
+  <block id="5ec047b28053268ed0ad18838887d2a3" category="paragraph"><block ref="5ec047b28053268ed0ad18838887d2a3" category="inline-link-macro-rx"></block></block>
+  <block id="1fbc6d00faf337e60116deb7a9436737" category="summary">Workload Factory 掃描 Google Cloud NetApp Volumes 組態，提供見解和建議，協助您實現卓越營運績效。</block>
+  <block id="5bf39b6df69484117b7a94f73c047bec" category="paragraph">利用組態分析洞察和建議，運用 NetApp 為在 Google Cloud 儲存設備上執行的 Google Cloud NetApp Volumes 儲存資源池實作最佳實務。您可以輕鬆審查架構完善的狀態、了解組態中存在的問題，並獲得改善建議，以最佳化任何在可靠性、安全性、效能和成本方面尚未最佳化的儲存資源池架構。</block>
+  <block id="1269bb270aa667888f34bfd5203e5e88" category="paragraph"><block ref="1269bb270aa667888f34bfd5203e5e88" category="inline-link-macro-rx"></block></block>
+  <block id="7d1ff00602d5a32748c6468a1bf8908e" category="paragraph">NetApp 每日分析 Google Cloud NetApp Volumes 儲存資源池在 Google Cloud 的部署。每日分析提供架構完善的狀態，以及深入的見解和建議，協助您了解組態問題，使您的儲存資源池符合最佳實務。</block>
+  <block id="d0d02e6506e8567d2ac0bb5ca6e21b91" category="paragraph">每日分析完成後，儀表板會顯示架構良好的資源總數、處於關鍵狀態的資源數量以及處於警告狀態的資源數量。組態按架構良好架構的支柱進行分類：可靠性、卓越營運績效、成本優化、效能與效率和安全性。儀表板還包含一個表格，其中列出了所有組態、這些組態的架構良好狀態、嚴重程度、類別、資源類型（Volume 或儲存資源池）、受影響的資源，以及在組態未最佳化時檢視建議的選項。</block>
+  <block id="f21564fb71fad839082e8c15cb010c91" category="inline-link-macro">新增 Google Cloud NetApp Volumes 儲存資源池</block>
+  <block id="a0b5edb9fd5c7fc4af08ec7f9d8f5ac4" category="list-text">您必須<block ref="c1fd87c15a6ed0202ad48d3bb45d685c" category="inline-link-macro-rx"></block>至 NetApp Console，才能檢視架構完善的狀態及組態問題的建議。</block>
+  <block id="8dc69cd01e974d0a8cfceb0224c8eac3" category="paragraph">停止對 Google Cloud NetApp Volumes 儲存資源池或選定 Volume 的組態分析。您可以在需要時重新啟動分析。</block>
+  <block id="999cd7a79e85f3b89a91072601ea0f41" category="open-title">駁回儲存資源池的組態分析</block>
+  <block id="4f15062a66ee3b6add54b47335156af9" category="list-text">在「組態」下，確定要為所選 Volume 取消的組態，然後選擇 *檢視*。</block>
+  <block id="702e775cae6fd33f5cbf005de9ec14c5" category="paragraph">儲存資源池或選定 Volume 的組態分析停止。</block>
+  <block id="8bd52317b540b055ec84ab7385f1789b" category="open-title">重新啟動儲存資源池的組態分析</block>
+  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">2026年8月17日</block>
+  <block id="ba1aed8913644f1ebd2b60ecd5599879" category="sidebar">改善儲存資源池組態</block>
 </blocks>
