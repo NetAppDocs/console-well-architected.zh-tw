@@ -25,15 +25,14 @@ summary: 透過 NetApp Console 中架構完善的儀表板了解最新功能。
 
 NetApp Console 中架構完善的儀表板可用於 Amazon FSx for NetApp ONTAP。
 
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["了解 FSx for ONTAP 的組態分析"]
+link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["了解 FSx for ONTAP 的組態分析"]
 
 
 
+[[updated-configuration-names-in-the-well-architected-dashboard]]
+=== 架構良好的儀表板中已更新組態名稱
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== 在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱
-
-NetApp Console 中架構完善的儀表板現在包含 FSx for ONTAP 的新儲存組態名稱。
+NetApp Console 中的架構完善儀表板現在包含新的儲存組態名稱。
 
 下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。
 

@@ -564,7 +564,6 @@
   <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">Workload Factory 每日分析您在支援的雲端儲存系統部署上執行的工作負載。此分析提供架構完善的狀態資訊、洞察分析和建議。</block>
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">每日分析完成後，部署的「架構完善」儀表板會顯示組態狀態為「最佳化的」或「未最佳化的」。您可以按類別查看組態問題，以及組態問題和建議清單。您可以審查針對組態問題的建議。部分問題可由 Workload Factory 自動修復，而其他問題則需要手動介入。在這種情況下，Workload Factory 會提供詳細說明，協助您實作建議的變更。</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory 將最佳實務應用於大型儲存設備、資料庫和 VMware 環境，結合後續評估、建議洞察和修復措施。在 NetApp Console 中套用的自動化修復程序可減少人為錯誤、確保統一管理，並維護工作負載基礎架構的效能和可靠性。</block>
-  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">舊組態名稱</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">新組態名稱</block>
@@ -670,8 +669,9 @@
   <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">NetApp Console 中架構完善的儀表板可用於 Amazon FSx for NetApp ONTAP。</block>
   <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">了解 FSx for ONTAP 的組態分析</block>
   <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">NetApp Console 中架構完善的儀表板現在包含 FSx for ONTAP 的新儲存組態名稱。</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">NetApp Console 系統頁面中顯示的架構完善問題</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">在 Microsoft Azure 中，Cloud Volumes ONTAP 的架構完善問題通知可從 NetApp Console 的「儲存管理系統」頁面取得。此功能可協助您快速識別 Azure 中 Cloud Volumes ONTAP 系統的組態問題，並從通知導覽至「工作負載架構完善」儀表板。</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
+  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">架構良好的儀表板中已更新組態名稱</block>
+  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console 中的架構完善儀表板現在包含新的儲存組態名稱。</block>
 </blocks>
