@@ -34,70 +34,6 @@ NetApp Console 儀表板現在支援 Google Cloud NetApp Volumes。儲存管理�
 
 
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== 在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱
-
-NetApp Console 中架構完善的儀表板現在已更新 FSx for ONTAP 的儲存組態名稱，以提升清晰度和一致性。
-
-下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。
-
-[cols="1,1"]
-|===
-| 舊組態名稱 | 新組態名稱 
-
-
-| 排程 Volume 備份 | Volume 備份 
-
-
-| SSD 容量臨界值 | SSD 容量餘裕 
-
-
-| 檔案容量臨界值 | 檔案容量餘裕 
-
-
-| 長期保留資料的可靠性 | 複製原則標籤 
-
-
-| 已排程的本機 Snapshot 快照技術 | Snapshot 原則 
-
-
-| 刪除不必要的備份 | 備份過期 
-
-
-| 刪除不必要的 Snapshot 快照技術 | Snapshot 快照技術到期 
-
-
-| 未充分利用的固態硬碟容量 | 超額配置的 SSD 容量 
-
-
-| 非作用中區塊設備 | 非作用中區塊設備（LUN） 
-
-
-| 透過對冷資料分層優化總體擁有成本 | 冷資料分層 
-
-
-| Volume 邏輯容量報告 | 主機可見容量報告 
-
-
-| FlexGroup Volume 重新平衡 | 重新平衡 FlexGroup Volume 
-
-
-| FlexVol® Volume 重新平衡 | 重新平衡 FlexVol® Volume 
-
-
-| 快取關係寫入模式 | FlexCache® 寫入模式 
-
-
-| 優化快取磁碟區大小 | FlexCache® 複本大小 
-
-
-| 未經授權存取 Volume | 未經授權的 iSCSI Volume 存取 
-
-
-| ARP/AI 已停用 | 勒索軟體保護（ARP/AI） 
-|===
-
-
 [[fix-dismiss-and-reactivate-configurations-for-cloud-volumes-ontap-in-microsoft-azure]]
 === 修正、關閉並重新啟用 Microsoft Azure 中 Cloud Volumes ONTAP 的組態
 
@@ -123,11 +59,7 @@ NetApp Console 中架構完善的儀表板提供跨帳戶和區域的儲存系�
 
 深入瞭解 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["架構良好的儀表板"]。
 
-Console 中架構完善的儀表板適用於以下儲存系統：
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP"]
-
+Console 中架構完善的儀表板可供 link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP。"] 使用
 
 
 

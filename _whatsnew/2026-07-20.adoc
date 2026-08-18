@@ -11,11 +11,7 @@ NetApp Console 中架構完善的儀表板提供跨帳戶和區域的儲存系�
 
 深入瞭解 link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["架構良好的儀表板"]。
 
-Console 中架構完善的儀表板適用於以下儲存系統：
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP"]
-
+Console 中架構完善的儀表板可供 link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Microsoft Azure 中的 Cloud Volumes ONTAP。"] 使用
 
 
 
