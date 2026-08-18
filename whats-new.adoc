@@ -20,6 +20,92 @@ summary: 透過 NetApp Console 中架構完善的儀表板了解最新功能。
 
 
 
+[[fsx-for-ontap-support-in-the-well-architected-dashboard-in-netapp-console]]
+=== FSx for ONTAP 支援已整合到 NetApp Console 中架構完善的儀表板中
+
+NetApp Console 中架構完善的儀表板可用於 Amazon FSx for NetApp ONTAP。
+
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["了解 FSx for ONTAP 的組態分析"]
+
+
+
+
+[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
+=== 在架構完善的儀表板中更新了 FSx for ONTAP 的組態名稱
+
+NetApp Console 中架構完善的儀表板現在包含 FSx for ONTAP 的新儲存組態名稱。
+
+下表列出了架構良好的儀表板中的舊組態名稱及其對應的新組態名稱。
+
+[cols="1,1"]
+|===
+| 舊組態名稱 | 新組態名稱 
+
+
+| 排程 Volume 備份 | Volume 備份 
+
+
+| SSD 容量臨界值 | SSD 容量餘裕 
+
+
+| 檔案容量臨界值 | 檔案容量餘裕 
+
+
+| 長期保留資料的可靠性 | 複製原則標籤 
+
+
+| 已排程的本機 Snapshot 快照技術 | Snapshot 原則 
+
+
+| 刪除不必要的備份 | 備份過期 
+
+
+| 刪除不必要的 Snapshot 快照技術 | Snapshot 快照技術到期 
+
+
+| 未充分利用的固態硬碟容量 | 超額配置的 SSD 容量 
+
+
+| 非作用中區塊設備 | 非作用中區塊設備（LUN） 
+
+
+| 透過對冷資料分層優化總體擁有成本 | 冷資料分層 
+
+
+| Volume 邏輯容量報告 | 主機可見容量報告 
+
+
+| FlexGroup Volume 重新平衡 | 重新平衡 FlexGroup Volume 
+
+
+| FlexVol® Volume 重新平衡 | 重新平衡 FlexVol® Volume 
+
+
+| 快取關係寫入模式 | FlexCache® 寫入模式 
+
+
+| 優化快取磁碟區大小 | FlexCache® 複本大小 
+
+
+| 未經授權存取 Volume | 未經授權的 iSCSI Volume 存取 
+
+
+| ARP/AI 已停用 | 勒索軟體保護（ARP/AI） 
+|===
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== NetApp Console 系統頁面中顯示的架構完善問題
+
+在 Microsoft Azure 中，Cloud Volumes ONTAP 的架構完善問題通知可從 NetApp Console 的「儲存管理系統」頁面取得。此功能可協助您快速識別 Azure 中 Cloud Volumes ONTAP 系統的組態問題，並從通知導覽至「工作負載架構完善」儀表板。
+
+
+
+[[10-august-2026]]
+== 2026年8月10日
+
+
+
 [[google-cloud-netapp-volumes-support-in-the-well-architected-dashboard]]
 === Google Cloud NetApp Volumes 在架構完善的儀表板中的支援
 
