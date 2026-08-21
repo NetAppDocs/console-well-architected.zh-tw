@@ -674,4 +674,8 @@
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">架構良好的儀表板中已更新組態名稱</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console 中的架構完善儀表板現在包含新的儲存組態名稱。</block>
+  <block id="1ee2856eba991f06fff41aa25f053f64" category="paragraph">您還必須建立與下列端點的傳出連線：</block>
+  <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
+  <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
+  <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">允許向以下端點傳出網路連線：</block>
 </blocks>

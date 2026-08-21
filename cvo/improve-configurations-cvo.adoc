@@ -33,6 +33,12 @@ link:configuration-analysis-cvo.html["了解組態分析和架構良好狀態。
 
 * 您必須link:https://console.netapp.com/add-working-environment/choose-type["新增 Cloud Volumes ONTAP 系統"]至 NetApp Console，才能檢視架構完善的狀態及組態問題的建議。
 * link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["您應該部署 Console 代理程式"]以取得系統資源最全面的分析。
+* 允許向以下端點傳出網路連線：
++
+** \https://api.workloads.netapp.com
+** \https://ws.workloads.bluexp.netapp.com
+
+
 
 
 
