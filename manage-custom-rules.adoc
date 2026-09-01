@@ -4,7 +4,7 @@ permalink: manage-custom-rules.html
 keywords: manage custom rules, disable rules, delete rules, rule catalog, byor 
 summary: 從規則目錄中檢視、啟用、停用和刪除自訂架構規則。 
 ---
-= 管理自訂規則
+= 在 NetApp Console 中管理自訂規則
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

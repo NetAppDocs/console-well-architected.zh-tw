@@ -4,7 +4,7 @@ permalink: learn-custom-rules.html
 keywords: custom rules, byor, bring your own rules, fsx, ontap, well architected, organizational standards 
 summary: 學習如何定義和管理您自己的架構規則，以強制執行組織標準，並遵循 NetApp 最佳實務。 
 ---
-= 了解自訂規則
+= 了解 NetApp Console 中的自訂規則
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

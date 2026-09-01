@@ -678,4 +678,20 @@
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">允許向以下端點傳出網路連線：</block>
+  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Cloud Volumes ONTAP 的遠端資料複寫評估</block>
+  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">一項新的評估可用於檢查 Cloud Volumes ONTAP 資料是否受到遠端複寫的保護。它有助於確保您的資料保護計劃符合災難恢復和業務連續性的最佳實務。</block>
+  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">了解 Cloud Volumes ONTAP 的組態分析</block>
+  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
+  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">完全關閉架構完善的組態</block>
+  <block id="e392235686146a792505661ee5217957" category="paragraph">現在您可以從儀表板中完全忽略某個建議組態。這可讓您更有效地控制哪些建議和評估會顯示在您的環境中。</block>
+  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">架構完善的儀表板中的資料庫工作負載建議</block>
+  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">現在，在 NetApp Console 中精心設計的儀表板，已提供使用 FSx for ONTAP 的資料庫工作負載建議。您可以在同一個位置查看儲存資源和資料庫工作負載的狀態，從而全面檢視基礎架構的健全狀況。</block>
+  <block id="e4e3f7accbddfb89b3512b66c5a8a37b" category="doc">在 NetApp Console 中建立自訂規則</block>
+  <block id="c465a7bd98f96ab6b7e15dbed5471998" category="list-text">*遠端資料複寫*</block>
+  <block id="b03b92c4dfcafd9226ecc9026f960e01" category="paragraph">透過遠端複寫保護您的 Cloud Volumes ONTAP 資料。遠端資料複寫透過在不同位置維護資料的同步副本，提供災難恢復功能，確保在系統故障或災難發生時的業務連續性。</block>
+  <block id="3c768f8b4f33704ddf416410c4e008a7" category="doc">取得 NetApp Console 雲端服務的協助</block>
+  <block id="ce6ef2ffcadf69c1dc27dcb9da2d801d" category="doc">了解 NetApp Console 中的自訂規則</block>
+  <block id="1b050fa37a029d628899a5bd2e48783f" category="doc">在 NetApp Console 中管理自訂規則</block>
+  <block id="277894237bef57e14299dc8b3b8b5f13" category="doc">註冊以取得 NetApp Console 支援</block>
+  <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026年8月30日</block>
 </blocks>
