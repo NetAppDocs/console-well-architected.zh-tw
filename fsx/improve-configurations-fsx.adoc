@@ -11,7 +11,7 @@ summary: 架構完善的儀表板掃描 Amazon FSx for NetApp ONTAP 組態，提
 
 
 [role="lead"]
-利用組態分析的洞察和建議，運用 NetApp 為 FSx for ONTAP 檔案系統實作最佳實務。您可以輕鬆審查架構良好的狀態、了解組態中存在的問題，並採取行動改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。
+NetApp 透過組態分析洞察與建議，協助您為 FSx for ONTAP 檔案系統實作最佳實務。您可以審查架構完善的狀態，了解組態的問題，並取得建議以改善在可靠性、安全性、效率、效能和成本方面尚未最佳化的系統架構。
 
 您也可以忽略不適用於您儲存環境的特定儲存設備組態分析，以避免不必要的警示及不準確的最佳化結果。
 
@@ -22,11 +22,11 @@ link:configuration-analysis-fsx.html["了解組態分析和架構良好狀態。
 [[about-this-task]]
 == 關於此任務
 
-架構完善的儀表板每日分析 Amazon FSx for NetApp ONTAP 檔案系統部署組態。每日分析提供架構完善的狀態、洞察與建議。您可以自動修復組態問題，以符合最佳實務。
+Workload Factory 每天都會分析 Amazon FSx for NetApp ONTAP 檔案系統部署組態。每日分析提供架構完善的狀態、洞察與建議。您可以自動修復組態問題，以符合最佳實務。
 
-透過 Link 或 Console 代理程式連接，NetApp Console 中架構完善的儀表板可以對您的檔案系統進行全面掃描，找出效能、資料保護和組態方面的問題。這可確保您獲得準確的洞察和建議，以最佳化您的 FSx for ONTAP 檔案系統。
+透過 Link 或 Console 代理程式連接，Workload Factory 可以對您的檔案系統進行全面掃描，以尋找效能、資料保護和組態方面的問題。因此，您可以獲得準確的洞察和建議，以最佳化您的 FSx for ONTAP 檔案系統。
 
-儲存組態要求各不相同。您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。
+儲存組態要求各不相同。您可以忽略不適用於您儲存環境的特定組態分析。忽略不適用的組態有助於避免不必要的警報和不準確的最佳化結果。
 
 
 
@@ -34,7 +34,7 @@ link:configuration-analysis-fsx.html["了解組態分析和架構良好狀態。
 == 開始之前
 
 * 您必須在 AWS 帳戶中link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["授予 _operations and remediation_ 權限"^]。
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["安裝 Console 代理程式"^] 或 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用連結連線至 FSx for ONTAP 檔案系統"]，以對您的檔案系統資源進行最全面的分析。
+* 您必須link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["安裝 Console 代理程式"^]或link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用連結連接到 FSx for ONTAP 檔案系統"]才能對檔案系統資源進行最全面的分析。
 
 
 
@@ -53,10 +53,7 @@ link:configuration-analysis-fsx.html["了解組態分析和架構良好狀態。
 +
 請務必仔細檢閱建議。此建議說明最佳實務，以及未最佳化組態的潛在問題。
 
-. 選擇以*修復*。
-+
-如果「檢視並修復」是一個選項，請選擇受影響的 Volume 進行修復。
-
+. 選擇 *修復* 以修復單一 Volume，或選擇 *檢視並修復* 以修復多個 Volume。如果您選擇 *檢視並修復*，請選擇受影響的 Volume 進行修復。
 . 請審查對話方塊中的摘要和行動項目，以了解修正問題後會發生什麼情況。某些操作可能會導致執行個體停機或服務中斷。
 . 選擇 *Continue* 以修正組態問題。
 
@@ -132,7 +129,7 @@ Workload Factory 已啟動修正問題的程序。請選擇帳戶設定選單，
 . 選擇選單 image:workloads-menu-icon.png["漢堡選單圖示用於導覽至儲存、EDA、AI、資料庫、VMware 和管理等工作負載。"]，然後選擇 *Storage*。
 . 從 Storage 選單中，選擇 *Well-architected* 。
 . 選擇 *Dismissed configurations* 。
-. 根據組態分析識別要重新啟動的 Volume。
+. 從組態分析中識別要重新啟動的 Volume。
 +
 ** 對於單一磁碟區：選擇操作選單，然後選擇 *Reactivate volume*。
 ** 對於多個 Volume：選取 Volume，然後選取「批次行動」旁邊的 *Reactivate*。

@@ -11,7 +11,7 @@ summary: Workload Factory 掃描 Google Cloud NetApp Volumes 組態，提供見�
 
 
 [role="lead"]
-利用組態分析洞察和建議，運用 NetApp 為在 Google Cloud 儲存設備上執行的 Google Cloud NetApp Volumes 儲存資源池實作最佳實務。您可以輕鬆審查架構完善的狀態、了解組態中存在的問題，並獲得改善建議，以最佳化任何在可靠性、安全性、效能和成本方面尚未最佳化的儲存資源池架構。
+NetApp 透過組態分析洞察與建議，協助您為 Google Cloud NetApp Volumes 儲存資源池實作最佳實務做法。您可以審查架構完善的狀態、了解組態的問題，並取得建議以改善任何未針對可靠性、安全性、效率、效能與成本進行最佳化的儲存資源池架構。
 
 link:configuration-analysis-gcnv.html["了解組態分析和架構良好狀態。"]
 
@@ -20,9 +20,21 @@ link:configuration-analysis-gcnv.html["了解組態分析和架構良好狀態�
 [[about-this-task]]
 == 關於此任務
 
-NetApp 每日分析 Google Cloud NetApp Volumes 儲存資源池在 Google Cloud 的部署。每日分析提供架構完善的狀態，以及深入的見解和建議，協助您了解組態問題，使您的儲存資源池符合最佳實務。
+NetApp 每天分析您的 Google Cloud NetApp Volumes 儲存資源池組態。每日分析提供架構完善的狀態，以及深入見解與建議，協助您了解組態問題，讓您的儲存資源池符合最佳實務。
 
-每日分析完成後，儀表板會顯示架構良好的資源總數、處於關鍵狀態的資源數量以及處於警告狀態的資源數量。組態按架構良好架構的支柱進行分類：可靠性、卓越營運績效、成本優化、效能與效率和安全性。儀表板還包含一個表格，其中列出了所有組態、這些組態的架構良好狀態、嚴重程度、類別、資源類型（Volume 或儲存資源池）、受影響的資源，以及在組態未最佳化時檢視建議的選項。
+透過 Link 或 Console 代理程式連線，Workload Factory 可以對您的檔案系統進行全面掃描，以尋找效能、資料保護和組態方面的問題。因此，您可以獲得準確的洞察和建議，以最佳化您的 Google Cloud NetApp Volumes 儲存資源池。
+
+儲存組態要求各不相同。您可以忽略不適用於您儲存環境的特定組態分析。忽略不適用的組態有助於避免不必要的警報和不準確的最佳化結果。
+
+每日分析完成後，架構完善的儀表板會顯示架構完善的資源總數、處於關鍵狀態的資源數量以及處於警告狀態的資源數量。組態依架構完善架構的支柱進行分類：可靠性、卓越營運績效、成本最佳化、效能與效率與安全性。儀表板還包含一個列出所有組態的表格。對於每個組態，該表格顯示：
+
+* 精心建構的狀態
+* 嚴重性
+* 該類別
+* 資源類型（Volume 或儲存資源池）
+* 受影響的資源
+* 在組態未最佳化時檢視建議的選項
+
 
 
 
@@ -44,7 +56,7 @@ NetApp 每日分析 Google Cloud NetApp Volumes 儲存資源池在 Google Cloud 
 . 從 NetApp Console 選單中，選取 *工作負載*，然後選取 *架構良好*。
 . 從「架構完善的儀表板」中，選取任何組態的 *檢視*。
 +
-（可選）選取 image:button_download.png["下載圖示的快照"]以下載包含所有組態建議的 CSV 檔案。
+視需要，選取 image:button_download.png["下載圖示的快照"] 以下載包含所有組態建議的 CSV 檔案。
 
 . 審查建議。
 
@@ -118,7 +130,7 @@ NetApp 每日分析 Google Cloud NetApp Volumes 儲存資源池在 Google Cloud 
 . 登入 link:https://console.netapp.com/home["NetApp Console"^]。
 . 從 NetApp Console 選單中，選取 *工作負載*，然後選取 *架構良好*。
 . 選擇 *Dismissed configurations* 。
-. 根據組態分析識別要重新啟動的 Volume。
+. 從組態分析中識別要重新啟動的 Volume。
 +
 ** 對於單一磁碟區：選擇操作選單，然後選擇 *Reactivate volume*。
 ** 對於多個 Volume：選取 Volume，然後選取「批次行動」旁邊的 *Reactivate*。

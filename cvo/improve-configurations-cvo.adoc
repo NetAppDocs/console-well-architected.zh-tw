@@ -11,7 +11,9 @@ summary: 架構完善的儀表板掃描 Cloud Volumes ONTAP 組態，提供見�
 
 
 [role="lead"]
-利用組態分析洞察和建議，運用 NetApp 為執行在 Microsoft Azure 儲存設備上的 Cloud Volumes ONTAP 系統實作最佳實務做法。您可以輕鬆審查架構良好的狀態、了解組態中存在的問題，並獲得改進建議，以改善任何在可靠性、安全性、效率、效能和成本方面未最佳化的系統架構。
+NetApp 幫助您利用組態分析洞察與建議，為執行於 Microsoft Azure 儲存設備上的 Cloud Volumes ONTAP 系統實作最佳實務。您可以審查架構良好的狀態，了解組態的問題，並取得建議以改善針對可靠性、安全性、效率、效能與成本未達最佳化的系統架構。
+
+您也可以忽略不適用於您儲存環境的特定儲存設備組態分析，以避免不必要的警示及不準確的最佳化結果。
 
 link:configuration-analysis-cvo.html["了解組態分析和架構良好狀態。"]
 
@@ -20,11 +22,11 @@ link:configuration-analysis-cvo.html["了解組態分析和架構良好狀態。
 [[about-this-task]]
 == 關於此任務
 
-精心設計的儀表板每日分析 Microsoft Azure 上 Cloud Volumes ONTAP 系統的部署組態。每日分析提供精心設計的狀態、洞察和建議。
+Workload Factory 每天都會對 Microsoft Azure 上的 Cloud Volumes ONTAP 系統組態進行分析。每日分析提供架構完善的狀態、深入洞察與建議。您可以自動修復組態問題，以符合最佳實務。
 
-透過 Link 或 Console 代理程式連線，NetApp Console 中架構完善的儀表板可對您的 Cloud Volumes ONTAP 系統進行全面掃描，以找出效能、資料保護和組態方面的問題。這可確保您獲得準確的洞察與建議，以最佳化您的 Cloud Volumes ONTAP 系統。
+透過 Link 或 Console 代理程式連線，Workload Factory 可以對您的 Cloud Volumes ONTAP 系統進行全面掃描，以尋找效能、資料保護和組態方面的問題。這可確保您獲得準確的洞察與建議，以最佳化您的 Cloud Volumes ONTAP 系統。
 
-儲存組態要求各不相同。您可以忽略不適用於您儲存環境的特定組態分析。這有助於避免不必要的警示及不準確的最佳化結果。
+儲存組態要求各不相同。您可以忽略不適用於您儲存環境的特定組態分析。忽略不適用的組態有助於避免不必要的警報和不準確的最佳化結果。
 
 
 
@@ -74,10 +76,7 @@ link:configuration-analysis-cvo.html["了解組態分析和架構良好狀態。
 +
 請務必仔細檢閱建議。此建議說明最佳實務，以及未最佳化組態的潛在問題。
 
-. 選擇以*修復*。
-+
-如果「檢視並修復」是一個選項，請選擇受影響的 Volume 進行修復。
-
+. 選擇 *修復* 以修復單一 Volume，或選擇 *檢視並修復* 以修復多個 Volume。對於多個 Volume，請選擇受影響的 Volume 進行修復。
 . 請審查對話方塊中顯示的摘要和行動項目，以了解修正問題後會發生什麼情況。某些操作可能會導致執行個體停機或服務中斷。
 . 選擇 *Continue* 以修正組態問題。
 
