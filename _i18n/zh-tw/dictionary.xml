@@ -486,7 +486,6 @@
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">可靠性確保工作負載即使在中斷期間也能正確且持續地執行其預期功能。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">架構完善的儀表板掃描 Cloud Volumes ONTAP 組態，提供見解與建議，協助您實現卓越營運績效。</block>
   <block id="7d8ce54875dd8d37c61d873a00e8d034" category="summary">精心設計的儀表板會定期分析 FSx for ONTAP 檔案系統組態，以確定是否存在任何組態問題。</block>
-  <block id="3ce760239f38234fc2c8c277efe0bd25" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="a06f2f34fedf48ea46300ba646899766" category="inline-link-macro-rx"></block> 以設定檔案系統與 NetApp Console 之間的連線。</block>
   <block id="782a430d789ff1db80e40fbe9c0be819" category="paragraph">架構完善的儀表板會根據 ONTAP 最佳實務和 AWS Well-Architected Framework 評估儲存組態。此評估也會建議改進措施和修正方法。</block>
   <block id="fb0db5246d7e15caadfb931bef38413c" category="paragraph">跨區域複寫可確保您的資料複寫到另一個 AWS 區域，從而增強資料持久性和可用度。設定跨區域複寫以支援災難恢復和法規遵循。</block>
   <block id="5a0e6732f4b279b7f8151534487bbe55" category="paragraph">SSD 儲存層的容量使用率不得超過 80%。否則可能會影響容量資源池儲存層的資料讀寫，進而影響檔案系統的處理量。當容量耗盡時，資料 Volume 將變為唯讀。嘗試寫入新資料的服務也會失敗。</block>
@@ -680,7 +679,6 @@
   <block id="e4eebe121d284466b50faa46dec0cda9" category="paragraph">透過 Link 或 Console 代理程式連接，Workload Factory 可以對您的檔案系統進行全面掃描，以尋找效能、資料保護和組態方面的問題。因此，您可以獲得準確的洞察和建議，以最佳化您的 FSx for ONTAP 檔案系統。</block>
   <block id="6ffd2376c7aaaca4975b1f06f24193c7" category="inline-link-macro">安裝 Console 代理程式</block>
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">使用連結連接到 FSx for ONTAP 檔案系統</block>
-  <block id="65179ff6728d2d8faef1a99d7f55f6dd" category="list-text">您必須<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>或<block ref="13912c59a5ea303190d1db0c6a5f11f5" category="inline-link-macro-rx"></block>才能對檔案系統資源進行最全面的分析。</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">選擇 *修復* 以修復單一 Volume，或選擇 *檢視並修復* 以修復多個 Volume。如果您選擇 *檢視並修復*，請選擇受影響的 Volume 進行修復。</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">從組態分析中識別要重新啟動的 Volume。</block>
   <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factory 會定期分析儲存系統組態，以判斷是否有任何組態問題。發現問題時，NetApp Console 中的架構完善儀表板會顯示問題所在，並說明需要變更的內容，以確保您的儲存系統達到最高效能、成本效率，並符合最佳實務。</block>
@@ -701,4 +699,6 @@
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">您可以忽略不適用於您環境的組態分析。忽略組態可避免不必要的警報與不準確的最佳化結果。</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">Workload Factory 透過結合後續評估與建議洞察及修復，將最佳實務做法應用於大型儲存設備、資料庫和 VMware 環境。自動化修復可減少人為錯誤、確保統一管理，並維持整個系統基礎架構的效能與可靠性。</block>
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">確保與 Cloud Volumes ONTAP 關聯的控制台代理程式可以存取下列端點：</block>
+  <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block> 以設定檔案系統與 NetApp Console 之間的連線。</block>
+  <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">您必須<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>或<block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block>才能對檔案系統資源進行最全面的分析。</block>
 </blocks>

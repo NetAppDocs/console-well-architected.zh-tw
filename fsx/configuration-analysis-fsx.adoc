@@ -48,7 +48,7 @@ Workload Factory 將最佳實務應用於大型儲存設備、資料庫和 VMwar
 
 要進行完整的檔案系統分析，必須執行以下操作：
 
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console 代理程式"^] 或 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["關聯連結"^] 以設定檔案系統與 NetApp Console 之間的連線。
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["部署 NetApp Console 代理程式"^] 或 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["關聯連結"^] 以設定檔案系統與 NetApp Console 之間的連線。
 * 在您的 AWS 帳戶中授予 _view、planning 和 analysis_ 權限。
 +
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["了解如何授予 AWS 帳戶權限"^]
