@@ -88,7 +88,6 @@
   <block id="3583e4a3e4e2e122cff65b8ad9045348" category="list-text">主動可觀測性</block>
   <block id="16fcd85dc9469370b62b4b46381f8e2a" category="list-text">洞察化為行動</block>
   <block id="3f6f8b4e204fd3aa39cac35661de164d" category="section-title">分析要求</block>
-  <block id="021c4674734853c034b954078fa080f3" category="inline-link-macro">部署 NetApp Console 代理程式</block>
   <block id="f064aed6dd86a2b762ecf9bcf528b941" category="section-title">Cloud Volumes ONTAP 系統的最佳實務做法與建議</block>
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">精心設計的分析將組態分類為架構的下列要素：_可靠性_、_安全性_、_卓越營運_、_成本最佳化_和_效能效率_。</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">可靠性</block>
@@ -483,7 +482,6 @@
   <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">NetApp Console 中架構完善的儀表板每天分析 Cloud Volumes ONTAP 系統組態，以判斷是否存在任何組態問題。</block>
-  <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">若要進行完整的 Cloud Volumes ONTAP 系統分析，您必須<block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block>在系統和 NetApp Console 之間建立連線。</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">架構完善的儀表板可評估儲存組態，深入檢視 ONTAP 組態最佳實務，以及是否符合 Azure Well-Architected Framework。評估也會提出改進和修復建議。</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">可靠性確保工作負載即使在中斷期間也能正確且持續地執行其預期功能。</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">架構完善的儀表板掃描 Cloud Volumes ONTAP 組態，提供見解與建議，協助您實現卓越營運績效。</block>
@@ -651,7 +649,6 @@
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">2026年8月10日</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">架構良好的儀表板中已更新組態名稱</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">NetApp Console 中的架構完善儀表板現在包含新的儲存組態名稱。</block>
-  <block id="1ee2856eba991f06fff41aa25f053f64" category="paragraph">您還必須建立與下列端點的傳出連線：</block>
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">允許向以下端點傳出網路連線：</block>
@@ -703,4 +700,5 @@
   <block id="e1379bec6448939dd8c8e64956276571" category="paragraph">每日分析完成後，組態會在架構完善的儀表板中顯示為「最佳化的」或「未最佳化的」。您可以根據架構完善架構的類別（可靠性、安全性、卓越營運績效、成本最佳化和效能與效率）來尋找組態問題，並查看組態問題清單和建議。Workload Factory 可以自動修復某些問題，而其他問題則需要手動介入。在這種情況下，建議會提供詳細說明，幫助您實作變更。</block>
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">您可以忽略不適用於您環境的組態分析。忽略組態可避免不必要的警報與不準確的最佳化結果。</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">Workload Factory 透過結合後續評估與建議洞察及修復，將最佳實務做法應用於大型儲存設備、資料庫和 VMware 環境。自動化修復可減少人為錯誤、確保統一管理，並維持整個系統基礎架構的效能與可靠性。</block>
+  <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">確保與 Cloud Volumes ONTAP 關聯的控制台代理程式可以存取下列端點：</block>
 </blocks>
