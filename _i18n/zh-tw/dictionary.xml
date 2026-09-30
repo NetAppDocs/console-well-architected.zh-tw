@@ -47,7 +47,6 @@
   <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">AI 可能會要求您從幾個選項中進行選擇，以便更清楚地了解您的需求。請回答每個問題並選取 *Continue*，或選取 *Skip* 以略過選用問題。</block>
   <block id="f7dd96479a94850934674d003fe54f52" category="list-text">回答完所有問題後，選擇 *Continue* 以建立規則。</block>
   <block id="66178252f08edeeeeda7bfc5ebf5227b" category="section-title">測試規則</block>
-  <block id="0362b2cfbfe0db96dc282024dbd64841" category="paragraph">在排程規則之前，先執行一次性測試，以查看它將影響哪些資源。</block>
   <block id="e0924f9cecf28912d6b59208f0ee9242" category="list-text">選擇*驗證規則*。</block>
   <block id="87d68b4e906936ea67c73d25fddbb199" category="paragraph">系統會根據您的規則邏輯評估範圍內的所有資源。</block>
   <block id="6ad0887ee719e958ea66bc1d5ca7ed60" category="list-text">審查驗證結果：</block>
@@ -60,10 +59,8 @@
   <block id="1bb9a202a6c7284b2727618b6b42d1bf" category="list-text">*連線錯誤*：連結或代理程式可能未針對特定檔案系統進行組態設定</block>
   <block id="6601c2de36f9d2c2a63a21c9170e4bae" category="list-text">*ONTAP 權限錯誤*：檢視者使用者可能無法存取某些資源</block>
   <block id="24a910eeb4468fa91fa54136e064eb5d" category="section-title">儲存或排程規則</block>
-  <block id="8c7715e49e638258c4536fec9aff1f6e" category="paragraph">測試規則後，您可以將其儲存為草稿或設定為定期執行。</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">執行下列其中一項作業：</block>
   <block id="8c080127194fcaf624649c3bab095baa" category="list-text">若要安排定期評估，請設定評估頻率（最短 1 小時，預設 24 小時），然後選擇 *Schedule*。規則已啟用，並依定義的排程執行。</block>
-  <block id="988a89425a3c56162fa9fed77217603a" category="list-text">若要儲存規則而不安排執行時間，請選擇 *Save as draft*。規則將會儲存，但直到您安排執行時間後才會進行評估。</block>
   <block id="f3448dd91675f24e9473969b2f303b47" category="list-text">若要放棄該規則，請選擇「放棄」以取消規則建立並重新開始。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
   <block id="8e89c0ba0d3b83aea36ecc1be4cfe4fb" category="paragraph">您的自訂規則已建立並列於規則目錄中。如果您設定了排程，它將按指定的頻率檢查您的 FSx for ONTAP 資源。</block>
@@ -296,15 +293,9 @@
   <block id="3414a9edc41238183f8bcc3192e49adf" category="section-title">規則生命週期</block>
   <block id="990ef24c1b7e8a2bf1d9ad948d75e88c" category="paragraph">自訂規則會經歷以下階段：</block>
   <block id="f03ab16cd58372c77ba45a3d9a5a1cb9" category="list-text">草稿</block>
-  <block id="7edfa45546f16ea439072c85ed022ded" category="list-text">規則正在建立中。不進行評估。</block>
-  <block id="a42abfa6ff4f9bd0c4d682a01cec4455" category="list-text">試執行</block>
-  <block id="df76323d34c18ca92f80a38fd9da8d33" category="list-text">一次性評估，用於預覽哪些資源會受到影響。用於排程前的驗證。</block>
   <block id="9c039c6e29eb59991bbe3702d2de1aed" category="list-text">已排程（已啟用）</block>
-  <block id="12401e69cfee8012efd57dfa07ccda49" category="list-text">規則已生效，並按設定的排程執行。</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="list-text">已停用</block>
-  <block id="9bfd2521cfb729dd925cf45079242073" category="list-text">規則已暫停但未刪除。可以重新啟用。</block>
   <block id="5fe6005bf6e415c950c011fb65f12b8f" category="list-text">已刪除</block>
-  <block id="82ec5f7cc11035152c40e48c55c05b0d" category="list-text">規則已永久移除。</block>
   <block id="2090e30be5c37fb6b5aa40aa26a83dea" category="section-title">自訂規則範例</block>
   <block id="d272586227e521ec436cb6d107bc72ba" category="paragraph">以下範例說明了常見的自訂規則：</block>
   <block id="ee7f53b205e43e7a5017510113ca16f8" category="list-text">*正式作業 Volume 保護*</block>
@@ -349,7 +340,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有關 NetApp 軟體中使用的第三方版權和授權的資訊。</block>
   <block id="2f7453885ba13ef684e6cd780fb74164" category="summary">從規則目錄中檢視、啟用、停用和刪除自訂架構規則。</block>
-  <block id="0a7f0abf34857702447ced5ee72899a5" category="paragraph">規則目錄是管理所有自訂規則的統一位置。您可以查看每條規則的詳細資訊、檢查其結果，以及啟用或停用規則。</block>
   <block id="d8bb2214730133a5475bf68bf933cdeb" category="section-title">檢視規則目錄</block>
   <block id="12dc6c12cd959eea202fab9d01a2ef04" category="paragraph">規則目錄顯示您建立的所有規則、其狀態、排程和最新結果。</block>
   <block id="dd5177b4ae0935729bdc02652d8232ff" category="list-text">選擇選單 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block>，然後選擇 *Rule builder*。</block>
@@ -377,7 +367,6 @@
   <block id="b4b7ad5dbb1a5d746e0ac8936e3f4798" category="paragraph">系統會根據規則邏輯評估範圍內的所有資源。</block>
   <block id="5cb57852939f164731c4f61fcca33dac" category="list-text">查看結果以了解目前的法規遵循狀態。</block>
   <block id="2cc894218e78a9699920859cc698e5d7" category="paragraph">測試結果會經過審核，並記錄在規則的評估歷史記錄中。</block>
-  <block id="3d3e89f1bbb9f2c8f8d5468d18a725ec" category="section-title">了解執行狀態</block>
   <block id="6e65a771efc9492475fe8b5aa7f1f7a1" category="paragraph">執行狀態顯示規則是否成功運作。</block>
   <block id="30ae8fff8898dc197acd49d9c0797d20" category="list-text">成功</block>
   <block id="10d8136bef0db24840b317cf2cf9d542" category="list-text">所有相關資源均已檢查，未發現錯誤。</block>
@@ -620,8 +609,6 @@
   <block id="01b307f0335162114b66a6190044c275" category="list-text">在您的 Google Cloud 帳戶中授予 _view、planning 和 analysis_ 權限。</block>
   <block id="1341f195ac9799a77bdbba45d7cc551e" category="inline-link-macro">了解如何授予 Google Cloud 帳戶權限</block>
   <block id="011c3ba35123b641365e7db9c488ccaa" category="paragraph"><block ref="011c3ba35123b641365e7db9c488ccaa" category="inline-link-macro-rx"></block></block>
-  <block id="9d1211cf0c0938352f5fc0c16d3f4f45" category="paragraph">Workload Factory 會根據儲存設備和 ONTAP 最佳實務以及 Google Cloud Well-Architected Framework 評估儲存組態。此評估也會建議改善措施。</block>
-  <block id="6e1d527b580364f3697ae14e9ee87785" category="paragraph">精心設計的分析將組態按以下架構支柱進行分類：_可靠性_和_卓越營運績效_。</block>
   <block id="c5a88482771f220e57ee0ee1238fff02" category="paragraph">Workload Factory 建議將 SSD 分層的使用率保持在 80% 或以下。某些工作負載可能需要額外的容量餘裕和更低的使用率目標。如果使用率超過建議的餘裕，效能下降和服務問題的風險將會增加，尤其是在容量未能及時擴充的情況下。您可以暫時關閉一個或多個儲存資源池的此功能，並在需要時重新啟用。</block>
   <block id="7ac5667c1b90b6524fde9817118effea" category="paragraph">Workload Factory 建議將 Volume 使用率保持在 80% 以下，以降低空間不足的風險。如果 Volume 增長速度超出預期，您可能需要快速擴充它。這可能會增加應用程式受到影響的風險，尤其是在突然或高峰增長的情況下。使用資源隨需配置和自動容量管理可以降低此風險。您可以針對一個或多個 Volume 將其關閉，並在需要時重新啟用。</block>
   <block id="f793fba5432b14d544dc9553f3dba075" category="inline-link-macro">實作架構良好的 Google Cloud NetApp Volumes 組態</block>
@@ -681,17 +668,6 @@
   <block id="709be97721c78cba90770231b1263a14" category="inline-link-macro">使用連結連接到 FSx for ONTAP 檔案系統</block>
   <block id="b989a53cfcc551a78e451e9bd6b86a6e" category="list-text">選擇 *修復* 以修復單一 Volume，或選擇 *檢視並修復* 以修復多個 Volume。如果您選擇 *檢視並修復*，請選擇受影響的 Volume 進行修復。</block>
   <block id="39da1b17152d7871cd1a04ff715358e2" category="list-text">從組態分析中識別要重新啟動的 Volume。</block>
-  <block id="7b13fb7d44ed98f093de9f3dd8d11cb6" category="paragraph">Workload Factory 會定期分析儲存系統組態，以判斷是否有任何組態問題。發現問題時，NetApp Console 中的架構完善儀表板會顯示問題所在，並說明需要變更的內容，以確保您的儲存系統達到最高效能、成本效率，並符合最佳實務。</block>
-  <block id="5d53284fb4850094d575eb9c0096fe4a" category="paragraph">NetApp 透過組態分析洞察與建議，協助您為 Google Cloud NetApp Volumes 儲存資源池實作最佳實務做法。您可以審查架構完善的狀態、了解組態的問題，並取得建議以改善任何未針對可靠性、安全性、效率、效能與成本進行最佳化的儲存資源池架構。</block>
-  <block id="fee7ee6c35710723ba710f440950ec24" category="paragraph">NetApp 每天分析您的 Google Cloud NetApp Volumes 儲存資源池組態。每日分析提供架構完善的狀態，以及深入見解與建議，協助您了解組態問題，讓您的儲存資源池符合最佳實務。</block>
-  <block id="58106dc77a145acb5b9f958b8c944c32" category="paragraph">透過 Link 或 Console 代理程式連線，Workload Factory 可以對您的檔案系統進行全面掃描，以尋找效能、資料保護和組態方面的問題。因此，您可以獲得準確的洞察和建議，以最佳化您的 Google Cloud NetApp Volumes 儲存資源池。</block>
-  <block id="0368421628656695faa02aba1e7fafc6" category="paragraph">每日分析完成後，架構完善的儀表板會顯示架構完善的資源總數、處於關鍵狀態的資源數量以及處於警告狀態的資源數量。組態依架構完善架構的支柱進行分類：可靠性、卓越營運績效、成本最佳化、效能與效率與安全性。儀表板還包含一個列出所有組態的表格。對於每個組態，該表格顯示：</block>
-  <block id="1ea595e897db3a6c2ebf632b09f893a7" category="list-text">精心建構的狀態</block>
-  <block id="88fc175a314d22757d9562f6ca85f39c" category="list-text">嚴重性</block>
-  <block id="80b1ec0e89bd7572cc1f804e7b6589d5" category="list-text">該類別</block>
-  <block id="8c4ac5176555925ce14fd3b1be3c8cb1" category="list-text">資源類型（Volume 或儲存資源池）</block>
-  <block id="90965760f6e212d3c1adb1ae943da7b4" category="list-text">受影響的資源</block>
-  <block id="3b8bdf195417f71fd13dc074d454c9d1" category="list-text">在組態未最佳化時檢視建議的選項</block>
   <block id="d1eb4860a9f8c5e03980d78b93e3c145" category="paragraph">視需要，選取 <block ref="c3c5eb7aac1d65e20d3c0a3a1b74a986" category="inline-image-macro-rx" type="image"></block> 以下載包含所有組態建議的 CSV 檔案。</block>
   <block id="969bb8c9e1608f3c46000b160dbf8c50" category="paragraph">NetApp Workload Factory 可協助您維護和運作可靠、安全的、高效且具成本效益的組態，這些組態遵守您所使用儲存設備類型的架構完善架構。NetApp Console 中架構完善的儀表板提供跨帳戶和區域的統一檢視，協助團隊識別風險並排定優先順序，並支援針對特定需求的自訂規則。每日自動掃描您的儲存系統組態可提供深入解析與建議，協助您最佳化儲存環境。</block>
   <block id="a081c06e09e507c759e7f4cce85691e2" category="paragraph">Workload Factory 每日分析您的組態。此分析提供架構完善的狀態、洞察分析和建議，協助您最佳化儲存環境。</block>
@@ -701,4 +677,41 @@
   <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">確保與 Cloud Volumes ONTAP 關聯的控制台代理程式可以存取下列端點：</block>
   <block id="76a31cd6a7131cd21109cee81fd94902" category="list-text"><block ref="e519545489e6eab66fe63f918fb84c99" category="inline-link-macro-rx"></block> 或 <block ref="1c85a9585130a3e66370d665193250bb" category="inline-link-macro-rx"></block> 以設定檔案系統與 NetApp Console 之間的連線。</block>
   <block id="5be624540f07772a5d8aaac43ebbcfa8" category="list-text">您必須<block ref="820a9225e29d6d4b9bc54d71d1eeb569" category="inline-link-macro-rx"></block>或<block ref="773b862b73888ba0f103d451af29397c" category="inline-link-macro-rx"></block>才能對檔案系統資源進行最全面的分析。</block>
+  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">在 Workload Factory 中探索 Flex Unified 資源</block>
+  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory 現在可以透過 ONTAP API Proxy 端點來尋找 Google Cloud NetApp Volumes Flex Unified 預設模式和 ONTAP 模式的儲存資源池和 Volume。這些資源會出現在清單中，並包含在架構完善的評估和建議中。</block>
+  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">了解 Google Cloud NetApp Volumes 的組態分析</block>
+  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
+  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">從 NetApp Console Canvas 進入 Flex 統一系統</block>
+  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">現在，您可以從 NetApp Console Canvas 針對已探索的 Google Cloud NetApp Volumes Flex Unified 系統選取 *Enter System*。這將開啟所選系統的「資源」頁面，以便您可以使用與預設模式系統相同的工作流程來檢視相關聯的儲存資源池和 Volume。</block>
+  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">針對 Flex Unified 資源的架構完善評估</block>
+  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">架構完善的儀表板現在可評估 Google Cloud NetApp Volumes Flex Unified 儲存資源池和 Volume 的 SSD 容量剩餘空間、Volume 容量剩餘空間，以及快照原則涵蓋範圍。結果會顯示在 Google Cloud NetApp Volumes 架構完善的體驗中，並識別處於預設模式或 ONTAP 模式的資源。</block>
+  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">您可以從 NetApp Console 的儲存設備管理系統頁面，取得 Google Cloud NetApp Volumes 的架構良好問題通知。此功能可協助您快速識別 Google Cloud NetApp Volumes 系統中的組態問題，並從通知導覽至工作負載架構良好儀表板。</block>
+  <block id="677aeb7441cfb06ed7138c57338cfd53" category="paragraph">在儲存或排程規則之前，請執行測試以查看它將影響哪些資源。</block>
+  <block id="cdac1db1869db85a5ed349854c63c6bf" category="paragraph">驗證規則後，您可以將其儲存為草稿或設定為定期執行。</block>
+  <block id="9c85906f54c1b8a93d6470f07300ddfa" category="list-text">若要在驗證後儲存而不排程，請選取 *儲存為草稿*。系統會儲存規則，但在您排程之前不會進行評估。</block>
+  <block id="e65512a782af7ef5675975930ca3bd4f" category="paragraph">NetApp Console 中架構完善的儀表板會定期檢查您的儲存系統設定是否有潛力問題。如果發現任何問題，它會顯示問題所在並說明如何修復，讓您的儲存系統能夠良好運作、控制成本，並在 Flex Unified Google Cloud NetApp Volumes 環境的 Default-mode 和 ONTAP-mode 中遵循最佳實務。</block>
+  <block id="2801dcf3181a6f2a2f56bb01459e50a4" category="paragraph">Workload Factory 會根據儲存設備與 ONTAP 最佳實務以及 Google Cloud 架構完善架構評估儲存設備組態。評估也會針對透過 ONTAP API Proxy 端點探索到的 Google Cloud NetApp Volumes 預設模式資源和 Flex Unified 資源提出改善建議。</block>
+  <block id="8a5f3966b3513f7e2233e10a7facba12" category="paragraph">精心設計的分析將組態按架構的以下支柱進行分類：_可靠性_和_卓越營運績效_。評估結果可包含 _Default-mode_ 或 _ONTAP-mode_ 的模式值。</block>
+  <block id="4eb5fd24694777ef00d310821aaa6543" category="paragraph">使用組態分析洞見與建議，運用 NetApp 來為執行於 Google Cloud 儲存設備上的 Google Cloud NetApp Volumes 儲存資源池與 Volume 實作最佳實務做法。您可以輕鬆審查架構完善的狀態，了解組態的問題，並取得建議以改善在可靠性、安全性、效能與成本方面未最佳化的資源架構。</block>
+  <block id="9d5147b9cfa37007dd174357eb0032b3" category="paragraph">Google Cloud 中的 Google Cloud NetApp Volumes 儲存資源池和 Volume 部署每天都會進行分析。每日分析提供架構完善的狀態資訊，以及協助您了解組態問題的洞察與建議，讓您的資源符合最佳實務。</block>
+  <block id="740099b5bc77c1731340e1bc44cb9c60" category="paragraph">每日分析完成後，儀表板會顯示架構良好的資源總數、處於關鍵狀態的資源數量以及處於警告狀態的資源數量。組態按架構良好架構的支柱進行分類：可靠性、卓越營運績效、成本最佳化、效能與效率和安全性。儀表板還包含一個表格，其中列出了所有組態、這些組態的架構良好狀態、嚴重程度、類別、資源類型（Volume 或儲存資源池）、受影響的資源，以及在組態未最佳化時檢視建議的選項。這包括預設模式和 ONTAP 模式。</block>
+  <block id="ff5a2e898f3cd314dc92f7cfc32fde17" category="paragraph">對於 Flex Unified 環境，建議可包含儲存資源池的 SSD 容量餘裕、Volume 的 Volume 容量餘裕，以及 Volume 的快照原則涵蓋範圍。</block>
+  <block id="007cc9547ae8884ad597cd92ba505422" category="list-text">嚴重程度</block>
+  <block id="29f24526b8a15162c1cb976fa37f20d2" category="list-text">規則的重要性層級，例如警告或關鍵。</block>
+  <block id="b6e0b0c90cfbddfe767f137f8066d1df" category="list-text">進行中</block>
+  <block id="d4008ffe54f55490997ab0d5940aafb3" category="list-text">建立或檢查規則。</block>
+  <block id="b75ff201f3276decaffcefb7b216622f" category="list-text">建立失敗</block>
+  <block id="81b502eadde262c25792a2be1e3b3626" category="list-text">無法建立規則。</block>
+  <block id="c4e6fec5ee0f22a348768aa087f15acb" category="list-text">已儲存但尚未排程。</block>
+  <block id="7401c14d073cd1188b475ef7f5e0cdc8" category="list-text">已驗證草稿</block>
+  <block id="de28b803b960b2c037e1abe4d18cf9d7" category="list-text">已通過驗證，可以儲存或安排執行。</block>
+  <block id="cf61937578a34d9f00c4f6dd6f175c05" category="list-text">作用中，並依定義的排程執行。</block>
+  <block id="ca7e0b16936fbee3bd2dd7f992b32b4d" category="list-text">已暫停但未刪除。可重新啟用。</block>
+  <block id="71e78f13c09017bc4b63f46243d379b7" category="list-text">已永久移除。</block>
+  <block id="756da7df6941fe78c43bd929d17f5b4c" category="paragraph">規則目錄是管理所有自訂規則的單一位置。您可以審查規則詳細資料、檢查結果，並控制規則是否依排程執行。</block>
+  <block id="218354993137c1ab05ff800f7d8fc484" category="section-title">了解規則和執行狀態</block>
+  <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">規則目錄同時顯示規則狀態和執行狀態。</block>
+  <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">規則狀態</block>
+  <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*草稿* 表示規則已儲存但尚未排程。*進行中* 表示規則正在建立或驗證中。*已排程* 表示規則為作用中並按排程執行。*已暫停* 表示規則仍保留在目錄中但未執行。*建立失敗* 表示規則尚未完成，需要在聊天中更新後才能儲存。</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
 </blocks>

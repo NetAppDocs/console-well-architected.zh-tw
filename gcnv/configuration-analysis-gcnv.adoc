@@ -11,7 +11,7 @@ summary: NetApp Console 會定期分析儲存系統組態，以確定是否存�
 
 
 [role="lead"]
-Workload Factory 會定期分析儲存系統組態，以判斷是否有任何組態問題。發現問題時，NetApp Console 中的架構完善儀表板會顯示問題所在，並說明需要變更的內容，以確保您的儲存系統達到最高效能、成本效率，並符合最佳實務。
+NetApp Console 中架構完善的儀表板會定期檢查您的儲存系統設定是否有潛力問題。如果發現任何問題，它會顯示問題所在並說明如何修復，讓您的儲存系統能夠良好運作、控制成本，並在 Flex Unified Google Cloud NetApp Volumes 環境的 Default-mode 和 ONTAP-mode 中遵循最佳實務。
 
 主要功能包括：
 
@@ -40,9 +40,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 [[best-practices-and-recommendations-for-storage-workloads]]
 == 儲存工作負載的最佳實務做法和建議
 
-Workload Factory 會根據儲存設備和 ONTAP 最佳實務以及 Google Cloud Well-Architected Framework 評估儲存組態。此評估也會建議改善措施。
+Workload Factory 會根據儲存設備與 ONTAP 最佳實務以及 Google Cloud 架構完善架構評估儲存設備組態。評估也會針對透過 ONTAP API Proxy 端點探索到的 Google Cloud NetApp Volumes 預設模式資源和 Flex Unified 資源提出改善建議。
 
-精心設計的分析將組態按以下架構支柱進行分類：_可靠性_和_卓越營運績效_。
+精心設計的分析將組態按架構的以下支柱進行分類：_可靠性_和_卓越營運績效_。評估結果可包含 _Default-mode_ 或 _ONTAP-mode_ 的模式值。
 
 
 

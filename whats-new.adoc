@@ -15,6 +15,45 @@ summary: 透過 NetApp Console 中架構完善的儀表板了解最新功能。
 
 
 
+[[27-september-2026]]
+== 2026 年 9 月 27 日
+
+
+
+[[discover-flex-unified-resources-in-workload-factory]]
+=== 在 Workload Factory 中探索 Flex Unified 資源
+
+Workload Factory 現在可以透過 ONTAP API Proxy 端點來尋找 Google Cloud NetApp Volumes Flex Unified 預設模式和 ONTAP 模式的儲存資源池和 Volume。這些資源會出現在清單中，並包含在架構完善的評估和建議中。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的組態分析"]
+
+
+
+[[enter-flex-unified-systems-from-netapp-console-canvas]]
+=== 從 NetApp Console Canvas 進入 Flex 統一系統
+
+現在，您可以從 NetApp Console Canvas 針對已探索的 Google Cloud NetApp Volumes Flex Unified 系統選取 *Enter System*。這將開啟所選系統的「資源」頁面，以便您可以使用與預設模式系統相同的工作流程來檢視相關聯的儲存資源池和 Volume。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的組態分析"]
+
+
+
+[[well-architected-assessments-for-flex-unified-resources]]
+=== 針對 Flex Unified 資源的架構完善評估
+
+架構完善的儀表板現在可評估 Google Cloud NetApp Volumes Flex Unified 儲存資源池和 Volume 的 SSD 容量剩餘空間、Volume 容量剩餘空間，以及快照原則涵蓋範圍。結果會顯示在 Google Cloud NetApp Volumes 架構完善的體驗中，並識別處於預設模式或 ONTAP 模式的資源。
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["了解 Google Cloud NetApp Volumes 的組態分析"]
+
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== NetApp Console 系統頁面中顯示的架構完善問題
+
+您可以從 NetApp Console 的儲存設備管理系統頁面，取得 Google Cloud NetApp Volumes 的架構良好問題通知。此功能可協助您快速識別 Google Cloud NetApp Volumes 系統中的組態問題，並從通知導覽至工作負載架構良好儀表板。
+
+
+
 [[30-august-2026]]
 == 2026年8月30日
 
