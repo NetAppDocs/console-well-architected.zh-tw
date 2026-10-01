@@ -713,5 +713,5 @@
   <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">規則目錄同時顯示規則狀態和執行狀態。</block>
   <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">規則狀態</block>
   <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*草稿* 表示規則已儲存但尚未排程。*進行中* 表示規則正在建立或驗證中。*已排程* 表示規則為作用中並按排程執行。*已暫停* 表示規則仍保留在目錄中但未執行。*建立失敗* 表示規則尚未完成，需要在聊天中更新後才能儲存。</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026 年 9 月 27 日</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026 年 9 月 30 日</block>
 </blocks>
