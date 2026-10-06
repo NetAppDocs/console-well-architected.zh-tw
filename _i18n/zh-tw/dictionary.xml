@@ -18,14 +18,11 @@
   <block id="0e8e25fe832310f010ce2950b2110974" category="list-text">您已為 FSx for ONTAP 連線設定連結或代理程式。</block>
   <block id="fadf874162a190084750a51220f07180" category="list-text">您了解自訂規則建立使用 NetApp 的 Bedrock AI 服務。</block>
   <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">關於此任務</block>
-  <block id="4a43e7c1c8d139e6a6dad318b5a9cefb" category="paragraph">規則建立過程會引導您完成以下步驟：定義規則、查看 AI 如何解讀規則，以及在安排定期評估之前檢查結果。每一步都由您掌控。系統會根據您的提示建議規則，但只有在您確認後才會繼續執行。</block>
   <block id="536d32f8526dd0faea40f78af4cad034" category="section-title">建立規則</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步驟</block>
   <block id="dcafe9cce796ce855e87b270f0a5af59" category="inline-link-macro">主控台體驗</block>
   <block id="e1e54933838bb7ba662301d01c937d2d" category="list-text">使用以下任一方式登入<block ref="68ceec76279c6913cdee16884c2d813a" category="inline-link-macro-rx"></block>。</block>
   <block id="e1cf2ece0db166d8b4c6b87f20794e11" category="inline-image-macro">漢堡選單圖示</block>
-  <block id="fe994c2e65969f1befb57a29037e7317" category="list-text">選擇選單 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block>，然後選擇 *Well-architected*。</block>
-  <block id="9e0430dcbcdaff60b125b83d5a4885ff" category="list-text">從「架構完善」選單中，選擇 *Rule builder*。</block>
   <block id="3f87c61ee7c070ec896e14d55b132e25" category="paragraph">開啟規則建構者後，它會顯示範例提示，幫助您寫入自訂規則。您可以選擇 *Copy prompt* 將範例提示複製到 AI 對話方塊文字方塊中。</block>
   <block id="ab99baf0da39867076eea6e470865275" category="list-text">在「建立規則」欄位中，以自然語言輸入規則執行摘要。請盡可能具體地描述以下內容：</block>
   <block id="d8eefaf38d3f8455541df01bc5d6831b" category="list-text">您正在檢查哪種資源類型（檔案系統、Volume 或快取）。</block>
@@ -37,12 +34,7 @@
   <block id="15fc6fdd1dd9d66889237c7e8a75d290" category="paragraph">AI 會分析您的提示並產生規則定義。</block>
   <block id="1c88936123899b4423b51efeb098f008" category="section-title">審查 AI 解釋</block>
   <block id="28ea3f4811ef4cb7fc2b7f08d6fce5a7" category="paragraph">規則建構者顯示：</block>
-  <block id="ac95e11bdbe6b7951bc4176d753eecdb" category="list-text">*解析解釋*：AI 如何以淺顯易懂的語言理解您的提示。</block>
-  <block id="7754266bb34a8d80acb7e15270b99ec3" category="list-text">*規則定義*：結構化規則，包括資源類型、條件邏輯和評估標準。</block>
-  <block id="7c2fe3e0d58f228cda5f45d633432f17" category="list-text">*Reasoning*：AI 為何如此解讀您的提示。</block>
-  <block id="76aee06db0fa09e15fccb38736a4bcf7" category="list-text">*信賴度指標*：系統對解釋結果的信心程度。</block>
   <block id="f89784f298e9f6255c6acd2f32b4051a" category="list-text">審查解釋結果，確保其符合您的預期。</block>
-  <block id="c0a47630db46adfc611696cbc6259777" category="paragraph">請檢查規則定義是否正確。如果解釋不明確或有誤，系統可能會詢問以下問題：* 應該檢查哪個資源？* 法規遵循由什麼值或限制定義？* 規則應該多久執行一次？</block>
   <block id="32e95e9677f9ef2f50e204cf4b6401d7" category="list-text">回答人工智慧提出的澄清問題。</block>
   <block id="7d84a0d9d14a5f050503a7b9b00b3435" category="paragraph">AI 可能會要求您從幾個選項中進行選擇，以便更清楚地了解您的需求。請回答每個問題並選取 *Continue*，或選取 *Skip* 以略過選用問題。</block>
   <block id="f7dd96479a94850934674d003fe54f52" category="list-text">回答完所有問題後，選擇 *Continue* 以建立規則。</block>
@@ -50,31 +42,9 @@
   <block id="e0924f9cecf28912d6b59208f0ee9242" category="list-text">選擇*驗證規則*。</block>
   <block id="87d68b4e906936ea67c73d25fddbb199" category="paragraph">系統會根據您的規則邏輯評估範圍內的所有資源。</block>
   <block id="6ad0887ee719e958ea66bc1d5ca7ed60" category="list-text">審查驗證結果：</block>
-  <block id="0c1a6881568187ba2218c2798723b963" category="list-text">*已評估資源*：已檢查資源總數</block>
-  <block id="4b5e8fb3a43e71540bec48dd1195e60d" category="list-text">*合規*：符合規則標準的資源</block>
-  <block id="149dc40e624cd47605b5908752da1597" category="list-text">*不合規*：不符合標準的資源</block>
-  <block id="222d82b8b5728640234e4566d39a549c" category="list-text">*評估失敗*：無法評估的資源（附錯誤詳細資料）</block>
-  <block id="6844f9bfd3027da2003f968152f2a47a" category="list-text">如果某些資源評估失敗，請審查錯誤原因：</block>
-  <block id="277990b13713bd5d1349cb0637866450" category="list-text">*AWS 認證資料錯誤*：唯讀權限可能不足以存取某些資源</block>
-  <block id="1bb9a202a6c7284b2727618b6b42d1bf" category="list-text">*連線錯誤*：連結或代理程式可能未針對特定檔案系統進行組態設定</block>
-  <block id="6601c2de36f9d2c2a63a21c9170e4bae" category="list-text">*ONTAP 權限錯誤*：檢視者使用者可能無法存取某些資源</block>
   <block id="24a910eeb4468fa91fa54136e064eb5d" category="section-title">儲存或排程規則</block>
   <block id="365d382b2d9ecca9b0d40171c69b38ff" category="list-text">執行下列其中一項作業：</block>
-  <block id="8c080127194fcaf624649c3bab095baa" category="list-text">若要安排定期評估，請設定評估頻率（最短 1 小時，預設 24 小時），然後選擇 *Schedule*。規則已啟用，並依定義的排程執行。</block>
-  <block id="f3448dd91675f24e9473969b2f303b47" category="list-text">若要放棄該規則，請選擇「放棄」以取消規則建立並重新開始。</block>
   <block id="8eea62084ca7e541d918e823422bd82e" category="paragraph-title">結果</block>
-  <block id="8e89c0ba0d3b83aea36ecc1be4cfe4fb" category="paragraph">您的自訂規則已建立並列於規則目錄中。如果您設定了排程，它將按指定的頻率檢查您的 FSx for ONTAP 資源。</block>
-  <block id="231cf4c70d866b616c21baddaeed0696" category="section-title">疑難排解</block>
-  <block id="ad7ea03a306fd66841c171a6885f7b14" category="list-text">沒有可用的檔案系統</block>
-  <block id="9f6cf15e71e56dca004ae4af5511fdc6" category="list-text">設定您的 AWS 認證資料，並確保您的環境中至少有一個 FSx for ONTAP 檔案系統。規則建構者需要一個檔案系統才能套用規則。</block>
-  <block id="15a9422f3948ed951664141901f605d9" category="list-text">低信賴度解譯</block>
-  <block id="d901db1e2096f8ef858f5f7e7e04f829" category="list-text">需要更多資訊。請回答問題，或重新撰寫提示，詳細說明資源類型、限制和條件。</block>
-  <block id="ce332e562b5422b101c4ea54a309f0c9" category="list-text">部分驗證失敗</block>
-  <block id="a4bffcd84e8416b02d243a51aa82cb84" category="list-text">檢查哪些資源故障以及故障原因。常見原因包括缺少連結或代理程式設定，或權限不足。修復問題後，再次驗證。</block>
-  <block id="7720c57b7119d10e920558f513246c98" category="list-text">含糊不清的提示</block>
-  <block id="57aa8a34f1c34817409a7bb0fcc62dde" category="list-text">請更具體地說明您要檢查的內容。包括資源類型、條件和臨界值。請參閱提示範例以取得協助。</block>
-  <block id="319de2ebfe72521f2551d5fa11e01fd5" category="list-text">規則針對多種資源類型</block>
-  <block id="9614a11d3defd26388181526016cb85d" category="list-text">為每種資源類型建立個別規則。每條規則僅支援一種資源類型。</block>
   <block id="3f710cadb0123c693533da68aaf5b596" category="section-title">接下來該做什麼</block>
   <block id="79d32aa7b3e52f3c6db178577378b427" category="inline-link-macro">管理自訂規則</block>
   <block id="f571cd95e32f7c421382198bc0dd0eae" category="paragraph"><block ref="f571cd95e32f7c421382198bc0dd0eae" category="inline-link-macro-rx"></block></block>
@@ -249,65 +219,28 @@
   <block id="bb6d5d351525342dd6b3cf4d15b6f298" category="list-text">*結案*：提供有關您結案原因的詳細資訊，然後選擇 *結案*。</block>
   <block id="05becc6908f11b950a10c1285ad8e610" category="summary">學習如何定義和管理您自己的架構規則，以強制執行組織標準，並遵循 NetApp 最佳實務。</block>
   <block id="4bd4792ab17b2dfaf1c72610c348727b" category="doc">了解自訂規則</block>
-  <block id="b01cf57846bbc28ff99c21c4bc5bf95e" category="paragraph">自訂規則可讓您在「架構完善」儀表板中設定、檢查和強制執行您自己的架構標準以及 NetApp 最佳實務。</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="section-title">概況</block>
-  <block id="1bf27748c4595ac68f24c9ca81ac41bf" category="paragraph">Rule builder 可讓您使用純文字語言建立自訂最佳實踐規則。這些規則將套用於您的所有資源。</block>
-  <block id="a14942c110e79e05bc4f2c080b767a9b" category="paragraph">自訂規則可協助您強制執行組織的標準、風險限制和營運要求—這些是通用廠商規則可能無法完全涵蓋的內容。</block>
   <block id="2d5a2d8915799663f0b12f296909b0d7" category="section-title">自訂規則的工作原理</block>
-  <block id="d269a3644b7db5fd4dd7893dafcb7c46" category="paragraph">自訂規則採用 AI 引導流程，將您用簡單語言描述的指令轉換為清晰、結構化的規則。AI 充當翻譯和檢查員的角色。它會建議一條規則，解釋其如何理解您的請求，並在規則儲存或排程執行之前徵求您的核准。</block>
-  <block id="2798be4150461330610447e77c4b94bc" category="paragraph">此過程確保：</block>
-  <block id="878df2e7c1f458ab6c7a2aa10a79a91d" category="list-text">規則邏輯定義清晰，並已進行錯誤檢查。</block>
-  <block id="2de539a5ac80425a29aa3efc4546d6bd" category="list-text">不執行自由格式程式碼</block>
-  <block id="a279bdea3d93ab7f5ebfed278530b951" category="list-text">在您批准規則之前，您可以清楚地看到將要評估的內容。</block>
   <block id="aa5bf59269969e22f1e91f0116790d69" category="paragraph">在建立和執行自訂規則之前，請確保您已具備以下條件：</block>
   <block id="2c4eed705dd3e0adf6e7194858d8dff7" category="list-text">AWS 憑證</block>
   <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">將 AWS 憑證新增至 Workload Factory</block>
   <block id="5eb43201405d6bbeac74bcd01d61e2e1" category="list-text">對您的 AWS 環境擁有唯讀存取。自訂規則要求使用唯讀權限作為安全性邊界。<block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block>。</block>
   <block id="823a6e1d7fe661be55dd3af05f972b11" category="list-text">ONTAP 憑證</block>
-  <block id="04c426fb5f8d53f66e745f5d734630b8" category="list-text">具有唯讀權限的 FSx 檢視器使用者。Workload Factory 會自動建立此使用者並賦予所需的權限。</block>
   <block id="04d1424a4b58f665f6537d166f4f9750" category="list-text">連結或代理程式</block>
   <block id="b68341d527b58582cc7cb537c3230cd8" category="inline-link-macro">透過連結連接到 FSx for ONTAP 檔案系統</block>
-  <block id="107d37bd55f8a2cfafec7c7fddaafe0d" category="list-text">評估規則時，需要連接到 FSx 檔案系統。<block ref="4c7cc50e5133efc728aaa88011208eda" category="inline-link-macro-rx"></block>。</block>
   <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
-  <block id="1c3732fbe04e93a2e86e149b248e9fd0" category="paragraph">以下限制適用於自訂規則：</block>
-  <block id="f49daa2f924ab7cc9649449db3950201" category="list-text">無法自動修復。您必須按照提供的指南自行更正不合規的資源。</block>
-  <block id="7c7854f0cd9e8cf85ade395e732f419d" category="list-text">每條規則只能檢查一種類型的資源。若要檢查多種資源類型，請建立個別的規則。</block>
-  <block id="a2dac8d044c9463b44de62bfef46ffc3" category="list-text">為避免過度掃描，最短評估間隔為 1 小時。</block>
-  <block id="fa79d87dc9bd4ce86b2fe88eb0b009f8" category="list-text">規則具有唯讀存取，無法變更您的環境。</block>
-  <block id="da7a7207ece80c733dd995304be2e71b" category="section-title">規則定義模型</block>
-  <block id="bac8c4aaf2611263b9e58729fcd77b06" category="paragraph">每個自訂規則都包含以下元件：</block>
-  <block id="a4257b70dd090b12a16890a8df21a097" category="list-text">規則名稱</block>
-  <block id="c183586d821a9b142dd656b18e6abd05" category="list-text">使用者自訂的規則名稱。</block>
-  <block id="b5a7adde1af5c87d7fd797b6245c2a39" category="list-text">說明</block>
-  <block id="33d8c05440f61966e844b1f1f9bdfdbc" category="list-text">請說明為什麼這條規則對貴組織很重要。</block>
-  <block id="53a002434dc37d0a5f8e2aac58da6296" category="list-text">資源類型</block>
-  <block id="34b13a905e7f65d5c27af25f75b92e1a" category="list-text">要評估的 FSx 資源（檔案系統、Volume 或快取）。目前，每個規則只能有一種資源類型。</block>
-  <block id="ffaac1794c6af94dc7e1b21a4c194523" category="list-text">調度程式</block>
-  <block id="7689948dd9ffc86e8e4279d74f40440a" category="list-text">規則評估頻率（最短 1 小時，預設 24 小時）。</block>
-  <block id="eef94a037f518dee839a80817e6c370d" category="list-text">條件邏輯</block>
-  <block id="3ec042014c07c06e08f1132a2736a67b" category="list-text">需要核查的具體標準。</block>
-  <block id="69971bc4f2fcec5885c890771737ab96" category="list-text">評估範圍</block>
-  <block id="f9352c661007f5c20648b8667e3e2c2e" category="list-text">評估哪些資源（所有適用範圍內的資源）。</block>
-  <block id="383f1fcec1ec1cc242da70cbe9e75353" category="list-text">補救邏輯</block>
-  <block id="fa89a084a4db5e99f8289cf816f86093" category="list-text">處理不合規資源的手冊指引。</block>
   <block id="3414a9edc41238183f8bcc3192e49adf" category="section-title">規則生命週期</block>
   <block id="990ef24c1b7e8a2bf1d9ad948d75e88c" category="paragraph">自訂規則會經歷以下階段：</block>
   <block id="f03ab16cd58372c77ba45a3d9a5a1cb9" category="list-text">草稿</block>
-  <block id="9c039c6e29eb59991bbe3702d2de1aed" category="list-text">已排程（已啟用）</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="list-text">已停用</block>
   <block id="5fe6005bf6e415c950c011fb65f12b8f" category="list-text">已刪除</block>
   <block id="2090e30be5c37fb6b5aa40aa26a83dea" category="section-title">自訂規則範例</block>
-  <block id="d272586227e521ec436cb6d107bc72ba" category="paragraph">以下範例說明了常見的自訂規則：</block>
-  <block id="ee7f53b205e43e7a5017510113ca16f8" category="list-text">*正式作業 Volume 保護*</block>
   <block id="31ba253c12166670e96f9fc69476b594" category="list-text">"所有帶有 'Prod' 標籤的 Volume 都必須安裝快照原則"</block>
   <block id="6136cd3669246561542587bb4d5eac4c" category="paragraph">此規則會根據公司要求自動建立快照，以保護正式作業 Volume。</block>
-  <block id="d806e9e618419f7699287ac2bf68844c" category="list-text">*封存 Volume 分層*</block>
   <block id="654b13cdd2897fd4260df3602f80ebbf" category="list-text">「所有帶有『Archive』標籤的 Volume 都應將分層原則設定為『All』」</block>
   <block id="3756e2c2d7cd023d9845fbb763b174a9" category="paragraph">該規則透過自動將歸檔資料移至更便宜的儲存設備來降低成本。</block>
-  <block id="e3ea153fbcf2ab9a530ac273d13d87b1" category="list-text">*檔案系統命名標準*</block>
   <block id="269acf14c942e18c7f92dabf12bccaf5" category="list-text">「所有檔案系統都必須遵循命名慣例 'fsx-{environment}-{application}'」</block>
   <block id="bf0fa31d0a55270b5b0783d82f5a26b2" category="paragraph">此規則驗證檔案系統是否遵守組織命名慣例，以便於管理和成本分配。</block>
-  <block id="385442535e80145b437f6d2ceb94114a" category="paragraph"><block ref="385442535e80145b437f6d2ceb94114a" category="inline-link-macro-rx"></block></block>
   <block id="353f1c67bf11f23b2da8c213a9bc70b5" category="doc">了解 NetApp Console 中架構完善的儀表板</block>
   <block id="9ffdb95250e26c7a6b468126ac7c75b0" category="section-title">運作方式</block>
   <block id="ee25e0b6cd574166f206b4c5b7f02df3" category="section-title">為什麼這很重要</block>
@@ -339,7 +272,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">開放原始碼</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有關 NetApp 軟體中使用的第三方版權和授權的資訊。</block>
-  <block id="2f7453885ba13ef684e6cd780fb74164" category="summary">從規則目錄中檢視、啟用、停用和刪除自訂架構規則。</block>
   <block id="d8bb2214730133a5475bf68bf933cdeb" category="section-title">檢視規則目錄</block>
   <block id="12dc6c12cd959eea202fab9d01a2ef04" category="paragraph">規則目錄顯示您建立的所有規則、其狀態、排程和最新結果。</block>
   <block id="dd5177b4ae0935729bdc02652d8232ff" category="list-text">選擇選單 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block>，然後選擇 *Rule builder*。</block>
@@ -367,16 +299,6 @@
   <block id="b4b7ad5dbb1a5d746e0ac8936e3f4798" category="paragraph">系統會根據規則邏輯評估範圍內的所有資源。</block>
   <block id="5cb57852939f164731c4f61fcca33dac" category="list-text">查看結果以了解目前的法規遵循狀態。</block>
   <block id="2cc894218e78a9699920859cc698e5d7" category="paragraph">測試結果會經過審核，並記錄在規則的評估歷史記錄中。</block>
-  <block id="6e65a771efc9492475fe8b5aa7f1f7a1" category="paragraph">執行狀態顯示規則是否成功運作。</block>
-  <block id="30ae8fff8898dc197acd49d9c0797d20" category="list-text">成功</block>
-  <block id="10d8136bef0db24840b317cf2cf9d542" category="list-text">所有相關資源均已檢查，未發現錯誤。</block>
-  <block id="bb74643cf41a9f5f9875f1477c085385" category="list-text">部分成功</block>
-  <block id="36f74efd2e347d1422c804a6b796dee1" category="list-text">部分資源檢查成功，但部分資源檢查失敗。請查看未能檢查資源的錯誤詳情。</block>
-  <block id="d7c8c85bf79bbe1b7188497c32c3b0ca" category="list-text">失敗</block>
-  <block id="729ff93b396b672d12011be075fa41c4" category="list-text">評估未完成。常見原因包括 AWS 認證資料錯誤、網路連線問題或 ONTAP 權限問題。</block>
-  <block id="78c94c654440e39e298ee7b003ea0c22" category="paragraph">如果某條規則持續失效或僅部分生效，請檢查：</block>
-  <block id="aa6ee29156e1ff679f21f8af41a72ab7" category="list-text">AWS 認證資料對所有資源具有唯讀存取權限。</block>
-  <block id="83391d1cdfce4d8cbed45dc698dedc6e" category="list-text">FSx for ONTAP 檢視器使用者擁有適當的權限。</block>
   <block id="cc04bd1e4cca8a5b4e87672f588bf490" category="paragraph"><block ref="cc04bd1e4cca8a5b4e87672f588bf490" category="inline-link-macro-rx"></block></block>
   <block id="df3d826b639dd614f0fae940d9ebee78" category="summary">在向 NetApp 技術支援部門開啟支援案例之前，您需要在 NetApp Console 中新增 NetApp 支援網站帳戶，然後註冊以獲得支援。</block>
   <block id="42748df9eaa0be17ddc5cc1593cf57ab" category="doc">註冊以取得支援</block>
@@ -574,7 +496,6 @@
   <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">如果您之後想要納入先前被忽略的組態，可以在架構完善的儀表板中重新啟用它。這樣就能將該組態恢復到分析中，並讓您獲得相關的建議和修復方案。</block>
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="21b694dc2503eab08ab245a8bcfe9f1c" category="inline-link-macro">了解 AI 管理</block>
-  <block id="b1e856d73a7bddeb40cc57002b01ea2b" category="admonition">如果您的帳戶管理員已關閉 AI 功能，您將看到一則訊息，並且無法建立自訂規則。請聯絡您的系統管理員或 <block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>。</block>
   <block id="e1571d44d672c7a35fe7952a28f414b7" category="paragraph">SSD 儲存層的容量使用率不得超過 80%。否則可能會影響容量資源池儲存層的資料讀取和寫入作業，進而影響系統的處理量。當容量耗盡時，資料 Volume 將變為唯讀狀態。嘗試寫入新資料的服務也會失敗。</block>
   <block id="70a83d0e2246f9bf751ee82d9d86782a" category="paragraph">我們建議 Volume 容量使用率不要超過 80%。這可能會影響應用程式的資料讀取和寫入。Volume 容量的增加可以手動進行，也可以使用 Volume 自動擴充功能自動進行。</block>
   <block id="fce6ac16b523a1ae826c8b02fe97af9a" category="paragraph">為了獲得最佳效能，我們建議使用最適合您工作負載的 FlexCache® 寫入模式。對於具有小檔案的讀取密集型工作負載，Write-around 模式可提供更好的效能，而對於具有大檔案的寫入密集型工作負載，Write-back 模式則可提供更好的效能。</block>
@@ -589,9 +510,7 @@
   <block id="1ba6be935ab946465d05505a4c53e7a7" category="paragraph">隨時重新啟動 Cloud Volumes ONTAP 系統已關閉的組態分析。您可以選擇一個或多個組態進行重新啟動。</block>
   <block id="77b9268ed80b17f39e2b280a439b5a22" category="paragraph">系統重新啟動組態分析。每天都會進行一次新的分析。</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理人工智慧功能</block>
-  <block id="e3be61076fdf378fb58cb7d809332294" category="admonition">如果您的帳戶系統管理員已關閉 AI 功能，則規則建構者將不可用，您也將無法建立自訂規則。<block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>。</block>
   <block id="13b595cf2341f5678ff3130cc1287485" category="paragraph">如果某些項目的檢查失敗，請讀取錯誤訊息以了解原因。常見原因包括連線問題、權限不足或連結尚未設定。</block>
-  <block id="a95c691058f1f67702ea9a0cde5efa02" category="list-text">Link 和 Console 代理程式已針對範圍內的所有檔案系統進行設定。</block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
   <block id="8215457eb88ef1fb110b79579b908e3d" category="paragraph">您可以忽略不適用於您環境的組態分析。這樣可以避免不必要的警示和不準確的最佳化結果。</block>
   <block id="821af7226458ea25572e88e8ab2026e4" category="paragraph">您也可以使用純文字語言建立自訂規則，以根據組織的標準和 NetApp 最佳實務來驗證您的環境。先進行模擬執行測試規則，然後排程在您的環境中執行。<block ref="ce039b478eb432b675a03c04866f31ab" category="inline-link-macro-rx"></block>。</block>
@@ -696,22 +615,82 @@
   <block id="9d5147b9cfa37007dd174357eb0032b3" category="paragraph">Google Cloud 中的 Google Cloud NetApp Volumes 儲存資源池和 Volume 部署每天都會進行分析。每日分析提供架構完善的狀態資訊，以及協助您了解組態問題的洞察與建議，讓您的資源符合最佳實務。</block>
   <block id="740099b5bc77c1731340e1bc44cb9c60" category="paragraph">每日分析完成後，儀表板會顯示架構良好的資源總數、處於關鍵狀態的資源數量以及處於警告狀態的資源數量。組態按架構良好架構的支柱進行分類：可靠性、卓越營運績效、成本最佳化、效能與效率和安全性。儀表板還包含一個表格，其中列出了所有組態、這些組態的架構良好狀態、嚴重程度、類別、資源類型（Volume 或儲存資源池）、受影響的資源，以及在組態未最佳化時檢視建議的選項。這包括預設模式和 ONTAP 模式。</block>
   <block id="ff5a2e898f3cd314dc92f7cfc32fde17" category="paragraph">對於 Flex Unified 環境，建議可包含儲存資源池的 SSD 容量餘裕、Volume 的 Volume 容量餘裕，以及 Volume 的快照原則涵蓋範圍。</block>
-  <block id="007cc9547ae8884ad597cd92ba505422" category="list-text">嚴重程度</block>
-  <block id="29f24526b8a15162c1cb976fa37f20d2" category="list-text">規則的重要性層級，例如警告或關鍵。</block>
   <block id="b6e0b0c90cfbddfe767f137f8066d1df" category="list-text">進行中</block>
   <block id="d4008ffe54f55490997ab0d5940aafb3" category="list-text">建立或檢查規則。</block>
   <block id="b75ff201f3276decaffcefb7b216622f" category="list-text">建立失敗</block>
-  <block id="81b502eadde262c25792a2be1e3b3626" category="list-text">無法建立規則。</block>
   <block id="c4e6fec5ee0f22a348768aa087f15acb" category="list-text">已儲存但尚未排程。</block>
   <block id="7401c14d073cd1188b475ef7f5e0cdc8" category="list-text">已驗證草稿</block>
   <block id="de28b803b960b2c037e1abe4d18cf9d7" category="list-text">已通過驗證，可以儲存或安排執行。</block>
   <block id="cf61937578a34d9f00c4f6dd6f175c05" category="list-text">作用中，並依定義的排程執行。</block>
   <block id="ca7e0b16936fbee3bd2dd7f992b32b4d" category="list-text">已暫停但未刪除。可重新啟用。</block>
   <block id="71e78f13c09017bc4b63f46243d379b7" category="list-text">已永久移除。</block>
-  <block id="756da7df6941fe78c43bd929d17f5b4c" category="paragraph">規則目錄是管理所有自訂規則的單一位置。您可以審查規則詳細資料、檢查結果，並控制規則是否依排程執行。</block>
-  <block id="218354993137c1ab05ff800f7d8fc484" category="section-title">了解規則和執行狀態</block>
-  <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">規則目錄同時顯示規則狀態和執行狀態。</block>
-  <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">規則狀態</block>
-  <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*草稿* 表示規則已儲存但尚未排程。*進行中* 表示規則正在建立或驗證中。*已排程* 表示規則為作用中並按排程執行。*已暫停* 表示規則仍保留在目錄中但未執行。*建立失敗* 表示規則尚未完成，需要在聊天中更新後才能儲存。</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026 年 9 月 30 日</block>
+  <block id="e7747671a3237b3e54edff6b14b82ec7" category="doc">編輯和管理自訂規則</block>
+  <block id="9a28538fc6f24d40e290259e6e4618ef" category="paragraph">現在您可以在規則目錄中編輯自訂規則。您可以更新規則名稱和設定、在聊天中審查變更、驗證編輯以及刪除不再需要的規則。</block>
+  <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">了解如何管理自訂規則</block>
+  <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
+  <block id="4995e76cedbca110dbb7cefe85e61d77" category="paragraph">規則設定流程會引導您完成每個步驟：建立規則、審查 AI 如何理解該規則，以及在安排定期審查之前檢查結果。在整個過程中，您始終保持控制。系統會根據您的提示建議一項規則，但在您核准之前不會執行任何動作。</block>
+  <block id="e6f6a0656ad8902d45e6575f152e03c9" category="admonition">如果您的帳戶系統管理員已關閉 AI 功能，您將看到一則訊息，並且無法建立或編輯自訂規則。請聯絡您的系統管理員或<block ref="a4efb9d0168cfdc15063741b91ed0040" category="inline-link-macro-rx"></block>。</block>
+  <block id="3fdd960e8d3da26426b96f814aecdaad" category="list-text">選擇選單 <block ref="438b712f6e6afc173ce78a756adc207c" category="inline-image-macro-rx" type="image"></block>，然後選擇 Well-architected。</block>
+  <block id="e2fae3aff985e265730325e9217c8eb5" category="list-text">從「架構良好」功能表中，選擇「規則建構者」。</block>
+  <block id="0cd216375fd6782b45d9f84efb6f3e84" category="list-text">解析解釋</block>
+  <block id="9d009657b96c5aad9fa21f1828b73bcf" category="list-text">人工智慧如何以淺顯易懂的語言理解您的提示。</block>
+  <block id="e35d59c335e26445eed5e3cf4fc88047" category="list-text">規則定義</block>
+  <block id="69dc0eb643b0cd391da1782b1c0156e4" category="list-text">結構化規則包括資源類型、條件邏輯和評估標準。</block>
+  <block id="87a222577e9c7b7a0739d92337f4fe46" category="list-text">推理</block>
+  <block id="22e3f2781979bb9f2227381c2a3c30ea" category="list-text">為什麼 AI 會這樣解讀您的提示。</block>
+  <block id="6e536680660f9f562a1a4ab7cdbba4e1" category="list-text">置信度指標</block>
+  <block id="0f1a4e7b1fc79efcfb93a1a4b715f3d0" category="list-text">系統對解釋的信心程度。</block>
+  <block id="1a5f54a69b5adde0f81c2cf7d6675df3" category="list-text">請檢查規則定義是否正確。如果解釋不明確或有誤，系統可能會提出以下問題：</block>
+  <block id="1f3c02b25897cff55c5d7894bed5c157" category="list-text">應該檢查哪個資源？</block>
+  <block id="2d351367dd00ae9228b6503d57500015" category="list-text">定義法規遵循的值或限制是什麼？</block>
+  <block id="d24a425ef6891cb0134794ec6897a668" category="list-text">該規則應該多久執行一次？</block>
+  <block id="31d7cb3d933c56805e03dca75c02893d" category="list-text">評估資源：檢查的資源總數</block>
+  <block id="c3e6edb3feeaf77e1989872831656640" category="list-text">合規：符合規則標準的資源</block>
+  <block id="00d56e696324ec288953d4f8b2cfec0f" category="list-text">不合規：不符合標準的資源</block>
+  <block id="bd86697cf08c2fc5775c698f872f3628" category="list-text">評估失敗：無法評估的資源（附錯誤詳情）</block>
+  <block id="39a7241c7fb2f38f3a304dc5a7ddd33e" category="list-text">若要排程定期評估，請設定評估頻率並選取 *Schedule*。規則已啟用，並依定義的排程執行。</block>
+  <block id="4a5aaf656967e8a439bf519ae6b59880" category="list-text">若要刪除規則，請選擇 *刪除*。</block>
+  <block id="ac896c02d18100750fc4d290b272e808" category="paragraph">您的自訂規則已建立並列於規則目錄中。如果您設定了排程，它將以指定的頻率檢查您的 FSx for ONTAP 資源。如果您稍後編輯規則，系統將指南您完成相同的步驟——聊天、審查、核准和驗證——然後您才能儲存更新的版本。</block>
+  <block id="0ef70b60892b97d12c2eebf7686872ca" category="paragraph">自訂規則可讓您在架構完善的儀表板中設定、檢查及強制執行您自己的架構標準，以及 NetApp 最佳實務。</block>
+  <block id="91b90f08c0d07c5aa66b502a1d12c868" category="paragraph">規則建構者可讓您使用一般語言建立自訂規則。這些規則會針對您的所有資源進行檢查。自訂規則有助於您強制執行組織的標準、風險限制和營運要求，而這些可能是預設規則無法涵蓋的。</block>
+  <block id="01b363e0fd4d8a4ccc9789787974b41d" category="admonition">如果您的帳戶系統管理員已關閉 AI 功能，您將無法建立新規則或編輯現有規則。任何已排程的規則將繼續執行。<block ref="0d265466472513eb45c1ef2960b8028d" category="inline-link-macro-rx"></block>。</block>
+  <block id="4edc72502b9f9929e41bae938a7490c1" category="paragraph">自訂規則利用人工智慧將簡單的語言指示轉換為清晰、結構化的規則。人工智慧會轉譯您的要求，建議一項規則，解釋它如何理解您的指示，並在儲存或排程規則之前要求核准。此程序有助於確保：</block>
+  <block id="0465277e228b6cf7f37c1fab3872f9cd" category="list-text">此規則定義明確，並經過錯誤檢查</block>
+  <block id="f2b92cb195f44b1f57205f66b9c1c992" category="list-text">未執行任何自訂程式碼</block>
+  <block id="f6b50ace5a7da2eb893c9a1a1c3971be" category="list-text">在批准規則之前，您可以審查具體評估內容</block>
+  <block id="110a917dc178ad706edce62d767a4196" category="list-text">每個自訂規則都包含要評估的資源類型、條件邏輯、嚴重性、評估排程和補救指南。</block>
+  <block id="559e5220d6130b1d9f3af60fa24ff138" category="list-text">具有唯讀權限的 FSx 檢視器使用者。如果尚不存在，Workload Factory 會在每個 FSx for ONTAP 檔案系統上建立一個唯讀使用者，以便執行評估。</block>
+  <block id="d358f748048c3fa0487b8cd6d6410fb2" category="list-text">僅當規則必須直接連線至 ONTAP 以檢查 AWS API 無法存取的設定時才需要。<block ref="4c7cc50e5133efc728aaa88011208eda" category="inline-link-macro-rx"></block>。</block>
+  <block id="00d54cb4ae79a42990f001ca7b1eafd2" category="list-text">規則無法自動解決問題。您必須按照提供的指南自行更正不合規的資源。</block>
+  <block id="e0ff3e32dbc4b668a800d5b59c47613b" category="list-text">每條規則只檢查一種類型的資源，但可以應用於多種資源。例如，一條規則可以評估多個區域、所有區域或多個帳戶中的 Volume。若要評估不同的資源類型，請建立分隔的規則。</block>
+  <block id="3f84490332db2de49bed3d46ab452bb0" category="list-text">為防止過度掃描，規則最多每小時執行一次。</block>
+  <block id="499ed12f9f73ef11f2d3afd859dacba5" category="list-text">規則只能讀取您的環境，而不能進行更改。</block>
+  <block id="7d178946e8d76597de91865cae420fb6" category="list-text">您稍後可以從規則目錄更新這些設定。</block>
+  <block id="db78d463a1f2fbb737aa54f862bd0d4b" category="list-text">無法建立規則。您可以重新開啟規則，並在聊天中繼續編輯。</block>
+  <block id="b1caf7f21c1b8899e11165a6aed71af9" category="list-text">編輯</block>
+  <block id="f25dfb15b911ed977033f485330ceadd" category="list-text">更新現有規則的草稿複本。目前排程的規則會繼續執行，直到您儲存變更為止。</block>
+  <block id="2b7dabba0077abe3732e0418b048a56b" category="list-text">已排程</block>
+  <block id="cc36425e424f4c30e5d1dd8b4cf78a69" category="list-text">生產 Volume 保護</block>
+  <block id="9beacae88b6d84f519d92cf003a30d57" category="list-text">歸檔 Volume 分層</block>
+  <block id="ccf414cfce06645c55d0bcfd5f41608b" category="list-text">檔案系統命名標準</block>
+  <block id="ef517711d9a5dee55f2bb56046d3fd70" category="paragraph"><block ref="385442535e80145b437f6d2ceb94114a" category="inline-link-macro-rx"></block> <block ref="f571cd95e32f7c421382198bc0dd0eae" category="inline-link-macro-rx"></block></block>
+  <block id="71d671c8e1cf2aa5cf976dd7ff9d340b" category="summary">從規則目錄中檢視、編輯、啟用、停用和刪除自訂架構規則。</block>
+  <block id="8ef292d4be46fbc351d35b26b3ce8720" category="paragraph">規則目錄是管理所有自訂規則的單一位置。您可以審查規則詳細資料、編輯規則、檢查結果，以及控制規則是否依排程執行。</block>
+  <block id="12a0a2265c24db72f6aaae801b9ef08e" category="section-title">編輯自訂規則</block>
+  <block id="dbea8da43ac90f4152565d880d18e30e" category="paragraph">您可以隨時重新命名規則。您也可以編輯規則的執行摘要、資源類型、排程、嚴重性、條件邏輯、評估範圍與補救指南。</block>
+  <block id="8473633d69dc94d27429c2a37902fe75" category="paragraph">您可以從「規則」目錄或規則詳情卡中重新命名規則。若要編輯任何其他規則設定，請從「規則」目錄開始。</block>
+  <block id="c581903f7e0dde27bf4a83cc84f27b43" category="list-text">在規則目錄中，按一下要編輯的規則。</block>
+  <block id="2dc19156fac0f6096a2db17a78fe0da8" category="list-text">若要重新命名規則，請從目錄或規則詳細資料卡中更新規則名稱。</block>
+  <block id="4d3a6d0da6e18e9505524b8a39ca5bf1" category="list-text">若要編輯其他規則設定，請按一下 *編輯*。</block>
+  <block id="01e52dae8e86fc149d714c3cdc94859d" category="paragraph">該規則以聊天模式開啟，並顯示其完整歷史記錄。</block>
+  <block id="91fa4b053658e4dedadb0d60014d7b3e" category="list-text">提出您想要進行的更改，或在聊天中更新請求。</block>
+  <block id="f5500860e31d724af72a4be713c2c1e5" category="paragraph">如果之前建立規則失敗，您可以從該規則繼續，並在聊天中更新您的請求。</block>
+  <block id="1f998f331ae48a1cf2b4056c154eff9f" category="list-text">審查更新後的說明與變更總結。</block>
+  <block id="fc7c0f65a3d8f2f0a1da1c56bd143c30" category="paragraph">系統會在您儲存規則之前顯示與目前規則相比發生了哪些變更。</block>
+  <block id="023ad31a6b18fc538747a36ab488e65c" category="list-text">如果規則處於草稿模式，請選擇 *驗證規則* 來測試更新後的邏輯。</block>
+  <block id="58b17236d18d0245f7322e360753f322" category="list-text">若要保留變更，請按一下 *儲存* 以取代目前的規則。如果您變更了排程，請儲存更新的排程。如果您沒有變更排程，排程將保持不變。</block>
+  <block id="a91166998826b450f2fb807ba450dbc4" category="list-text">若要放棄更改，請按一下 *放棄更改*。規則將恢復到先前的版本並退出編輯模式。</block>
+  <block id="053ebf33b65f60110cd8e776b413ed79" category="paragraph">當您編輯規則時，該規則會對您顯示為 *編輯中*。其他使用者仍然可以看到目前已排程的規則，而且排程的執行會正常繼續，直到您儲存變更為止。</block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
 </blocks>

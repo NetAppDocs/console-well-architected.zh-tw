@@ -15,6 +15,20 @@ summary: 透過 NetApp Console 中架構完善的儀表板了解最新功能。
 
 
 
+[[04-october-2026]]
+== 2026年10月4日
+
+
+
+[[edit-and-manage-custom-rules]]
+=== 編輯和管理自訂規則
+
+現在您可以在規則目錄中編輯自訂規則。您可以更新規則名稱和設定、在聊天中審查變更、驗證編輯以及刪除不再需要的規則。
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["了解如何管理自訂規則"]
+
+
+
 [[30-september-2026]]
 == 2026 年 9 月 30 日
 

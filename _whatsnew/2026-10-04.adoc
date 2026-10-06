@@ -1,0 +1,12 @@
+= 編輯和管理自訂規則
+:allow-uri-read: 
+
+
+
+
+[[edit-and-manage-custom-rules]]
+=== 編輯和管理自訂規則
+
+現在您可以在規則目錄中編輯自訂規則。您可以更新規則名稱和設定、在聊天中審查變更、驗證編輯以及刪除不再需要的規則。
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["了解如何管理自訂規則"]
